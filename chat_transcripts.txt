@@ -1,0 +1,144 @@
+session-id: voip-b27a230d2e-20130323_050551
+Task 00870: You want to find a restaurant in the north part of town and it should serve korean food. If there is no such venue how about any area. You want to know the address and price range of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the north part of town that serves korean food
+system: Sorry there is no korean restaurant in the north of town
+user: what about any area
+system: Sorry there is no korean restaurant in the north of town
+user: what about any area
+system: little seoul is a nice restaurant in the centre of town serving korean food
+user: whats the address
+system: Sure , little seoul is on 108 Regent Street City Centre
+user: whats the price range
+system: little seoul is in the expensive price range
+user: thank you good bye
+
+
+session-id: voip-03c2655d43-20130327_200023
+Task 10383: You want to find a moderately priced restaurant and it should serve chinese food. Make sure you get the address and postcode of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: moderately priced priced restaurant chinese food
+system: golden wok is a great restaurant serving chinese food and it is in the moderate price range
+user: address and postcode
+system: golden wok is on 191 Histon Road Chesterton , C.B 4, 3 H.L
+user: thank you goodbye
+
+
+session-id: voip-e3b4879e0d-20130327_181026
+Task 11100: You are looking for a restaurant in the centre and it should serve french food. Make sure you get the address and phone number of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: in the center part of
+system: What kind of food would you like?
+user: in the center part of town french food
+system: cote is a nice restaurant in the centre of town serving french food
+user: can i have the phone number
+system: The phone number of cote is 01223 311053 .
+user: address
+system: Sure , cote is on Bridge Street City Centre
+user: thank you good bye
+
+
+session-id: voip-bde2721237-20130326_195733
+Task 08064: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number and address.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: looking for a cheap restaurant
+system: What part of town do you have in mind?
+user: north
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: da vinci pizzeria is a nice restaurant in the north of town in the cheap price range
+user: what is the phone number and address
+system: The phone number of da vinci pizzeria is 01223 351707 .
+user: address
+system: Sure , da vinci pizzeria is on 20 Milton Road Chesterton
+user: thank you good bye
+
+
+session-id: voip-340dbb333e-20130327_011501
+Task 06837: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the phone number of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap restaurant in the north
+system: royal spice is a nice restaurant in the north of town in the cheap price range
+user: what is the phone number
+system: The phone number of royal spice is 01733 553355 .
+user: thank you good bye
+
+
+session-id: voip-922209b777-20130325_160004
+Task 07200: You are looking for a restaurant in the west part of town and it should serve canapes food. If there is no such venue how about italian type of food. Make sure you get the phone number.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a restaurant in the west part of town that serves canapes food
+system: Would you like something in the cheap , moderate , or expensive price range?
+user: cheap
+system: thanh binh is a nice restaurant in the west of town in the cheap price range
+user: can i get a phone number please
+system: The phone number of thanh binh is 01223 362456 .
+user: thank you good bye
+
+
+session-id: voip-dcaeb62b29-20130326_042721
+Task 04020: You want to find a cheap restaurant and it should be in the east part of town. Make sure you get the address and phone number of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: cheap
+system: What kind of food would you like?
+user: dont care
+system: What part of town do you have in mind?
+user: east
+system: rice house is a great restaurant serving chinese food and it is in the cheap price range
+user: address
+system: Sure , rice house is on 88 Mill Road City Centre
+user: phone number phone number
+system: The phone number of rice house is 01223 367755 .
+user: thank you good bye
+
+
+session-id: voip-ccc459b689-20130327_004727
+Task 02526: You are looking for a moderately priced restaurant and it should be in the south part of town. You want to know the address and phone number of the venue.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: im looking for a moderately priced restaurant
+system: What kind of food would you like?
+user: it doesnt matter
+system: What part of town do you have in mind?
+user: the south part of town
+system: restaurant alimentum is a nice restaurant in the south of town serving modern european food
+user: can i get the address
+system: Sure , restaurant alimentum is on 152 - 154 Hills Road
+user: and whats the phone number for that
+system: The phone number of restaurant alimentum is 01223 413000 .
+user: okay thank you good bye
+
+
+session-id: voip-b6618de447-20130328_160810
+Task 06633: You want to find a restaurant in the east part of town and it should serve basque food. If there is no such venue how about indian type of food. Make sure you get the address and phone number.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: i want to find a restaurant in the east part of town that serves basque food
+system: Sorry there is no basque restaurant in the east of town
+user: what about indian food
+system: pipasha restaurant is a nice restaurant in the east of town serving indian food
+user: can i have the address
+system: pipasha restaurant is a nice restaurant in the east of town serving indian food
+user: what is the address
+system: Sure , pipasha restaurant is on Newmarket Road Fen Ditton
+user: and the telephone number
+system: The phone number of pipasha restaurant is 01223 577786 .
+user: thank you good bye
+
+
+session-id: voip-03d6592b76-20130326_014023
+Task 05307: You want to find a restaurant in the west part of town and it should serve cuban food. If there is no such venue how about italian type of food. You want to know the phone number.
+system: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
+user: west part of town cuban food
+system: Sorry there is no cuban restaurant in the west of town
+user: italian
+system: prezzo is a nice restaurant in the west of town serving italian food
+user: phone number
+system: You are looking for a restaurant is that right?
+user: yes
+system: prezzo is a nice restaurant in the west of town serving italian food
+user: what is the phone number
+system: The phone number of prezzo is 01799 521260 .
+user: good bye
+
+

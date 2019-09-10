@@ -7,8 +7,5 @@ def list_jsons (path):
     #loop through folders
     for dir in os.listdir(data_path):
         for subdir in os.listdir(data_path + '/' + dir):
-            filelist.append(data_path + '/' + subdir)
+            filelist.append(data_path + '/' + dir + '/' + subdir)
     return filelist
-
-database_path = '/home/luka/Documents/MAIR/ass/dstc2_traindev'
-list_jsons(database_path)
