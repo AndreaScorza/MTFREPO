@@ -7,7 +7,7 @@ def list_jsons (path):
     #loop through folders
     for dir in os.listdir(data_path):
         for subdir in os.listdir(data_path + '/' + dir):
-            filelist.append(data_path + '/' + subdir + '/log.json')
+            filelist.append(data_path + '/' + subdir)
     return filelist
 
 database_path = '/home/luka/Documents/MAIR/ass/dstc2_traindev'
