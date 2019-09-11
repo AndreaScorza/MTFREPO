@@ -1,13 +1,16 @@
 from list_jsons import list_jsons
 from read_json import getChat
 
-database_path = '/home/luka/Documents/MAIR/ass/dstc2_traindev'
+database_path = './dstc2_traindev'
+
+#export chat transcriptions
 
 def exportchats(datapath, exportpath):
+    """Export chat transcriptions to a single txt file."""
     #import data
     dirs = list_jsons(database_path)
     chats = []
-    for dir in dirs[:10]:
+    for dir in dirs:
         chat = getChat(dir)
         chats.append(chat)
 
@@ -24,12 +27,14 @@ exportchats(, database_path, 'chat_transcripts.txt', chats)
 
 #return chats one by one
 
+#read data
 dirs = list_jsons(database_path)
 chats = []
-for dir in dirs[:10]:
+for dir in dirs:
     chat = getChat(dir)
     chats.append(chat)
 
+# retrun transcripts when user presses enter
 for chat in chats:
     input("")
     for line in chat:
