@@ -23,7 +23,7 @@ def exportchats(datapath, exportpath):
         outfile.write('\n\n')
     outfile.close()
 
-exportchats(database_path, 'chat_transcripts.txt', chats)
+exportchats(database_path, 'chat_transcripts.txt')
 
 #return chats one by one
 
