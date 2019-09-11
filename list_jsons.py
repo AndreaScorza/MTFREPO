@@ -1,3 +1,5 @@
+#defines a function that searches through the database location for the location of the json files. function is imported in chatview.py
+
 import os
 
 #create list of paths (given location of database)
