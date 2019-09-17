@@ -1,3 +1,6 @@
+#Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+#Assignment 1a Methods in AI Research
+
 #defines a function that searches through the database location for the location of the json files. function is imported in chatview.py
 
 import os

@@ -1,3 +1,6 @@
+#Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+#Assignment 1a Methods in AI Research
+
 #defines the function that extracts relevant information from a pair of .json files. This function is imported in chatview.py
 
 import json

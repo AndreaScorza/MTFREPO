@@ -1,0 +1,3826 @@
+affirm yes barbecue food
+request can i have the address and phone number please
+thankyou okay thank you good bye
+reqalts how about italian
+inform italian food
+inform i am looking for a moderately priced restaurant that serves russian food
+request telephone number
+inform i would like steakhouse food
+thankyou thank you good bye
+negate no im looking
+thankyou thank you good bye
+inform australian
+inform im looking for a cheap vietnamese restaurant
+inform id like to find a restaurant in the north part of town serving french food
+thankyou thank you good bye
+null noise
+null unintelligible
+inform modern euorpean
+reqalts what about thai
+null incorrect
+inform mediterranean food
+inform barbecue
+inform north
+null noise
+inform oriental
+inform cheap
+inform the north
+request adddress
+thankyou thank you good bye
+request price range
+thankyou thank you good bye
+request phone number
+inform food
+inform i dont care
+request whats the address
+request phone number
+inform italian food
+inform im looking for italian food
+affirm yes
+request may i have the address phone number and post code
+inform indian food
+request what is the phone number
+request whats the post code
+null noise
+reqalts is there anything else
+inform i dont care
+inform expensive
+affirm yes
+inform im looking for a
+reqalts how about asian oriental type of food
+inform east part of town
+inform korean
+inform i want to find a moderately priced restaurant serving spanish food
+thankyou thank you
+negate no
+request can i have the address and the post code please
+negate no
+inform moderate
+thankyou thank you good bye
+request phone number
+ack great day unintelligible
+thankyou thank you goodbye
+request phone number
+bye okay bye
+inform french
+inform dont care
+inform any price range
+negate no
+inform it doesnt matter
+inform cheap
+null serve
+thankyou thank you good bye
+request phone number
+inform i dont care
+inform could i have a restaurant that serves european food
+affirm yes
+negate no i want halal food
+request and the telephone number
+inform any
+request what is the address and phone number
+affirm yeah
+request what is the address
+inform im looking for an expensive restaurant in the south part of town
+inform um gastropub food
+reqalts is there anything else
+inform im looking for a cheap restaurant in the north part of town
+inform i dont care
+affirm yes
+null unintelligible
+reqalts how about thai food
+request address
+inform im looking for a restaurant serving vietnamese food
+request address
+null sigh
+inform spanish food
+affirm yes
+inform expensive
+inform the turkiesh
+inform i want spanish food
+request what is the type of food
+inform expensive
+request whats the address
+affirm yes
+hello hi im looking for a moderately priced restaurant in the south part of
+affirm right
+inform indian
+request the post code
+inform east
+request what kind of food do they have there
+request breath may i have the phone number and address please
+thankyou thank you good bye
+inform moderately priced restaurant south part of town
+null noise
+inform yes uh turkish food in my area
+reqalts anything else
+inform british food
+inform lebanese food
+inform mediterranean
+inform west
+inform caribbean food
+hello hi looking for a moderately priced restaurant
+inform dont care
+affirm yes
+affirm yes
+request phone number and price range
+inform in the north part of town
+confirm is it in the west part of town
+reqalts is there anything else
+inform im looking for a moderately priced restaurant and it should be in the west part of town
+inform south
+inform italian food
+thankyou thank you goodbye
+inform im trying to find a moderately priced restaurant that serves swedish food
+inform is there staurant that serves unusual food
+reqalts is there anything else
+request what is the address and phone number
+request what is the address
+thankyou thank you good bye
+thankyou thank you good bye
+null im looking
+inform in the south
+inform im looking for a moderately priced restaurant in the south part of town
+thankyou thank you good bye
+request whats the address
+request what is the phone number
+inform i am looking for a restaurant in the north part of town it shou
+null noise
+inform im looking for a restaurant
+hello hi
+inform barbecue food
+request and the phone number
+inform spanish food
+request could i get the address and post code please
+request phone number and price range
+inform food
+inform spanish
+thankyou thank you good bye
+request can i have the address
+negate no
+reqalts is there anything else
+inform it doesnt matter
+reqalts next
+inform i would like a restaurant in the south part of town
+null noise
+request phone number
+reqalts how about indian food
+request whats their address
+inform east
+request address
+affirm yes
+request oh whats the phone number
+request phone number
+null noise
+request okay whats the phone number
+inform im looking for a cheap restaurant in the south part of town
+thankyou thank you goodbye
+request post code
+request post code
+thankyou thank you good bye
+request okay how about the address
+inform something in the north part of town serving chinese food
+inform venesian
+null what
+reqalts anything else
+request whats the address
+inform any type of food is okay
+thankyou thank you good bye
+inform thai food
+inform i dont care
+reqalts what about north american food
+inform cheap
+inform expensive restaurant
+bye you good bye
+thankyou thank you
+inform indonesian food
+request and the address
+request what type of food do they serve
+inform european type of food
+inform restaurant
+request expensive price range
+request whats the phone number
+repeat uh could you repeat that
+inform any fine
+null sil
+null noise
+inform any price range
+inform im looking for a cheap restaurant
+request type of food
+request uh whats the address and phone number
+inform south part of town
+inform mediterranean food
+thankyou thank you good bye
+request may i have the address and phone number
+inform im looking for a restaurant in the east part of town that serves world food
+request whats the phone number
+negate no how about vietnamese
+inform just give me a cheap restaurant
+inform east part of town
+inform id like to find an expensive restaurant in the east side of town
+reqalts do you have any other restaurant
+request what is the address and phone number
+request price range
+request address
+inform south
+request address
+thankyou thank you good bye
+thankyou thank you good bye
+request can i get the address phone number and price of food
+reqalts is there anything else
+request and what is the post code
+request address
+inform portuguese
+thankyou thank you good bye
+reqalts is there anything else
+reqalts how about french
+request phone number
+request okay can you give me the address there
+null im loo
+inform i dont care
+request whats the price range
+inform any type
+request could you repeat the name
+inform east
+thankyou thank you goodbye
+inform any price range
+request uh does it serve
+inform i dont care
+request what type of food do they serve
+confirm is it moderate priced
+null inaudible
+reqalts anything else
+inform i dont care
+request whats the price range
+request phone number
+inform thai food
+request area
+inform chinese
+request address
+inform it doesnt matter
+reqalts is there anything else
+request what type of food do they serve
+request what is the address
+thankyou thank you good bye
+inform moderate
+request whats the address
+request what is their phone number
+hello hello hello oh your on the phone yea
+inform christmas
+request whats the address phone number and post code
+inform i dont care
+affirm yea
+inform i dont care
+inform indian food
+reqalts what about turkish food
+request what is the address
+inform east
+thankyou thank you good bye
+null okay ill be there one sec
+inform im looking for a restaurant in the center that serves sea food
+negate no
+thankyou thank you goodbye
+inform im looking for a restaurant in the center of town that serves thai food
+request address
+request may i get the address
+inform cheap
+affirm yes
+null first one
+affirm yes im looking for barbecue food
+null that serves
+inform im looking for a moderately priced restaurant that serves
+request could i have the address and phone number
+thankyou thank you goodbye
+request what is their phone number
+request phone number
+null sil
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform im looking for a moderately priced restaurant that serves austria asian food
+negate no
+inform any
+affirm yes
+thankyou thank you good bye
+request area
+inform greek food
+request and the phone number
+deny wrong
+request and what kind of food
+request what part of town
+reqalts how about chinese
+null noise
+request address
+inform can i have the european food
+thankyou thank you
+inform north
+request what is their address and price range
+inform any
+inform expensive
+confirm is it in the south part of town
+thankyou thank you good bye
+inform im looking for a cheap restaurant in the west part of
+inform australian food
+inform im looking for a restaurant that serves romanian food
+reqalts is there anything else
+thankyou thank you good bye
+inform greek
+request do you have the phone number of the address
+inform looking for a cheap restaurant that serves steak house food
+null noise
+inform danish
+inform um portuguese food
+null sil
+bye good bye
+request what is the address
+null noise
+affirm yes
+inform uh i want cantonese food
+request and can i get their address
+request what is the phone number and address
+thankyou thank you good bye
+null noise
+inform indian
+thankyou thank you good bye
+inform in the south part of town
+inform i would like a moderately priced restaurant serving african food
+thankyou thank you goodbye
+inform oriental
+request what is the phone number
+inform im looking for a restaurant in any area serving turkish food
+request what is the address and phone number
+request whats the address
+request whats the post code
+request address
+request may i have the postcode
+inform gastropub
+reqalts how about british food
+reqalts how about thai food
+thankyou thank you good bye
+inform thai
+inform isian food
+reqalts is there anything else
+inform in the north part of town
+inform im looking for a moderately priced restaurant in the south of town
+thankyou thank you good bye
+request what is the address
+inform scottish food
+request and the post code
+request what kind of food do they serve
+request address and post code
+inform chinese foo
+request what is their phone number
+inform im looking for a restaurant in the east part of town that serves traditional food
+inform italian food west part of town
+null sil
+reqalts is there anything else
+thankyou thank you good bye
+request what is the telephone number
+inform east
+inform it doesnt matter
+null unintelligible
+null sil
+inform cheap price range
+thankyou thank you good bye
+request can i get the address and area of the venue
+inform eritrean
+inform south
+thankyou thank you good bye
+inform i would like modern european food
+thankyou thank you good bye
+negate no
+inform any cheap food
+request and the price range
+inform restaurant and it should be
+affirm yeah
+request what is the address
+inform moderately priced catalan food
+null unintelligible
+request may i get the address and restaurant and
+thankyou thank you good bye
+thankyou thank you good bye
+inform african food
+hello hi im looking for a restaurant that serves vegetarian food
+request what is the phone number
+inform uh the west part of town
+request phone number
+null noise
+inform it doesnt matter
+thankyou okay thank you good bye
+request and their phone number
+inform chinses
+inform any type of food
+request whats the address
+thankyou thank you good bye
+inform it doesnt matter
+inform in the east
+request and phone number please
+inform south of south of town
+inform italian food
+confirm is there a chinese food
+inform thai food
+null sil
+inform itailian
+reqalts is there anything else
+null sil
+inform expensive
+affirm yes
+bye okay well thank you good bye
+inform british food
+inform im looking for a cheap restaurant in the west part of town
+thankyou thank you good bye
+request phone number
+inform european food
+inform anything
+inform are they the east side of town
+request post code
+request what part of town is it in
+request phone number
+null um
+null noise
+null unintelligible
+inform cheap restaurant
+request can i have the address and post code
+inform dont care
+request address and phone number
+inform can i get swedish food
+thankyou thank you goodbye
+request what food is in the west part of town
+null sil
+thankyou thank you good bye
+reqalts how about indian food
+inform anything
+inform im looking for a moderately price restaurant that serves halo food
+request what is the post code
+reqalts is there anything else
+inform polynesian food
+inform south
+request give me address and phone number
+reqalts how about indian food
+inform cheap food
+inform im looking for an expensive restaurant in the north part of town
+null noise
+negate no spanish
+inform i would like a restaurant that serves korean food
+inform i want a cheap restaurant in the north
+inform any
+inform italian type of food
+inform any
+thankyou thank you
+affirm yes
+inform irish fdod
+request where is the address and phone number
+inform anywhere
+inform can i have a restaurant in the east part of town
+thankyou thank you good bye
+inform indian
+inform south
+inform irish
+request can i have the phone number
+request address
+inform im looking for a restaurant in the east part of town serving chinese food
+reqalts how about thai food
+inform polish food
+thankyou thank you good bye
+null sil
+inform id like a moderately priced restaurant in the east part of town
+thankyou thank you good bye
+inform jamaican food
+inform im looking for an expensive restaurant in the south part of town
+thankyou thank you good bye
+inform any kind of food
+inform i dont care
+request phone number
+inform russian
+request what type of food
+null sil
+thankyou thank you good bye
+inform im looking for a cheap restaurant in the north part of town
+inform what about other parts of town
+affirm yes
+request can i have the phone number and the type of food
+inform do you have chinese food
+request whats the post code
+thankyou thank you good bye
+inform east
+inform about portuguese
+inform north side
+thankyou thank you good bye
+inform are there any that serve vietnamese food
+request address
+request ts the phone number
+inform sea food
+inform expensive russian food
+request address
+inform american
+inform spanish
+thankyou thank you good bye
+inform east
+inform caribbean food
+request can i get the phone number and address
+reqalts is there anything else
+null what about
+request whats the post code
+thankyou thank you good bye
+negate no
+affirm right east part of town
+thankyou thank you good bye
+reqalts how about chinese food
+request and the price range
+request phone number
+request phone number
+inform im looking for a moderately priced restaurant in the west part of town
+inform i dont give a fuck if hk fusion serves chinese food im looking for thai food
+thankyou thank you good bye
+inform thats not important
+inform i dont care
+inform ok what about indian
+affirm right
+reqalts is their anything else
+inform in the north part of town
+thankyou thank you goodbye
+thankyou thank you good bye
+null thats all
+thankyou thank you goodbye
+null noise
+request and their phone number
+inform scottish food
+affirm yes
+affirm yes
+inform um i want a restaurant in the north side of town and i want to eat christmas food
+inform i want a restaurant that serves portuguese food
+inform south noise
+inform im looking for a chinese restaurant
+inform restaurant in the west part of town that serves airitran food
+inform south
+reqalts is there anything else
+inform restaurant moderate price
+request what is the address
+inform i need an expensive restsurant in the east part of town
+thankyou thank you good bye
+null unintelligible
+null unintelligible
+inform belgium food
+thankyou thank you good bye
+inform doesnt matter
+inform cheap restaurant south part of town
+inform is there one serving european type food
+inform cheap
+reqalts is there anything else
+inform im looking for an expensive restaurant serving french food
+request address
+inform i want to find an expensive restaurant that serves swedish food
+request phone number
+reqalts anything else
+inform turkish food
+inform dont care
+inform east
+inform i want a russian restaurant
+request what is the address
+request phone number
+null unintelligible
+negate no in the south
+thankyou thank you good bye
+inform i dont care
+affirm ye
+bye very good thank you good bye
+request phone number
+inform moderately priced
+request what is the phone number
+thankyou thank you good bye
+thankyou thank you good bye
+request whats their post code
+inform i dont care
+thankyou thank you goodbye
+thankyou thank you good bye
+affirm yes
+affirm yes
+inform dont care
+request phone number
+affirm uh yes can i find a cheap restaurant in the north part of town
+inform im looking for a restaurant in the west part of town that serves corsica food
+inform catalen food
+thankyou thank you good bye
+inform thai food
+inform i dont care
+inform looking for a restaurant in any area
+request address
+null system
+inform im looking for a restaurant in the center part of town
+inform any part
+thankyou thank you goodbye
+reqalts how about chinese food
+request what is the address
+thankyou thank you good bye
+inform i want a restaurant in the north part of town that serves kosher
+null modern europene
+thankyou thank you goodbye
+negate no no
+inform korean type food
+thankyou thank you good bye
+inform cheap restaurant
+inform moderately
+thankyou thank you good bye
+inform dont care
+inform i would like australian asian food
+thankyou thank you good bye
+inform north
+inform north american
+request phone number
+inform cantonese
+request phone number
+thankyou thank you good bye
+thankyou thank you good bye
+request can i have the address the phone number
+inform austral asian
+request phone number
+inform asian oriental
+null sil
+thankyou thank you good bye
+negate no spanish
+inform expensive
+reqalts is there a restaurant in the north part of town that serves indian food
+request phone number
+inform i dont care
+negate no
+inform im looking for a restaurant in the west part of town that serves christmas food
+null unintelligible
+request what is the phone number
+request okay and ah wheres it located
+request phone number
+request phone number
+request address
+thankyou thank you
+thankyou okay thank you good bye
+request what is the post code
+request phone number
+request can i have the phone number and post code plea
+null unintelligible
+thankyou thank you goodbye
+request noise can you repeat the post code please
+request phone number
+request address phone number and price range
+affirm yes
+inform cheap
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform expensive
+inform indian food
+request may i have the phone number
+inform north part of town
+affirm yes
+request phone number
+inform im looking for a moderately priced restaurant
+request what is the price range
+reqalts how about thai food
+inform uh center
+request phone number
+inform it doesnt matter
+null unintelligible
+reqalts anything else
+request okay can i have the address and phone number
+inform find a restaurant in the west part of town
+inform west killeen
+null unintelligible
+thankyou thank you good bye
+request okay whats the address
+reqalts anything else
+inform german food
+inform south part of town
+reqalts how european food
+reqalts how about chinese
+request okay whats the address
+reqalts breath noise how about french food
+inform moderate price
+request address
+request and the address
+reqalts how about british food
+reqalts is there anything else
+inform moderate
+thankyou thank you good bye
+affirm yes
+request what about the address
+thankyou thank you goodbye noise
+thankyou thank you good bye
+request address
+request whats the address
+thankyou okay thank you good bye
+request what is the address
+request and what is the phone number
+affirm yes mexican food
+request whats the phone number
+request what is the phone number
+inform i want to find a restaurant in any area
+reqalts how about vietnamese food
+thankyou thank you good bye
+inform european food
+request whats the address
+affirm yes
+inform i need a place that serves spanish food
+inform any
+inform cheap restaurant
+request phone number
+inform um im looking for an expensive restaurant
+request uh whats the price range
+inform cheap
+inform international food
+request great whats its address
+inform i want a cheap restaurant in the east part of town
+negate no catalan
+thankyou thank you good bye
+inform the south part of town
+reqalts how about a portuguese restaurant
+request whats the address and phone number
+null sil
+inform east
+request post code
+inform expensive
+inform east
+thankyou noise thank you goodbye
+thankyou thank you good bye
+request whats the area
+thankyou thank you good bye
+inform french food
+request phone number
+hello hi im looking for a restaurant that serves lebanese food
+inform doesnt matter
+affirm right
+null noise
+inform cheap restaurant in the north
+request post code
+inform i want a cheap restaurant in the south part of town
+inform looking for spanish food in the center of town
+reqalts how about portuguese food
+inform south
+inform im looking for a restaurant in the north part of town and it should serve cata
+thankyou thank you good bye
+request whats the address
+inform i want some british food
+inform expensive restaurant in the south part of town
+request what is the phone number
+inform can i have a british restaurant in the east please
+inform uh scandinavian food
+thankyou thank you goodbye
+inform it doesnt matter
+null unintelligible
+request what is the phone number
+inform asian oriental
+request phone number
+thankyou thank you good bye
+inform cheap
+request what area is it in
+inform the north part of town
+null sil
+inform i dont care
+request and what area
+inform id like a hungarian food restaurant in the centre part of town
+inform moderately priced
+request may i have its address
+thankyou thank you good bye
+request whats the phone number
+thankyou thank you good bye
+thankyou thank you good bye
+request okay whats the phone number
+inform im looking for a moderately priced restaurant in the west part of town
+inform id like a restaurant in the south part of town that serves cuban
+inform afghan food
+thankyou thank you and price range
+request phone number
+inform food
+inform id like a restaurant in any area that serves vegetarian food
+inform im looking for a moderately priced restaurant that serves canapes
+inform it doesnt matter
+inform turkish food
+reqalts anything else
+thankyou thank you good bye
+thankyou thank you goodbye
+request address phone number
+null worthless system
+reqmore more
+affirm yes
+inform south
+deny wrong
+thankyou thank you good bye
+negate no african
+request what price range
+inform any
+inform dont care
+thankyou thank you good bye
+inform indian
+null unintelligible
+request may i have the phone number
+inform west
+null static
+thankyou thank you good bye
+request can i have the address and phone number
+inform i dont care
+thankyou thank you good bye
+thankyou thank you goodbye
+inform looking for something cheap in the north side of town
+inform doesnt matter
+inform moderate
+reqalts is there anything that serves north american
+inform international
+inform brazilian food
+request post code
+inform swedish food
+thankyou thank you good bye
+request what is the type of food
+request what is the phone number
+inform find irish food
+thankyou thank you good bye
+inform international
+inform derately priced
+inform korean
+thankyou thank you good bye
+inform any area
+request what is the phone number
+inform a cheap restaurant in the south part of town
+inform vietnamese
+affirm yes
+null sil
+request may i have the address please
+inform vegetarian food please
+request whats the address
+request what is the phone number
+request what is the address phone number and post code
+thankyou thank you good bye
+request type of food served
+reqalts how about one that serves korean food
+inform doesnt matter
+negate no
+inform find gastropub restaurant
+request can i have his phone number
+request price range
+null sil
+inform british
+request whats the address
+thankyou thank you good bye
+request the address
+thankyou thank you good bye
+inform i dont care
+inform can i have asian food
+inform vietnamese
+inform it should be in the north part of town
+inform restaurant center spanish food
+request what is the address
+thankyou thank you good bye
+thankyou thank you good bye
+request and what is the post code
+inform gastropub
+thankyou thank you goodbye
+request what is the address
+thankyou okay thank you good bye
+request address
+inform i dont care
+request area
+reqalts are there any other expensive restaurants in the east part of town
+inform any
+inform any
+inform im looking for a restaurant in the north part of town that serves christmas food
+thankyou thank you good bye
+request what is the phone number
+thankyou thank you good bye
+thankyou thank you goodbye
+thankyou very good thank you bye bye
+request and what is the price range
+inform i dont care
+request can i get the phone number
+thankyou thank you good bye
+inform north
+request whats the phone number
+reqalts anything else
+request and price range
+inform restaurant in the south
+affirm yea
+inform i dont care
+request whats their phone number
+inform lebanese restaurant in the west part of town
+negate uh no im looking for italian food
+inform expensive restaurant east part of town
+reqalts how about international
+null usually
+thankyou thank you good bye
+request what type of food
+inform i want to find moderately priced restaurant it should be
+request can i get the phone number
+inform japanese
+inform asian oriental food
+inform dont care
+request may i have the address
+thankyou thank you good bye
+reqalts how about british food
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform thai food
+affirm yes
+inform the south part of town
+affirm yes
+thankyou okay thank you good bye
+request phone number
+request any price rage
+request what is the address and phone number
+inform english food
+inform i want to find international food
+request address
+request whats the phone number and address
+inform modern european foo
+inform moderate
+thankyou thank you good bye
+inform cheap portugeuse
+request may i have the address and phone number
+inform north
+request whats the address
+inform centre
+null noise
+inform restaurant with scandin
+request what is the address
+null cough
+thankyou thank you good bye
+request phone number
+inform i dont care
+inform um chinese food
+request and can you tell me the phone number
+null sil
+request phone number
+thankyou thank you good bye
+negate no
+request address
+negate no
+inform a moderately priced restaurant
+request thank you can i have the phone number
+confirm does it serve polynesian food
+request post code
+request thats fine give me the address
+inform dont care
+null sil
+inform i dont care
+request what is the addre
+inform um surprise me
+inform asian
+request and what type of food do they serve
+request what is their address
+request and post code
+null unintelligible
+inform turkish restaurant
+inform australia asian food
+request address
+affirm right
+reqalts how about british food
+request phone number
+thankyou thank you good bye
+thankyou thank you good bye
+inform im looking for an expensive restaurant in a
+inform im looking for an expensive restaurant that serves basque food
+reqalts how about modern european
+inform expensive european
+null laughing
+inform cantonese food
+negate no
+request address
+request type of food
+request whats its address
+inform i dont care
+inform i want moderately priced restaurant it should be in the south part of town
+reqalts how about indian food
+thankyou thank you good bye
+request address
+request post code
+request and whats their address
+inform any
+reqalts how about european
+thankyou thank you good bye
+reqalts is there anything else
+inform restaurant
+hello hello
+request and their address and phone number
+inform any
+inform moderate
+thankyou thank you good bye
+inform any
+inform change that to mediterranean food
+null noise
+inform vietnamese
+inform cheap restaurant
+request address
+bye great thank you goodbye
+thankyou thank you good bye
+inform im looking for a moderately priced restaurant in the
+bye see you goodbye
+request can i get their address
+request address
+request phone number
+request okay whats the address
+request what is the address and phone number
+thankyou thank you
+affirm yes
+inform im looking for a restaurant that serves
+null sil
+affirm yes
+thankyou thank you bye thank you bye
+thankyou thank you good bye
+inform brazilian
+inform im looking for a moderately priced restaurant in the south part of town
+affirm right
+request address
+affirm yes
+null sil
+inform cheap restaurant in the south part of town
+bye stop
+reqalts how about cantonese food
+inform in the east
+reqmore more
+thankyou thank you good bye
+inform id like to find a cheap restaurant serving mexican
+request address
+reqalts is there anything else
+inform is there a chinese restaurant in the cheap price range
+inform chinese food
+request can i have the address
+null noise
+thankyou thank you good bye
+request phone number
+affirm yes
+inform west
+request whats its address
+thankyou thank you good bye
+inform vietnamese
+thankyou thank you good bye
+inform looking for a moderately priced creative food
+inform im looking for an expensive restaurant that serves unusual food
+thankyou thank you good bye
+inform south
+request give me the address please
+thankyou thank you good bye
+reqalts how about indian type of food
+request phone number
+inform basque
+inform doesnt matter
+inform what about the center area
+thankyou thank you good bye
+request address
+request whats the address
+request what is the address
+affirm yes
+negate no
+inform i dont care
+inform east
+inform cuban
+request okay and whats the post code
+inform cheap
+thankyou thank you good bye
+request could i have the address and phone number please
+inform im looking for romanian food in the expensive price range
+thankyou thank you good bye
+reqalts is there anything else
+request may i have the phone number
+request phone number
+inform center area
+inform im looking for a moderately priced restaurant that serves
+request part of town
+reqalts how about spanish food
+request what type of food do they serve
+inform kosher for in the central
+request and whats their price range
+thankyou thank you goodbye
+request what is the price
+request the phone number
+request phone number
+inform doesnt matter
+reqalts is there anything else
+restart start over
+request phone number
+inform chinese food
+reqalts anything else
+reqalts how about chinese food
+inform breath im looking for a restaurant in the east part of tow
+reqalts anything else gastropub
+request can i have the phone number
+inform doesnt matter
+inform im looking for a restaurant in the center of town that
+reqalts how about italian
+inform east
+inform portuguese
+inform centre
+request whats the phone number and address
+inform moderate
+inform creative food
+inform moderately priced restaurant
+request type of food
+null inaudible
+inform what about a restaurant serving thai food
+request the price range
+inform cheap
+null unintelligible
+thankyou thank you good bye
+inform find me an expensive restaurant
+null unintelligible
+inform welch food
+inform uh any part of town
+null im
+thankyou thank you good bye
+inform that serves chinese food
+request alright give me the address
+inform you know thai thai food
+bye good bye
+inform i need a restaurant in the west part of town that serves crossover food
+affirm yes
+inform im looking for a moderately priced restaurant in the
+inform i want to find a restaurant in the center and it should serve corsica food
+inform basque food
+request phone number
+thankyou thank you good bye
+affirm yea
+null sil
+reqalts is there anything else
+inform christmas food
+inform um moderate
+inform dont care
+request could i have the address and phone number
+null sil
+inform i dont care
+request phone number
+thankyou thank you good bye
+inform expensive restaurant in the south
+affirm yes
+inform im looking for a
+request whats the phone number
+inform moderately
+reqalts is there anything else
+inform i want a moderately priced restaurant in the north part of town
+inform im looking for moderately priced restaurant in the east part of town
+inform looking for a restaurant in the center that sales creative food
+thankyou thank you good bye
+bye good bye
+null unintelligible
+inform the south part of town
+request whats the address
+request and the phone number
+thankyou thank you good bye
+inform spanish food
+inform it doesnt matter
+thankyou thank you good bye
+inform canapes
+request address
+inform im looking for a restaurant that serves british food
+request whats its address
+hello breath hi im looking for a danish food
+request phone number
+request what kind of food does it serve
+request can i get the phone number
+request address
+thankyou thank you goodbye
+hello hello welcome
+inform any
+thankyou thank you good bye
+inform um it doesnt matter
+inform id like an expensive thai restaurant
+inform thai food
+thankyou thank you good bye
+inform moderately
+request whats the address phone number and post code
+inform any
+inform tv_noise it doesnt matter
+reqalts how about european food
+inform spanish
+thankyou thank you good bye
+inform im looking for an expensive restaurant
+request address
+ack okay um
+negate um no
+thankyou thank you good bye
+request phone number
+inform any price range
+inform expensive
+inform british food
+reqalts next
+thankyou thank you good bye
+inform italian
+request may i have a phone number and postcode
+inform chinese food
+request phone number
+request and the phone number
+reqalts anything else
+inform i would like a african restaurant in the center of town
+inform i dont care
+null um
+affirm ye
+inform chinese food
+thankyou thank you good bye
+inform noise i would like to find a moderately priced restaurant in the south of town
+request do you got an address
+inform i dont care
+affirm yes
+request phone number
+inform moderately priced restaurant in the south part of town
+request and the post code
+request whats the phone number
+inform asian oriental
+inform im looking for a cheap restaurant that serves international
+null sil
+thankyou thank you goodbye
+request what is the address
+request whats their phone number
+inform iam looking for a restaurant in any area that serves swiss food
+inform thai
+inform im looking for a moderately priced restaurant
+request address
+negate no vietnamese food
+inform aristrain food
+thankyou thank you good bye
+request what kind of food do they serve there
+null sil
+request whats the price range
+request whats the phone number
+request post code
+thankyou thank you good bye
+inform east
+inform id like italian food
+request whats the telephone number
+inform cuban
+inform uh i dont care
+inform cantonese food
+request whats the phone number
+request what is the phone number and address
+inform um any time of european type food
+request address
+thankyou thank you good bye
+thankyou thank you goodbye
+request an address
+inform malaysian food in the south part of town
+confirm is it in the center of town
+affirm yes
+inform im looking for a cheap restaurant in the east part of town
+inform tv_noise im looking for tuscan food
+inform south
+inform swiss food
+thankyou thank you good bye
+inform north american
+thankyou thank you good bye
+inform south
+inform restaurant in the center
+request uh can i have the phone number please
+inform expensive
+request whats the post code
+inform i dont care
+request address
+request phone number
+inform any
+request phone number
+inform any type of food
+inform european food
+inform dont care
+affirm yes
+inform ah can i find a unintelligible restaurant serving scotch food
+inform in the west part
+request what is the price range
+inform im looking for a cheap restaurant in the north part of town
+thankyou thank you good bye
+request whats the phone number
+inform i dont care
+inform im looking for moderately priced restaurant that serves
+thankyou thank you good bye
+inform any type of food
+request whats the phone number
+inform south
+inform find me a restaurant in the center of town
+inform dont care
+thankyou thank you good bye
+request what is the phone number
+reqmore more
+reqalts how about italian food
+inform tuscan food
+inform can i have mediterranean food
+request what is the phone number
+request what is the phone number
+inform catalan
+null noise
+thankyou thank you good bye
+thankyou thank you good bye
+inform moderate
+affirm yes
+null is there one serving
+request address and phone number
+reqalts is there anything else
+reqalts how about chinese food
+request whats the address
+request what is price range
+hello hello im looking for an expensive restaurant
+reqalts okay is there any portuguese food
+affirm right
+inform i dont care
+request can you give me the address and price range
+inform im looking for a restaurant in the east part of town serving australian
+reqalts anything else
+request what type of food
+inform im looking for a restaurant in the center of town that serves
+inform turkiesh food
+affirm yes
+inform west part of town
+request and the address
+thankyou thank you good bye
+affirm yes
+null noise
+thankyou thank you good bye
+inform im looking for a moderately priced restaurant in the west part of town
+request the address phone number and postcode
+inform italian food
+request phone number
+inform cheap restaurant
+negate no
+inform steak house
+inform any
+request the address
+inform i dont care
+inform indian food
+inform mexican food
+request address
+inform i would like to find a moderately priced restaurant and it should be in the east part of town
+inform id like a expensive restaurant in the south part of town
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform any price range
+request part of town is it in
+inform italian food
+reqalts is there anything else
+request post code
+request the type of food
+inform id like a restaurant in the north part of town that serves cross over food
+inform chinese food
+inform indian food
+thankyou thank you goodbye
+affirm yes
+inform im looking for a restaurant in the south part of town that serves creative food
+thankyou thank you good bye
+thankyou thank you
+request what kind of food
+request area
+request may i have the price range
+inform bistro
+inform south
+request address
+inform south
+request phone number
+affirm yes
+inform asian oriental type of food
+null taiwanese
+inform east
+affirm correct
+thankyou thank you good bye
+inform uh african food
+request phone number
+inform looking for a moderately priced restaurant that serves unusual food
+reqalts is there anything else
+thankyou thank you good bye
+repeat again please
+confirm is it moderate
+reqalts how about european food
+thankyou thank you good bye
+thankyou thank you good bye
+request phone number
+reqalts is there anything else
+thankyou thank you good bye
+request address
+reqalts how about spanish
+thankyou thank you good bye
+thankyou thank you goodbye
+request whats the address
+inform east
+inform moderate
+affirm yes
+inform i want a cheap restaurant in the north part of town
+inform traditional food
+thankyou thank you
+inform need a cheap restaurant
+thankyou thank you good bye
+affirm yes
+thankyou okay thank you good bye
+request what is the phone number
+inform im looking for a cheap restaurant in the south part of town
+request whats its post code
+request can i have the address and phone number
+request price range
+ack im good
+request and the phone number
+inform i dont care
+affirm yes
+request can i have the phone number of the venue
+thankyou thank you good bye
+inform korean
+inform looking for a cheap restaurant
+request okay whats the address
+request expensive price range
+inform i want to find a restaurant that serves vietnamese
+reqalts is there anything else
+thankyou thank you good bye
+inform east part of town
+request phone number
+thankyou thank you good bye
+request address please
+inform moderate
+inform north
+affirm yes
+inform food
+inform noise i want to find a restaurant that ser
+inform i need an expensive restaurant in the east part of town
+thankyou thank you good bye
+inform spanish food
+thankyou thank you good bye
+null unintelligible
+thankyou thank you good bye
+inform asian oriental food
+null unintelligible
+request could i have the phone number please
+inform im looking for a restaurant in any area that serves austrian food
+request what type of food is it
+inform im looking for a restaurant in the north part of town serving in
+inform african
+inform how about in the west area
+inform im looking for a restaurant in the center that serves international
+inform asian
+null unintelligible
+request phone number
+inform any
+request whats the address
+inform i would like it to be cheap
+inform im looking for a restaurant in the east part of town serving pan asian food
+inform the west part of town i want
+inform i dont care
+inform cheap
+request phone number
+inform moderate
+request whats the address
+null unintelligible
+thankyou thank you good bye
+request whats the phone number
+inform any area
+inform i need a restaurant in the north part of town that serves ko
+affirm yes
+thankyou thank you good bye
+request address
+inform it doesnt matter
+inform gastropub food
+request phone number
+request what is address and phone number
+inform south
+inform south
+inform are there any that serves portuguese food
+inform im looking for a restaurant in the center serving russian food
+thankyou thank you
+thankyou thank you good bye
+thankyou thank you goodbye
+inform im looking for a restaurant with irish food
+inform modern european
+request whats the address
+inform do you have cuban food
+inform west part of town
+request phone number
+inform yea i would like korean food
+request what is the price range
+null i dont
+bye thanks good bye
+inform expensive restaurant in the east
+thankyou oh thank you good bye
+inform i dont care
+reqalts is there anything else
+reqalts what about british food
+inform any
+inform i dont care
+inform indian food
+request what is their phone number
+request can i get the address
+request address
+inform british food
+request phone number
+thankyou thank you good bye
+reqalts how about european food
+inform cheap
+request what area is that
+request what kind of food is it
+inform im looking for gastropub food
+inform vietnamese
+inform french food
+request can i have the address and post code
+inform dont care
+request can i have the phone number of the venue
+inform spanish food
+bye good bye
+request price range
+request whats the address
+request can i have the address
+inform i want to find a moderately priced restaurant and it should be in the west part of town
+request address
+inform im looking for an expensive restaurant that serves mediteranian
+inform any area
+inform im looking for a cheap restaurant in the south part of town
+affirm right
+inform what about other parts of town
+inform catalan food
+request what area is it in
+affirm yes
+request phone number
+inform cheap
+inform gastropub
+thankyou noise thank you good bye
+thankyou thank you good bye
+negate no
+negate no
+affirm yes
+thankyou thank you good bye
+null noise
+inform im looking for korean food
+request give me the address
+request whats the address
+thankyou thank you good bye
+affirm yes in the west part of town
+null unintelligible
+request what is the address and phone number
+negate no
+request may i have the phone number
+request what area is it in
+inform any
+inform gastropub
+inform i want expensive food in the east part of town
+request and what type of food is that
+inform french food
+inform dont care
+inform i need an expensive restaurant serving british food
+inform spanish food
+inform i want italian food
+inform north part of town
+affirm yes
+affirm correct
+inform it doesnt matter
+inform i need a moderately priced restaurant serving fusion food
+inform south
+thankyou thank you good bye
+request and can i have the address
+thankyou thank you good bye
+thankyou thank you good bye
+bye goodbye
+null i want
+negate no
+affirm yes
+null sigh
+inform im looking for one that serves asian oriental food
+request phone number
+request phone number
+request whats the post code
+inform italian
+bye good bye
+request address
+thankyou thank you good bye
+inform european food
+inform bistro food
+inform anywhere
+request what is the address and phone number
+inform can i get turkish food
+request can i get the phone number
+thankyou thank you good bye
+thankyou thank you good bye
+inform moderate
+inform cheap restaurant
+thankyou thank you good bye
+affirm yes
+inform asian food in the north part of town
+request what is the address
+inform dont care
+inform i want a restaurant that serves
+inform i need a moderately priced restaurant
+inform west part of town
+request what type of food
+inform in the centre of town
+thankyou thank you good bye
+thankyou thank you good bye
+inform uh restaurant
+null noise
+request phone number
+request and what about the phone number
+affirm right on good bye peace
+request uh price range
+request phone number
+inform expensive restaurant
+request phone number
+inform any
+request okay what type of food do they serve
+inform italian food
+inform i would like to find a cheap restaurant and it should be in the south
+thankyou thank you goodbye
+request what is the address
+inform cross over
+request what are the price ranges
+request and whats the price range
+request phone number
+thankyou thank you good bye
+inform expensive
+negate no
+affirm uh yes can i get a moderate moderately priced restaurant in the west part of town
+inform im looking for a turkish restaurant in the east part of town
+request what type of food
+thankyou okay thank you good bye
+inform i need a moderately priced restaurant in the north of town
+reqalts how about turkish
+inform vietnamese food
+reqalts what about indian food
+request phone number
+request phone number
+inform i dont care
+inform expensive
+inform belgian
+request whats the phone number
+request could i have the address
+reqalts is there anything else
+inform ah im looking for a restaurant in the center serving french food
+inform cheap
+inform expensive restaurant
+inform expensive
+hello hi i need a restaurant in any area
+inform any kind
+request can i get the address
+thankyou thank you good bye
+request price range
+inform i want a cheap restaurant in the south part of town
+inform expensive restaurant asian food
+inform east
+inform restaurant north
+affirm yes
+affirm yes
+inform does not matter
+thankyou thank you good bye
+null nor
+inform expensive
+reqalts anything else
+thankyou thank you good bye
+inform food
+thankyou thank you good bye
+inform chinese food please
+request phone number
+request phone number
+inform doesnt matter
+inform indian food
+affirm yes
+request what is the address and post code
+affirm ok yeah
+inform doesnt matter
+inform portuguese food
+inform cheap price range
+request what is the phone number
+inform food
+affirm yes
+bye bye
+affirm yes
+hello noise hello
+inform any
+request what is the address
+negate no
+thankyou thank you good bye
+request whats the address
+null and whats the postal code
+thankyou thank you good bye
+request okay what is the addre
+reqalts is there anything else
+request whats the address
+null unintelligible
+inform any price range
+thankyou thank you good bye
+inform im looking for a moderately priced restaurant that serves sea food
+affirm yes
+thankyou thank you good bye
+inform any
+thankyou thank you good bye
+inform um anything else
+inform moderate priced restaurant in the north part of town
+inform can i get a restaurant in the west part of town
+affirm yes
+null serve
+null sil
+reqalts next
+affirm yes
+inform i dont care
+negate no
+thankyou thank you good bye
+inform uh turkish
+inform west part of town
+request can i have the address phone number and
+inform east part of town
+inform im looking for
+request whats the phone number and address
+thankyou thank you and good bye
+thankyou thank you good bye
+null noise
+inform it doesnt matter
+request whats the phone number
+thankyou thank you goodbye
+inform im looking for a cheap restaurant in the south part of town
+thankyou okay thank you good bye
+inform christmas food
+inform im looking for a restaurant in any area that servess
+request phone number
+request whats the post code
+inform im looking for a pan asian food in the south of town
+inform moderate
+inform im looking for indian
+request what is the address
+thankyou thank you good bye
+request post code
+inform any
+reqalts is there anything else
+request what area is it in
+inform french
+thankyou thank you good bye
+request and the phone number
+inform seafood
+request address
+inform indian food
+reqalts how about asian oriental food
+reqalts how about portuguese
+inform scandinavian food
+null that serves unintelligible
+request address
+request address
+request address
+inform in the south part of the town
+thankyou thank you good bye
+affirm yes
+inform what about irish food
+inform im looking for a restaurant in the south part of town
+reqalts is there anything else
+inform im looking for a moderately priced restaurant in the east part of town
+affirm yes
+inform danish food in the south part of town
+affirm yes
+null any thing else
+request and phone number
+thankyou thank you good bye
+affirm yes i would like portuguese food
+bye good bye
+inform it doesnt matter
+request whats the address and price range
+request can i have the address and phone number of the venue
+request can i have the phone number
+inform i dont care
+inform italian
+affirm yes
+inform chinese
+null serves
+inform how bout thai food
+request whats the address for moderately priced restaurants in the south part of town
+inform im looking for an expensive restaurant in the south part of tow
+inform polynesian food
+inform any
+request what the phone number
+request what type of food
+inform i dont care
+thankyou thank you good bye
+request whats the phone number
+inform moderately priced restaurant in the north part of town
+request can i have the address
+reqalts is there anything else
+thankyou thank you good bye
+inform any
+inform moderate
+request can i have the address
+request what is its address phone number and area
+request and the phone number
+request can i get the address and phone number
+inform expensive
+inform im looking for fusion food
+inform moderately priced restaurant in the west part of town
+request what type of food
+inform it doesnt matter
+inform i would like an expensive restaurant that serves korean food
+reqalts how about one that serves british food
+inform dont care
+reqalts what about the east part of town
+inform thai food
+request and what area of town are they
+request could i have its address
+thankyou thank you good bye
+negate no
+inform north american food
+inform thai
+inform thai food
+request what is the address
+inform im looking for vegetarian food on the east part of town
+request whats the phone number
+inform is there any serving vietnamese
+thankyou thank you goodbye
+thankyou thank you good bye
+inform im looking for moderately priced restaurant and it should serve halal food
+request how about the phone number
+request okay what is the address
+inform catalan
+inform west
+affirm yes
+thankyou thank you good bye
+inform gastropub
+request the address
+inform chinese food
+deny wrong
+request whats their phone number
+inform im looking for polish food
+thankyou thank you good bye
+inform south part of town
+reqalts how about italian
+bye alright thank you good bye
+request whats the address
+request whats the address
+inform breath i dont care noise
+inform breath do you have danish restaurants
+inform i want to find a cheap
+request and the post code
+inform italian
+request what area of town is it
+request what is the price range
+inform east
+request phone number
+request phone number
+reqalts is there anything else
+null now
+thankyou thank you good bye
+null unintelligible
+request can i have the phone number and address of the venue
+inform dont care
+reqalts anything else
+inform european
+inform mediterranean
+request type of food
+null adress
+null noise
+thankyou thank you good bye
+inform dont care
+inform i am looking for a moderately priced restaurant in the
+request could i have the address and phone number please
+thankyou thank you goodbye
+inform spanish food
+request and phone number
+request can i have the address
+inform chinese food
+inform the south side
+thankyou thank you good bye
+inform canopus
+null sil
+thankyou thank you good bye
+request address
+inform in any area
+null after
+request prices
+request address and post code
+inform restaurant any area japanese food
+inform dont care
+request phone number
+inform any type
+inform dont care
+inform east
+inform moderately priced restaurant in the north part of town
+thankyou thank you goodbye
+request and the postal code
+inform looking for an expensive restaurant in the east part of town
+inform european food
+request their address
+inform doesnt matter
+inform i dont care
+request what the addre
+inform in the inner south
+reqalts is there anything else
+inform i dont care
+request what type of food
+thankyou um thank you good bye
+inform north part of town
+request whats the phone number
+request can i have the address
+request what area is it in
+request may i get the phone number and post code
+null inaudible
+request whats the address
+inform chinese
+request what is the area
+inform afghan food
+inform i dont care
+request can i get the address phone number
+null unintelligible
+request and the phone number
+affirm ah yes im looking for persian food though
+hello hi im looking for a restaurant in the
+thankyou thank you good bye
+inform sea food
+inform north
+inform moderately priced danish food
+inform italian food
+request address
+request whats its number
+inform well what about chinese food
+request what is the address phone number and post code
+inform chinese
+request what type of food
+null noise
+thankyou thank you good bye
+inform any
+inform cheap restaurant
+thankyou thank you good bye
+request what is the post code
+null breathing
+inform afghan food
+request address
+inform eartrain
+request and whats the phone number
+affirm yes
+inform sea food
+null noise
+request whats their price range
+inform russian
+request what is the phone number
+inform uh medium
+inform international food
+request phone number
+request okay show me the address
+inform a moderately priced restaurant in the south part of town
+request phone number
+request what is the address and phone number
+inform i dont care
+inform i dont care
+inform any price range
+inform vietnamese food
+inform eritrean food
+request noise address
+inform in the east part of town
+negate no
+inform east
+request oh whats the address
+inform french noise
+inform sea food
+null pizza
+request area
+request whats the address
+reqalts anything else
+request address
+null okay
+request address and phone number
+inform south
+request west is the address and phone number
+thankyou thank you good bye
+thankyou okay thank you good bye
+thankyou thank you good bye
+request phone number
+thankyou okay thank you good bye
+reqalts how about a restaurant in the west part of town serving vietnamese food
+thankyou thank you good bye
+inform north part of town
+inform im looking for a restaurant in any area that serves bistro food
+inform breath malaysian food
+request phone number
+thankyou thank you good bye
+null sil
+inform cheap price range
+thankyou thank you good bye
+thankyou thank you good bye
+inform gastropub
+request whats the address
+request phone number
+inform vietnamese
+thankyou thank you good bye
+negate no im looking for a cheap price range in the east part of town
+request and the post code
+inform north
+inform eritrean food
+inform international food
+request what is the address and phone number
+inform scandinavian food
+thankyou thank you goodbye
+inform moderately priced restaurant in the west
+reqalts is there anything else
+request whats the address
+inform i want to find an expensive restaurant in the south part of town
+inform scandinavian food
+request post code
+reqalts how about vietnamese food
+thankyou thank you good bye
+request can i get a post code
+request price range
+inform moderately priced
+inform korean
+inform im looking for a cheap restaurant in the east part of town
+inform i would like european food
+inform expensive restaurant in the east
+inform i dont care
+request whats the address
+inform cheap
+inform expensive
+affirm right
+inform i need a moderately priced restaurant in the south
+thankyou thank you good bye
+inform moderately priced restaurant in north part of town
+inform im looking for a restaurant in the center serving greek food
+inform im looking for cheap restaurants in the north part of town
+reqalts how about indian food
+null system
+null unintelligible
+hello hi im looking for an expensive restaurant in the south part of town
+thankyou thank you good bye
+inform south
+inform expensive restaurant serve korean food
+request may i have the address
+null unintelligible
+confirm okay does it serve indian food
+reqalts anything else
+reqalts what else is there
+request phone number
+thankyou thank you good bye
+inform fucking west
+inform it doesnt matter
+thankyou thank you good bye
+thankyou thank you goodbye
+thankyou sorry about my mistakes thank you good bye
+affirm right
+reqalts how about itailian
+inform any kind
+affirm yes spanish food
+inform i dont care noise
+hello music hello
+inform world food
+inform asian oriental
+thankyou okay thank you good bye
+inform italian
+affirm yes
+null noise
+request address
+ack okay um
+inform ese food
+affirm correct
+inform east part of town
+negate no there is no such venue how about portuguese food
+request what is the address
+inform i dont care
+inform dont care
+thankyou thank you good bye
+request whats the address
+null i need
+reqalts is there anything else
+thankyou thank you good bye
+inform i dont care
+inform south part of town
+inform north
+inform expensive
+thankyou thank you good bye
+inform east
+inform greek food in the north part of town
+request phone number
+null is there
+request what is the phone number
+thankyou thank you good bye
+request can i get the phone number and area
+request whats the address
+request address
+thankyou thank you good bye
+request price range
+request whats the post code
+inform breath im looking for a restaurant that serves cuban food
+affirm uh yes can i find a restaurant in the east part of town that serves chinese
+affirm yes
+inform chinese food
+inform south
+bye good bye
+negate no cheap restaurant
+inform noise im looking for a moderately priced restaurant
+bye ok thank you goodbye
+inform thai food
+reqalts how about italian food
+reqalts how about the center area
+request good i have the address of that
+request type of food
+null unintelligible
+request what area of town
+reqalts anything else
+thankyou um okay thank you good bye
+reqalts how about chinese food
+thankyou thank you good bye
+thankyou thank you good bye
+request what is the address
+request what type of food
+null sil
+inform european food
+inform i dont care
+inform doesnt matter
+inform asian oriental food in the centre
+null there
+inform north part of town
+inform polynesian
+request what is the address
+reqalts uh how about chinese food
+inform thai food
+inform east part of town
+thankyou thank you good bye
+inform australian food
+inform i want to find a moderately priced restaurant and it should be in the
+inform moderately
+request type of food
+inform um swedish food
+inform i want to find a restaurant in the center that should serve belgian food
+inform looking for something moderately priced in the north side of town
+inform south part of town
+inform uh north side of town german food
+inform looking for an expensive restaurant in the south part of town
+inform doesnt matter
+request and post code
+inform gastropub type food
+inform im looking for a cheap restaurant in the west part of town
+reqalts next one please
+request what is the address
+reqalts how about asian oriental
+request address
+inform korean food
+inform id like a european food
+thankyou thank you good bye
+request the phone number for bloomsbury
+inform restaurant in the east part of town
+request what is the address
+request can i get the address phone number and post code
+request and whats the phone number
+request address
+affirm yes
+inform expensive restaurant
+confirm is it serving french food
+inform im looking for a restaurant that serves romanian food
+inform australian food center part of town
+inform cheap italian food
+inform im looking for a restaurant in the center
+inform spanish
+inform any part
+reqalts how about vietnamese food
+request post code
+inform east
+request phone number
+null town
+thankyou thank you good bye
+affirm yes
+inform canapes
+thankyou thank you good bye
+thankyou thank you
+inform north
+inform is there an expensive
+inform signaporian
+request what is the phone number
+inform mediterranean restaurant
+request whats the addre
+bye good bye
+inform any
+inform i dont care
+inform i dont care
+inform okay im looking for an expensive restaurant
+request phone number
+inform im looking for a moderately priced restaurant
+thankyou thank you good bye
+inform vegitarian
+request what is their price range
+request whats the address
+request and phone number
+reqalts how about north american
+inform i dont care
+inform im looking for a moderately priced restaurant in the west part of town
+thankyou thank you good bye
+thankyou thank you goodbye
+inform moderate
+thankyou thank
+request what is the address
+thankyou thank you goodbye
+reqalts is there a restaurant in the south part of town that serves indian food
+request address
+request whats the phone number and address
+thankyou thank you good bye
+inform i need a cheap restaurant in the west part of town
+confirm is there a venue that serve vietnamese food
+request whats the address
+inform caribbean
+request phone number
+inform dont care
+inform im looking for a restaurant in the north part of town
+inform chinese food
+inform spanish food
+null noise
+inform noise vietnamese
+inform welsh food
+null now
+null i want
+request whats the address
+inform moderate
+inform im looking for cheap japanese food
+inform something catalan food
+thankyou thank you good
+request whats the address
+inform vietnamese food
+request whats the address
+request kay can i have the address phone number and the area
+request address
+inform chinese food
+inform east
+bye good bye
+request phone number
+inform vietnamese food
+request whats the address
+inform im looking for an expensive restaurant in the east part of town
+inform turkish food
+reqalts is there any other ones anything else
+request and their phone number
+reqalts um what about italian food
+affirm yes
+request phone number
+thankyou thank you good bye
+thankyou thank you good bye
+inform moderate
+inform romanian food
+thankyou thank you good bye
+reqalts is there anything else
+reqalts is there anything else
+inform looking for portuguese food in the south part of town
+inform any
+inform was that in the east part of town west part of town
+inform any
+inform moderately priced
+thankyou thank you good bye
+inform expensive restaurant south part of town
+reqalts how about south part of town
+inform moderately priced restaurant
+request whats the phone number
+request address and phone number
+inform thai food
+request whats the phone number
+request and whats the phone number
+thankyou thank you good bye
+inform cheap restaurant serving mediterranean food
+inform find moderately priced brazilian restaurant
+inform pan asian food
+thankyou thank you good bye
+inform im looking for a restaurant in the north part of town
+inform expensive
+bye good bye
+negate no
+reqalts how about thai
+thankyou thank you good bye
+inform south
+inform indian food
+inform im looking for a cheap restaurant with spanish food
+inform shit served swiss food
+request and the phone number
+thankyou alright thank you good
+inform african food
+thankyou thank you good bye
+inform restaurant south part of town christmas food
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you goodbye
+inform i dont care
+inform indian
+null of the venue
+thankyou thank you good bye
+inform east
+request what is the phone number
+inform dont care
+thankyou thank you good bye
+request and whats the price range
+request what is the signature dish
+thankyou thank you good bye
+inform barbecue food
+null sil
+reqalts what about indian
+inform it doesnt matter
+request may i have the address phone number and post code
+thankyou thank you
+inform im looking for an expensive restaurant serving kitalian food
+request what is the price range
+null is there
+null unintelligible
+negate no
+reqalts what about indian food
+thankyou thank you good bye
+inform fast food
+request post code
+reqalts how about turkish food
+null noise
+inform im looking for a moderately priced restaurant in the east part of town
+confirm er do they serve eritrean food
+inform dont care
+inform i want a moderately priced restaurant
+request may i have the address
+inform north american food
+null how about
+inform i dont care
+null wait noise
+null unintelligible
+request whats the phone number
+inform expensive
+null noise
+inform in the center
+inform north
+bye good bye
+request uh can i get the address
+reqalts how about the west area
+inform any food
+request address
+reqalts another place
+inform im looking for
+request phone number
+request phone number
+affirm right
+affirm yes
+inform dont care
+inform north american food
+inform food
+inform im looking for a cheap restaurant in the south part of town
+reqalts how about portuguese
+thankyou thank you good bye
+thankyou thank you goodbye
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+request what is the address
+request address
+inform indian
+confirm is it an expensive restaurant
+inform noise cheap restaurant
+inform cheap restaurant
+inform i need to find one in the south part of town
+inform thai food
+inform vietnamese food
+reqalts okay what about turkish foo
+inform dont care
+thankyou thank you good bye
+inform indian food west part of town
+request what is the address
+negate no
+inform i need a restaurant in the
+request phone number
+affirm yes
+request what is the phone number
+inform what about modern european type food
+null care
+null unintelligible
+inform i dont care
+inform i want to find a restaurant that serves french food
+request whats the address
+request what is there phone number
+inform moderate
+request what area
+thankyou thank you good bye
+inform im looking for an expensive restaurant in the south part of town
+thankyou thank you good bye
+request what is the address and phone number
+thankyou thank you good bye
+inform any kind
+inform i want thai food
+null that is all
+request okay and whats the post code
+inform it doesnt matter
+reqalts how about thai food thats expensive
+request could i get their address and phone number
+inform i am looking for a restaurant in the north part of town serving indian food
+reqalts how about chinese food
+request address
+request phone number
+inform west
+affirm yes
+inform asian oriental
+inform breath how bout north part of town
+request address
+inform dont care
+inform scandinavian
+inform indian
+inform cheap restaurant
+thankyou thank you good bye
+inform im looking for a restaurant that serves french food
+negate no
+request phone number
+affirm yes that serves corsica food
+inform south
+inform im looking for an expensive restaurant
+thankyou thank you good bye
+inform breath i want a cheap restaura
+reqalts anything else
+request address and phone number
+inform north
+negate no
+bye thank you good bye crosstalk
+affirm yes
+request and what type of food do they serve at pizza hutt
+request address
+inform i would like to find an expensive restaurant serving
+inform creative food
+request postcode
+inform centre
+reqalts how about chinese food
+reqalts other
+request what is the address
+request phone number
+inform find me a moderately priced restaurant in
+null what
+affirm uh yeah im looking for a restaurant in the south part of town and that serves kosher food
+request part of town
+inform expensive
+inform sea food
+affirm yes
+inform south of town
+inform cheap
+request price range
+request what is the phone number
+inform european
+request could i get their phone number please
+inform i do not care
+request what do they serve
+inform cheap
+request phone number
+inform thai food
+inform south town
+thankyou thank you good bye
+inform cheap
+inform food
+thankyou thank you good bye
+request address and price range
+inform what about turkish
+inform vietnamese food
+thankyou thank you good bye
+request whats the phone number
+affirm yea
+negate no
+inform cheap
+thankyou thank you good bye
+reqalts is there anything else
+reqalts how about indian type of food
+request whats the address and phone number
+request can i get the price range
+inform im looking for an expensive restaurant serving turkish food
+inform i dont care
+request i need the address phone number and price range
+thankyou thank you good bye
+inform moroccan food
+inform east
+inform uh gastropub food
+null unintelligible
+inform north
+request price range
+inform im looking for an expensive restaurant serving portuguese foo
+inform yea im looking for a really cheap restaurant in the east part of town
+request phone number
+null child
+thankyou thank you good bye
+request what is the phone number and post code of the venue
+request phone number
+affirm yes korean food
+inform is there mediterranean food
+reqalts is there anything else
+inform i dont care
+request phone number
+request what area of town are they located
+thankyou thank you good bye
+inform any
+reqalts what about indian food
+request may i have the address phone number and post code
+thankyou thank you good bye
+inform im looking for a cheap restaurant that serves italian food
+reqalts okay what about modern european food
+request what type of food
+thankyou thank you good bye
+inform gastro pub
+request can i get the address
+inform any
+request address
+inform jamaican food
+thankyou thank you good bye
+request kind of food do they serve
+request what is the address
+request whats the price range
+null who is it by
+inform south part of town persian food
+inform any
+thankyou okay thank you good bye
+inform could i have the restaurant that serves asian oriental food
+inform hungarian food
+inform austallison
+inform food
+request what area
+inform im looking for a restaurant that serves vietnamese food
+reqalts how about a gastropub
+request phone number
+inform i dont care
+inform im looking for a moderately priced restaurant in the west part of town
+request post code
+inform traditional food
+reqalts is there anything else
+inform im looking for a moderately priced resturant in the east part of town
+inform im looking for a restaurant in the north part of town serving italian food
+reqalts is there anything else
+negate no british food
+request address and post code
+inform asian oriental
+null care
+inform im looking for eritrean food
+null sil
+inform cuban food
+thankyou thank you good bye
+inform european
+affirm yes
+request phone
+confirm does it serve african
+reqalts how about an indian restaurant
+request could i have the phone number please
+inform indian food
+inform in the east part
+request what is the address and phone number
+inform dont care
+thankyou thank you good bye
+inform id like to find a moderately priced restaurant
+inform anything
+inform lebanese
+request address
+thankyou thank you good bye
+reqalts how about indian food
+request address
+ack okay um
+inform swedish food
+request can i have the phone number
+inform im looking for a moderately priced restaurant in the south part of town
+bye okay good bye
+request may i have the address and post code
+request what is the address
+thankyou thank you good bye
+request what is their phone number and type of food
+inform in the south
+inform it doesnt matter
+request price
+thankyou thank you good bye
+reqalts how about chinese food
+request what is the price range
+inform can i get a restaurant in the center
+affirm yes west part of town
+request price range
+inform thai food
+request what is the phone number
+inform turkish
+inform indian
+request can i have the address
+inform west
+request whats the phone number
+inform jamaican
+request whats the phone number
+affirm yes in the cheap price range
+affirm yes
+inform mediterranean
+affirm yes
+inform vietnamese
+inform cantonese food
+request address and phone number
+inform east part of town
+thankyou thank you goodbye
+request and the price range
+reqalts is there another restaurant that serves portuguese food
+inform a cheap restaurant and it should be in the west part of town
+inform in the east part of town
+request what is the phone number
+inform food
+inform cuban food
+request i need a special restaurant serving christmas food
+null whats the promo code
+inform im looking for japanese food
+reqalts is there anything else
+inform chinese
+request do you have the address
+request phone number and area
+inform food
+affirm yes
+inform vietnamese food
+affirm right
+inform what about expensive food
+inform vietnamese food
+inform moderate
+request what is the address
+affirm yes barbecue food
+inform unintelligible food
+reqalts how about vietnamese
+request whats the address and phone number
+null unintelligible
+thankyou thank you
+request an area
+inform airatarin
+request whats the price range
+inform i dont care
+affirm yes
+inform what about a spanish restuarant
+inform id like a moderately price
+affirm yes
+null noise
+inform the north part of town
+thankyou thank you goodbye
+inform caribbean
+inform moderate
+request address
+request address
+inform cheap
+request type of food
+inform if there is no such venue how about european type of food
+inform uh anywhere
+inform moderately
+bye good bye
+inform does anyone serve eritrean food
+null noise
+request what kind of food do they serve
+inform moderately priced food
+bye good bye
+inform in the east of town
+request phone number
+reqalts what about british food
+inform indian food
+request and the post code
+inform dont care
+thankyou thank you good bye
+inform moderate
+affirm um yes
+inform pan asian
+request what about the address
+request address
+null noise
+inform north american food
+reqalts is there anything else
+thankyou thank you good bye
+reqalts how about british type of food
+affirm yes
+request i need the address
+request phone number
+request whats the address
+request the phone number
+inform i am looking for a restaurant serving afghan food
+request phone number
+inform it doesnt matter
+request phone number
+null unintelligible
+thankyou okay thank you good bye
+request address
+thankyou thank you good bye
+inform moroccan food
+request okay whats the phone number
+reqalts how about spanish
+thankyou okay thank you good bye
+inform any part
+request and their post code
+inform im looking for something moderately priced
+thankyou thank you good bye
+inform im looking for an expensive restaurant that serves swiss food
+thankyou thank you good bye
+inform a restaurant that serves scandinavian food
+null sil
+thankyou thank you
+inform vietnamese food
+request may i have the post code
+reqalts is there a restaurant that serves indian food
+request could i have the address and phone number plea
+null sil
+inform moderately priced restaurant
+request and what type of food
+inform any
+request may i have the phone number
+inform center of town
+reqalts how about chinese food
+reqalts how about italian
+null noise
+thankyou thank you good bye
+inform it doesnt matter
+reqalts anything else
+request can i get the address and phone number
+affirm yes
+inform expensive restaurant south part of town
+request whats the address
+null in the ea
+request phone number
+request may i have its address
+inform any
+inform can you tell me about an expensive restaurant in the south
+bye goodbye
+null okay just regular ecuadorean food
+thankyou i know thank you goodbye
+request what is prezzos address
+thankyou thank you good bye
+inform east part of town
+inform expensive restaurant
+null unintelligible
+request what is the phone number
+inform i want to find a moderately priced restaurant in the east part of town
+inform a restaurant in the south part of town serving pan asian food
+request can you repeat the address please
+inform south
+thankyou thank you good bye
+inform let me get some world food and i dont care about the price range
+negate no
+request what is the phone number
+null unintelligible
+null noise
+affirm yes
+request can i have the price range
+inform im looking for a cheap restaurant in the west part of town
+affirm yes can i have malaysian food
+request what kind of food is it
+inform im looking for an expensive restaurant that serves english food
+thankyou okay thank you good bye
+inform i want to find a restaurant in the centre that serves thai food
+inform yea id like a cheap restaurant in the north part of town
+request phone number
+reqalts okay how about modern european food
+inform cheap
+request what is the phone number
+null sil
+thankyou thank you good bye
+inform any
+negate no
+thankyou and i think thatll do it thank you good bye
+inform i dont care
+inform im looking for an expensive restaurant serving malaysian food
+request what kind of food does it serve
+inform id like a cheap restaurant on the south of town
+null noise
+request phone number
+request the phone number
+request what is the post code
+inform um asian oriental restaurant
+inform any food
+request what is the address
+inform unusual food
+inform east part of town
+request whats the address
+inform mediterranean
+request phone number
+inform expensive restaurant
+request address
+inform cheap
+thankyou thank you good bye
+inform im looking for a moderately priced restaurant in the east part of
+inform dont care
+request may i have the phone number
+inform looking for something moderately priced on the north side of town
+inform west
+thankyou thank you goodbye
+reqalts is there any restaurants that serve indian food
+request what is the phone number
+thankyou okay thank you good bye
+affirm perfect
+reqalts there any other
+reqalts is there a restaurant in the south part of town that serves italian food
+request phone number
+null and
+inform any kind
+request phone number
+inform spanish food
+request phone number
+null sil
+inform uh im looking for a cheap restaurant
+inform chinese food
+confirm is it moderate priced
+thankyou thank you good bye
+thankyou thank you and good
+reqalts how about indian
+null unintelligible
+ack kay um
+affirm yes
+inform belgian food
+request whats the phone number
+inform i need a restaurant that serves african food
+request whats the phone number
+request uh whats the address
+inform australian food
+inform cheap restaurant
+request whats the address
+thankyou thank you
+null sorry
+negate no
+thankyou thank you good bye
+affirm yes
+reqalts anything else
+null noise
+request price range
+inform cheap restaurant
+reqalts how about modern europone
+inform british
+inform asian oriental food
+inform looking for an expensive restaurant that serves indonesian food
+request post code
+inform uh italian food
+thankyou thank you good bye
+null breathing
+request what kind of food is it
+bye see you good bye
+request phone number
+request what part of town is it in
+affirm yes
+null unintelligible
+null noise
+request awesome um whats the number
+request and whats the post code
+request whats the address
+request noise can i get the address and phone number
+reqalts is there a restaurant serving vietnamese food
+inform any
+request whats their phone number
+inform im looking for a restaurant in a area that serves
+null sil
+affirm right
+reqalts what about asian oriental
+thankyou thank you good bye
+request okay can i have the address
+inform vietnamese
+inform doesnt matter
+inform im looking for polynesian food
+reqalts how about italian type of food
+inform okay can i have european food
+inform moroccan
+inform east
+request price range
+null popular
+request what is the address
+thankyou thank you goodbye
+null try again
+inform id like a restaurant in the center that serves danish food
+inform i dont care
+request can i get the address and phone number
+inform french food
+null cough
+null for a
+inform in the east part of the town
+request can i have the phone number
+request what is the price range
+inform price does not matter
+request may i have the phone number
+inform cheap in the west part of town
+affirm yeah
+thankyou thank you good bye
+affirm yes
+null show me the next
+inform it has to serve unusual
+request can i get the address and phone number
+inform i dont care
+inform moderate
+request good whats the address
+request post code
+inform italian
+inform north
+inform im looking for am expensive restaurant in the south part
+request and postcode
+request post code
+inform i dont care
+inform scandinavian
+inform chinese
+reqalts anything else
+inform any type of food
+inform im looking for a restaurant that serves european food
+thankyou thank you good bye
+request what is the phone number
+request where is it
+thankyou thank you good bye
+inform i am looking for gastropub food
+inform im looking for a restaurant serving polish food
+inform dont care
+inform any type
+request phone number
+affirm yea
+thankyou thank you good bye
+thankyou thank you good bye
+reqalts how about an expensive restaurant
+affirm correct
+null cough
+reqalts anything else
+reqalts is there anything else
+thankyou thank you good bye
+inform dont care
+request what area
+inform i dont care
+inform north part of town north part of town
+reqalts what about british
+request whats the address
+thankyou thank you good bye
+inform i dont care
+thankyou thank you good bye
+request phone number
+thankyou thank you good bye
+inform the east part of town
+reqalts is their anything else
+inform east
+negate no
+request area
+reqalts how about spanish food
+thankyou thank you good bye
+affirm yes
+request what is the phone number
+thankyou thank you good bye
+negate no
+reqalts is there anything else
+inform i dont care
+inform uh thai food
+request address
+inform bistro
+inform north
+inform asian
+bye good bye
+request what is the address and price range
+inform any
+reqalts is there anything else
+inform center
+inform i dont care
+request phone number
+request address
+request whats the post code
+request phone number
+inform i dont care
+request phone number
+inform swedish food
+request and whats the address
+reqalts how about french food
+request whats the phone number
+thankyou thank you goodbye
+thankyou uh thank you good bye
+thankyou thank you good bye
+inform pan asian
+request whats the address
+request address
+inform portuguese
+repeat could you repeat that
+thankyou thank you good bye
+thankyou thank you good bye
+request what is the phone number
+null noise
+thankyou thank you good bye
+null cough
+inform cheap restaurant in the north part of town
+inform irish food
+inform thai food
+inform barbecue
+request type of food
+request could i have the address and phone number please
+thankyou thank you goodbye
+request price range
+inform it doesnt matter
+thankyou thank you good bye
+inform can i get tuscan
+inform moderately
+inform it does not matter
+null sil
+inform i want something in the south part of town
+inform moderately priced restaurant
+inform french
+thankyou thank you good bye
+inform moderate price range
+inform any
+bye okay thank you and good bye
+inform gastropub food
+inform the south part of town
+request phone number
+inform cheap restaurant
+inform gastropub
+request can i get post code
+reqalts is there another alternative
+inform i dont care
+thankyou thank you good bye
+affirm yes
+null cough
+affirm in the center yes
+inform north
+inform italian
+bye good bye
+reqalts is there a restaurant serving modern european food
+request what is the phone number
+inform any kind
+request what is the phone number
+reqalts how about chinese
+inform center
+request sounds good whats the address
+thankyou thank you good bye
+null unintelligible
+thankyou thank you good bye
+request whats the address
+affirm yes
+request and what is the price range
+inform id like a restaurant in the east part of town
+reqalts is there another
+negate no danish
+inform north american
+inform any
+reqalts is there anything else
+thankyou thank you bye
+inform australian
+request phone number
+request and whats the phone number
+inform north american
+thankyou thank you goodbye
+reqalts is there anything else
+thankyou thank you goodbye
+inform uh doesnt matter
+thankyou thank you good bye
+request whats the address
+request can i have the address and phone number please
+null system
+inform im looking for a moderately priced restaurant in the south part of
+inform moderate
+inform south
+reqalts how about oriental type of food
+thankyou thank you good bye
+inform im looking for an expensive restaurant in the south part of town
+thankyou thank you goodbye
+inform gastropub
+inform cheap restaurant
+request can i have the address please
+affirm yes
+inform cheap restaurant
+request what type of food
+request phone number
+request can i get the address and phone number please
+affirm yes
+request may i get the address and phone number
+thankyou oh thank you goodbye
+inform japanese
+reqalts how about asian food
+request and the phone number
+inform i dont care
+request what is the type of food
+inform thai
+reqalts how about portuguese good
+request address
+request what is the phone number
+request what part of town
+reqalts how about cantonese food
+request what is its address
+reqalts how about canape
+reqalts how about indian
+inform south part of town
+inform west
+request phone number
+affirm yes
+request what is the address
+inform i want to find a restaurant
+inform i need a moderately priced restaurant that serves caribbean food
+request area
+request phone number
+thankyou thank you good bye
+request and the price range
+request price range
+inform cheap restaurant in the south part of town
+request what type of food
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform south part of town
+request what is the phone number
+inform asian
+inform i dont care
+request what type of food do they serve
+confirm is it expensive
+inform chinese food
+inform expensive
+affirm yes
+request may i have the address and phone number
+thankyou thank you good bye
+inform east
+inform im looking for a restaurant that serves polynesian food
+request phone number
+inform im looking for a italian restaurant in east part of town
+inform moroccan food
+request the address
+request what is the address
+reqalts another restaurant
+inform im looking for an expensive restaurant that serves korean food
+inform chinese
+thankyou thank you good bye
+inform im looking for an expensive restaurant in the south part of town
+inform south
+request what is the address
+inform im looking for a cheap restaurant in the south part of town
+request address
+reqalts how about european food
+request address
+affirm yes
+request what is the phone number
+reqalts how about italian
+request whats the address
+request post code
+request whats the phone number
+reqalts how about italian food
+inform korean food moderate price
+request address
+request the area
+inform west
+inform east part of town
+request type of food
+inform it doesnt matter
+null noise
+inform im looking for a moderately priced restaurant
+inform indian
+inform i want to find an expensive restaurant
+thankyou thank you good bye
+inform im looking for cross over food
+thankyou thank you goodbye
+request okay can i get the address
+inform restaurant in central
+inform doesnt matter
+request what part of town is it in
+request phone number
+request address
+thankyou thank you goodbye
+confirm is that in the north part of town
+request can i have the phone number
+request okay what was the name
+thankyou thank you good bye
+inform indian food
+request and their phone number
+request post code
+inform can i find a restaurant in the south that is moderately priced
+inform i dont care
+inform i want a restaurant in the north par
+request whats the address
+inform belgian food
+inform cheap
+bye very good thank you good bye
+inform pan asian food
+request may i have the address
+inform cheap
+null sil
+request what type of food do they serve
+request whats the address
+request what is the post code
+request can you give me the address and phone number
+request and the price range
+thankyou thank you goodbye
+request address and phone number please
+thankyou thank you goodbye
+inform i need a restaurant in the north
+reqalts is there anything else
+null noise
+inform gastropub food
+request what is the phone number
+inform the center of town
+request can i have the post code please
+inform russian food
+null noise
+reqalts is there anything else
+request what is the phone number
+inform international food
+affirm yes
+thankyou thank you good bye
+reqalts how about north american food
+inform the north part of town
+thankyou thank you good bye
+affirm ye
+request post code
+thankyou thank you goodbye
+request can i get the phone number and address
+thankyou thank you goodbye
+request address
+inform spanish
+thankyou thank you
+inform dont care
+null sil
+request do you have the address
+reqalts anything else
+null noise
+thankyou thank you good bye
+request phone number
+thankyou thank you
+affirm yes can i have
+inform expensive
+inform um i want to find a restaurant that serves fusion food
+request phone number
+inform i dont care
+reqalts is there anything else
+request phone number
+request and whats the phone number
+reqalts is there anything else
+inform restaurant indian restaurant
+inform british food in the west part of town
+inform i dont care
+inform i need a restaurant in the center of town that serves spanish food
+thankyou thank you goodbye
+inform south part of town
+inform korean
+inform the east part of town
+null sil
+request okay and can i get their address
+inform expensive
+request noise phone number
+request phone number
+reqalts anything else
+thankyou thank you goodbye
+affirm yes
+reqalts is there anything else
+affirm yes could i have
+reqalts how about chinese food
+inform a moderately priced restaurant in the
+null noise
+inform russian food
+request whats their phone number
+inform chinese
+thankyou thank you goodbye
+null can i get a
+thankyou thank you good bye
+request phone number
+request can i get the phone number
+request whats the address and post code
+inform south part
+inform looking for a moderately priced restaurant in the west part of town
+inform european restaurant
+inform thare are different expensive restaurants in the east part of town
+request whats the phone number
+null system
+inform im looking for a restaurant that serves bistro food in the center of
+thankyou thank you good bye
+affirm yes
+request ah could you give me the address
+inform im looking for a cheap restaurant
+thankyou thank you good bye
+request and what type of food do they serve
+inform like to find a moderately priced restaurant in the west part of town
+inform breath im looking for a restaurant in the south part of town that serves malaysian food
+thankyou thank you good bye
+inform british food
+inform south
+inform any type
+inform i want to find an expensive restaurant
+request i want to know the phone number
+thankyou thank you good bye
+thankyou thank you goodbye
+inform any price range
+request what is the phone number
+inform im looking for cheap food in the north of town
+inform european
+request may i have the phone number please
+thankyou thank you goodbye
+negate no
+inform vietnamese
+inform korean food
+null noise
+inform east
+bye good bye
+inform im looking for an expensive restaurant and it should be served international food
+inform it does not matter
+request can i have the phone number
+ack okay just pick one for me then
+request and the phone number
+thankyou thank you good bye
+inform dont care
+thankyou thank you good bye
+thankyou thank you goodbye
+inform im looking for a restaurant in the north part of town serving italian food
+request address
+thankyou thank you good bye
+inform south
+inform the south part of town
+request whats their phone number
+reqalts how about european food
+request whats the phone number there
+null sil
+inform im looking for a restaurant in the east part of town that serves international
+null unintelligible
+request what is the phone number
+bye good bye
+request can i get the phone number
+inform how about gastro pub type of food
+inform im looking for a moderately priced restaurant that serves polish food
+affirm yes
+request phone number
+request post code
+reqalts how about gastropub type of food
+request may i have the phone number and address
+inform korean food
+request where
+thankyou thank you good bye
+inform expensive
+request whats the address phone number
+inform moderately priced restaurant in the south part of town
+affirm yes
+reqalts anything else
+inform cheap
+inform im looking for expensive welsh food
+thankyou thank you goodbye
+inform im looking for a restaurant in the east part of town that serves afghan food
+inform moderately priced
+inform west
+inform im looking for a restaurant in the east part of town that serves indian food
+reqalts next
+request whats the phone number
+inform any area expensive price range
+reqalts how about korean food
+request whats their address and phone number
+inform italian
+request what is their phone number
+inform uh east
+thankyou thank you goodbye
+inform moderately priced
+inform chinese type of food
+inform persian food
+thankyou thank you good bye
+thankyou thank you good bye
+thankyou thank you good bye
+inform cheap
+inform i dont care
+request what is the address
+thankyou thank you good bye
+request its a type of food
+inform polynesian food
+reqalts what else
+inform i need a vietnamese restaurant
+inform im looking for an ex
+inform cheap
+inform german food
+inform scandanavian
+inform korean
+reqalts what about thai food
+inform portuguese
+affirm yeah im looking for a restaurant in the south part of town that serves international food
+null unintelligible
+request may i have the address
+inform okay then any
+thankyou thank you good bye
+inform cheap restaurant
+thankyou thank you good bye
+request address
+request phone number
+inform french food
+request what area is that in
+inform im looking for an italian restaurant
+inform any
+inform in the south side
+request type of food
+inform looking for a restaurant in west part of town serving cantonese
+inform i dont care
+request phone number
+inform im looking for a restaurant in the south part of town serving
+reqalts anything else
+inform i want to find an expensive restaurant that serves unusual food
+reqalts how about indian food
+request what is the address and phone number
+request post code
+reqalts anything else
+thankyou thank you good bye
+reqalts is there something else
+request what is the address and phone number
+inform i dont care
+reqalts is there anything else
+request what is the address
+inform chinese food
+inform international food
+inform doesnt matter
+inform polynesian food
+inform i dont care
+request and whats the price range
+affirm right
+inform modern european
+inform a cheap restaurant serving mexican food
+inform north part of town
+reqalts is there anything else
+request the address
+request address and phone number
+request what is the address
+thankyou thank you good bye
+inform do you have any asian oriental food
+thankyou thank you good bye
+inform i dont care
+thankyou thank you good bye
+request whats the address
+inform i dont care
+request address
+request what is the address
+thankyou thank you good bye
+inform seafood
+thankyou thank you good bye
+inform vietnamese food
+request what is the address
+inform im looking for an expensive restauran
+reqalts how about turkish
+inform im looking for a moderately priced restaurant
+inform restaurant in the center serving persian food
+request address
+inform breath id like to find a moderately priced restaurant in the west part of
+inform i am looking for an expensive restaurant that serves australian food
+null sil
+request whats the price range
+request whats the price range
+reqalts how about french
+inform im looking for moderately priced restaurant in the south part of town
+thankyou thank you good bye
+inform polynesian food in the south part of town
+request can i have the address and postal code
+negate no okay thats fine what about french food
+request address
+inform european food
+request what is the phone number
+request what is the address
+inform change that to any price range
+inform i dont care
+inform i want to find a cheap restaurant and it should serve scandinavian food
+request and price range
+inform east
+affirm uh yes a cheap restaurant
+thankyou thank you good bye
+thankyou thank you good bye
+request the address
+thankyou thank you good bye
+thankyou thank you good bye
+request price range
+request uh phone number
+inform turkish
+inform catalonia in the east part of town
+request whats the address
+request address
+reqalts how about international food
+null cough
+thankyou thank you goodbye
+reqalts is there any thing else
+reqalts anything else
+inform korean food
+inform im looking for a turkish restaurant
+thankyou thank you
+reqalts how about asian oriental food
+inform european food
+inform im looking for a restaurant that serves turkish food
+affirm yes
+thankyou thank you good bye
+reqalts is there anything else
+request what area
+reqalts how about italian food
+thankyou okay thank you good bye
+inform i would like portuguese food
+inform im looking for a restaurant in the south part of town
+inform moderately priced
+inform im looking for a cheap restaurant serving international food
+ack okay show me the least
+thankyou thank you good bye
+reqalts is there anything else
+inform any thing
+request phone number
+request the address and post code
+null noise
+null noise
+request whats the phone number
+inform i dont care
+inform i dont care
+request price range
+request can i get the address
+negate no
+thankyou thank you good bye
+reqalts how about a restaurant serving vietnamese food
+inform cheap jamaican
+inform expensive
+thankyou thank you good bye
+affirm yes
+request what is the phone number
+thankyou thank you good bye
+null sil
+request what is the address and post code
+inform chinese food
+inform dont care
+null cough
+request what is the address and phone number
+inform dont care
+request and phone number
+reqalts how about vietnamese
+request address
+inform im looking for a restaurant in any area that serves swedish food
+inform cantonese
+thankyou thank you good bye
+request okay and uh the phone number
+inform thai food
+null okay
+inform indian food
+affirm yes
+reqalts how about mediterranean food
+negate no
+request whats the post code
+inform center
+inform i dont care
+request what is the address
+request phone number
+inform cheap
+reqalts is there anything else
+inform persian food
+request what part of town is it
+request price range
+request phone number
+affirm yeah
+inform restaurant in the east part of town japanese
+request what is the phone number
+thankyou thank you good bye
+thankyou thank you good bye
+request what about the phone number
+inform i dont care
+null noise
+inform west part of town
+request post code
+inform european food
+request phone number
+thankyou thank you goodbye
+request address
+inform north
+inform moderately priced
+reqalts anything else
+affirm yes
+request whats their address
+request and the post code
+affirm yes im looking for an expensive restaurant and it should serve
+request the address
+negate no english food
+inform cantonese
+inform any
+inform west
+negate no
+inform dont care
+thankyou thank you good bye
+inform any
+inform im looking for a moderately priced restaurant
+request whats the address
+inform airatarin
+negate no
+thankyou okay thank you good bye
+thankyou thank you good bye
+inform australian
+inform any
+request phone number
+request and their phone number
+inform doesnt matter
+inform im looking for an expensive restaurant in the east
+inform chinese food
+request alright whats the address
+affirm yes
+inform west
+thankyou thank you good bye
+null sorry
+request what is the addre
+request uh whats the address
+thankyou thank you good bye
+thankyou thank you good bye
+inform looking for an expensive restaurant in the east of town
+confirm is it in the center
+request what is the address and phone number
+request the phone
+affirm unintelligible yeah what about thai food
+null sil
+inform im looking for scandinavian food
+inform im looking for an expensive restaurant
+inform african food
+affirm yes
+inform im looking for turkish food
+request and the address
+thankyou thank you good bye
+request phone number
+null noise
+null breathing
+request whats the address
+request address
+negate no
+request address
+null noise
+affirm yes
+thankyou thank you goodbye
+thankyou thank you goodbye
+reqalts what about portuguese food
+reqalts is there anything else
+reqalts okay how about thai food
+null noise
+thankyou thank you goodbye
+inform i dont care
+request can i have the phone number
+inform im looking for something serving vegetarian food
+thankyou thank you good bye
+request and the phone number
+reqalts anything else
+thankyou okay thank
+inform im looking for an expensive restaurant
+inform im looking for a restaurant in any area that serves tuscan food
+request type of food
+request what is their address
+request type of food do they serve
+affirm yes
+inform center
+inform west
+request okay can i have the rest of the address for da vinci
+inform doesnt matter
+request how about the phone number
+request the phone number
+request um address
+inform moderate
+request what is the phone number
+inform expensive restaurant
+reqalts anything house
+request address
+inform south town
+null i dont want pizza
+thankyou thank you good bye
+inform uh cheap restaurant
+request whats the phone number
+inform id like moderately priced moroccan food
+inform halo food
+inform japanese
+thankyou thank you good bye
+inform korean food
+inform modern european food
+inform im looking for a moderately priced restaurant
+request address phone number
+inform basque
+request address
+thankyou thank you goodbye
+request what is the address
+inform south
+negate no im looking for asian oriental
+inform any
+request whats the name
+reqalts how about gastro type
+inform im looking for a restaurant serving pan asian foo
+inform any area cuban food
+request what is the price range
+request address
+inform cheap restaurant mediterranean food
+inform okay cheap turkish food
+thankyou thank you good bye
+thankyou thank you goodbye
+inform id like to find a restaurant in the west part of town that serves christmas food
+request whats the address
+inform moderately priced north part of
+request could you give me the number
+inform im looking for a barbecue restaurant in the east part of town
+reqalts is there anything else
+inform any
+inform the center of town
+inform north
+null unintelligible
+inform any kind
+inform catalan
+request address
+inform brazilian food
+reqalts anything else
+thankyou thank you good bye
+inform i dont care
+request what is the golden woks phone number
+inform a moderately priced restaurant that serves
+inform im looking for a restaurant that serves gastropub food any price range
+thankyou thank you good bye
+inform could i have a restaurant in the center
+reqalts how bout indian food
+request whats the phone number
+reqalts is there a restaurant serving thai food
+null sil
+request and the phone number
+inform caribbean food
+request what is the telephone number
+thankyou thank you good bye
+inform food from thailand
+inform ah scottish food
+inform expensive
+request can i have the address phone number and price range
+affirm yes
+request postcode
+inform any type of food
+request what is the phone number and price range
+inform im looking for a restaurant in the south of town serving chinese food
+inform any
+inform italian food
+inform im looking for a restaurant in the north part of town
+affirm yes
+inform uh korean food
+thankyou thank you good bye
+thankyou thank you good bye
+bye good bye
+request whats the post code
+affirm yes
+request what is the address and phone number
+request whats the address
+inform cheap
+request okay and can i get the phone number
+request address
+inform south
+request address
+thankyou thank you good bye
+thankyou thank you good bye
+inform uh cheap restaurant serving scandinavian food
+inform it doesnt matter
+inform i want a moderately priced
+negate no
+thankyou thank you good bye
+request phone number
+inform i dont care
+affirm yes
+request can i have the address
+request phone number
+inform i dont care
+request address
+inform how bout an indian
+request address
+inform any
+inform malaysian food
+request okay can i have the phone number
+request what is the phone number and address
+inform any
+inform east
+request price range
+inform any area
+affirm yes
+negate breath no malaysian food
+inform im looking for
+request phone number please
+inform any price range
+inform im looking for a restaurant in the east part of town serving chinese food
+inform i want a restaurant in the east part of town
+affirm right
+request phone number
+inform traditional food
+thankyou thank you good bye
+request whats his addre
+thankyou thank you good bye
+request okay what is the address
+request whats the address
+inform it doesnt matter
+inform restaurant
+thankyou thank you good bye
+reqalts how about thai
+request address
+null noise
+inform im moderate priced restaurant in the north part of town
+inform im looking for a restaurant serving chinese food
+request what type of food do they serve
+request phone
+request may i have the phone number please
+request can you give me the phone number
+inform i want a restaurant
+inform im looking for a moderately priced restaurant and it should be in the east part of town
+thankyou thank you good bye
+inform is there one that serves creative food
+inform east
+request whats their address
+inform i would like to find a cheap restaurant
+request whats the phone number
+inform west part of town
+reqalts how about thai
+request can i have the address and phone number
+request what type of food is it
+null uh i want to find
+inform cheap restaurant
+request and the phone number
+reqalts how about an expensive restaurant
+inform bistro food
+inform south
+request area
+reqalts how about vietnamese
+request address
+reqalts how about italian
+inform scandinavian food
+null unintelligible
+deny dont want that
+reqalts anything else
+inform polynesian food
+reqalts how about portuguese food
+request address
+inform barbecue food
+thankyou thank you good bye
+inform restaurant
+request what type of food
+reqalts how about turkish type of food
+affirm yes
+request phone number
+negate no
+inform belgium food
+thankyou thank you good bye
+inform um spanish food
+request address
+inform expensive restaurant
+reqalts what about italian food
+thankyou thank you good bye
+null unintelligible
+request may i have the phone number
+null system
+thankyou thank you good bye
+inform moderately priced food
+inform im looking for a cheap restaurant in the north part of town
+bye uh thank you and good bye
+request and whats the phone number
+inform im searching for a restaurant in the south part of town that serves
+inform vietnamese food in any area
+thankyou thank you good bye
+reqalts how about thai food
+null what is available in the ar
+inform italian food
+inform south
+thankyou okay thank you bye
+thankyou thank you good bye
+inform english food
+inform center
+request whats their address
+inform expensive
+inform i dont care
+inform i dont care
+thankyou thank you good bye
+affirm yea
+request whats the phone number
+inform im looking for a cheap restaurant in the east part of town
+inform expensive
+thankyou thank you good bye
+inform south
+thankyou thank you good bye
+inform expensive
+inform cheap
+thankyou ok thanks goodbye
+inform expensive
+inform restaurant in the west part of town
+inform uh cheap restaurant
+request address
+bye thank you so much good bye
+request can you give me the address

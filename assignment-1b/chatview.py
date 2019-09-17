@@ -1,7 +1,8 @@
 from list_jsons import list_jsons
-from read_json import getChat
+from get_dialogact import getChat
+import random
 
-database_path = './dstc2_traindev'
+database_path = r'C:\Users\Joske\Documents\Kunstmatige Intelligentie\M2) Blok 1\MAIR\Group Project\Part 1a\MTFREPO'
 
 #export chat transcriptions
 
@@ -15,15 +16,26 @@ def exportchats(datapath, exportpath):
         chats.append(chat)
 
     #write output file
-    outfile = open(exportpath, 'w')
+    allActs = []
     for chat in chats:
         for line in chat:
-            outfile.write(line)
-            outfile.write('\n')
-        outfile.write('\n\n')
-    outfile.close()
+            allActs.append(" ".join(line).lower())
+    random.shuffle(allActs)
 
-exportchats(database_path, 'chat_transcripts.txt')
+    trainingSize = int(len(allActs) * 0.85)
+    trainingfile = open(exportpath + '/trainData.txt', 'w')
+    for act in allActs[:trainingSize]:
+        trainingfile.write(act)
+        trainingfile.write('\n')
+    trainingfile.close()
+
+    testfile = open(exportpath + '/testData.txt', 'w')
+    for act in allActs[trainingSize:]:
+        testfile.write(act)
+        testfile.write('\n')
+    testfile.close()
+
+exportchats(database_path, '.')
 
 #return chats one by one
 
@@ -36,6 +48,7 @@ for dir in dirs:
 
 # retrun transcripts when user presses enter
 for chat in chats:
-    input("")
     for line in chat:
-        print(line)
+        input("")
+        print(" ".join(line))
+        
