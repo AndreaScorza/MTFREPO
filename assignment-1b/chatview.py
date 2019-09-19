@@ -2,7 +2,7 @@ from list_jsons import list_jsons
 from get_dialogact import getChat
 import random
 
-database_path = r'C:\Users\Joske\Documents\Kunstmatige Intelligentie\M2) Blok 1\MAIR\Group Project\Part 1a\MTFREPO'
+database_path = './data'
 
 #export chat transcriptions
 
@@ -51,4 +51,3 @@ for chat in chats:
     for line in chat:
         input("")
         print(" ".join(line))
-        
