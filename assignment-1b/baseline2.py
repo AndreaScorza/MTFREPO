@@ -9,8 +9,9 @@ Created on Tue Sep 10 16:27:48 2019
 
 import random
 lines = []
+lines2 = []
 
-filepath = '/Users/andrea/Desktop/cartelladilavoromethods/trainData.txt'
+filepath = './trainData.txt'
 with open(filepath) as fp:
    line = fp.readline()
    cnt = 1
@@ -25,9 +26,15 @@ totalLines = cnt
 count  = 0
 
 while(count < len(lines)):
+    lines2.append(lines[count])
     lines[count] = lines[count].split(" ", 1)[0]
     count = count + 1
-
+    
+count = 0
+while(count < len(lines2)):
+    lines2[count] = lines2[count].split(" ", 1)[1]
+    count = count + 1
+#print(lines2)
 
 count = 0
 count2 = 0
@@ -73,21 +80,16 @@ while (count < len(arrayOfRepetition) - 1):
 
 count = 0
 count2 = 0
-    
 
-          
-
-print(lines)
-while (count < len(lines)):
+while (count < len(lines2)):
     randNumber = random.random()
-    #print(randNumber)
-    while ((arrayOfRepetition[count2] < randNumber) and (count2 < 14)):
+    while ((arrayOfRepetition[count2] < randNumber) and (count2 < len(arrayOfRepetition) - 1)):
         count2 = count2 + 1
-    lines[count] = lines[count] + labels[count2]
+    lines2[count] = labels[count2] + ' ' +  lines2[count]
     count2 = 0
     count  = count + 1
 
 
-print(lines)
+print(lines2)
 
 
