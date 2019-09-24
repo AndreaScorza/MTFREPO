@@ -34,7 +34,6 @@ count = 0
 while(count < len(lines2)):
     lines2[count] = lines2[count].split(" ", 1)[1]
     count = count + 1
-#print(lines2)
 
 count = 0
 count2 = 0
@@ -89,7 +88,27 @@ while (count < len(lines2)):
     count2 = 0
     count  = count + 1
 
+def userSentence(sentence):
+    count2 = 0
+    randNumber = random.random()
+    while ((arrayOfRepetition[count2] < randNumber) and (count2 < len(arrayOfRepetition) - 1)):
+        count2 = count2 + 1
+    return (labels[count2])
 
-print(lines2)
 
+while True:
+    sentence = input()
+    if sentence == 'exit':
+        # lines2 is the combination between the prediction and the sentence as in the format it was given
+        # ( [prediction] + [sentence])
+        # uncomment this loop to see the result.
+        
+        #while (x < len(lines2)):
+        #    print (lines2[x])
+        #    x = x + 1
+        break
 
+    print(userSentence(sentence))
+
+    
+        
