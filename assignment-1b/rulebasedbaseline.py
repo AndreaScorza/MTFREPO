@@ -1,6 +1,17 @@
+"""
+Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+Methods in AI Research
+Assignment 1b
+
+This file defines a rule-based tagger for dialogue acts
+"""
+
 import re
 
 def rulebaseline (input):
+    # below is a list of patterns: the first part in the tuple is a regular
+    # expression that can match the target sentence, the second part is the
+    # dialogue act
     rules = [ (r'thank you', 'thankyou'),
                 ('bye', 'bye'),
                 (r'^yes$', 'affirm'),
@@ -25,6 +36,8 @@ def rulebaseline (input):
                 ('part', 'inform'),
                 ('price', 'inform'),
                 ('.*', 'null')]
+
+    #check patterns in order
     for pattern, tag in rules:
         if re.search(pattern, input):
             return tag
@@ -54,3 +67,11 @@ for line in data:
 print('errors:', errors)
 print('error rate:', errors / total)
 """
+
+# classify user input
+
+while True:
+    sentence = input()
+    if sentence == 'exit':
+        break
+    print(rulebaseline(sentence))

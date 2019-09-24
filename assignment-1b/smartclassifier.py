@@ -21,7 +21,7 @@ ratio = 0.8
 traindata, devdata = data[:int(len(data)*ratio)], data[int(len(data)*(1-ratio)):]
 trainfile.close()
 
-def parseExample(line):
+def parseExample(line):classifier
     # split a line into a tuple with the tag and the sentence
     words = line.split()
     tag = words[0]
