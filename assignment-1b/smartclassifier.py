@@ -7,6 +7,7 @@ This file trains a decision tree to classify dialogue acts
 """
 
 import numpy as np
+import sklearn as sk
 from sklearn import tree
 
 #paths
@@ -21,7 +22,7 @@ ratio = 0.8
 traindata, devdata = data[:int(len(data)*ratio)], data[int(len(data)*(1-ratio)):]
 trainfile.close()
 
-def parseExample(line):classifier
+def parseExample(line):
     # split a line into a tuple with the tag and the sentence
     words = line.split()
     tag = words[0]

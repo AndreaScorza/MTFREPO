@@ -1,3 +1,12 @@
+"""
+Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+Methods in AI Research
+Assignment 1b
+
+This file exports the database to a training and test file
+"""
+
+
 from list_jsons import list_jsons
 from get_dialogact import getChat
 import random
