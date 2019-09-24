@@ -71,26 +71,27 @@ def indexToTag(i):
 
 #get list of input and output data
 
-input = list()
+train_input = list()
 output = list()
 
 for line in traindata:
     tag, sentence = parseExample(line)
     inputvector = bagofwords(sentence)
     tagindex = tagToIndex(tag)
-    input.append(inputvector)
+    train_input.append(inputvector)
     output.append(tagindex)
 
 # train a decision tree
+print('training...')
 model = sk.tree.DecisionTreeClassifier()
-model.fit(input, output)
+model.fit(train_input, output)
 
 # try a sentence
-sent = 'hello'
-sentvector = bagofwords(sent)
-prediction = model.predict([sentvector])
-print(sent)
-print('prediction:', indexToTag(prediction[0]))
+#sent = 'hello'
+#sentvector = bagofwords(sent)
+#prediction = model.predict([sentvector])
+#print(sent)
+#print('prediction:', indexToTag(prediction[0]))
 
 # evaluate the model
 
@@ -113,4 +114,18 @@ for i in range(len(eval_desired_output)):
         wrong += 1
 
 accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
-print('accuracy:', accuracy)
+
+print('done!')
+print('accuracy ratio:', accuracy)
+print()
+print('Try it yourself!')
+
+while True:
+    userinput = input()
+    if userinput == 'exit':
+        break
+
+    uservector = bagofwords(userinput)
+    prediction = model.predict([uservector])
+    print('prediction:', indexToTag(prediction[0]))
+    print()
