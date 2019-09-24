@@ -2,6 +2,8 @@
 Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
 Assignment 1b
+
+This file trains a decision tree to classify dialogue acts
 """
 
 import numpy as np
