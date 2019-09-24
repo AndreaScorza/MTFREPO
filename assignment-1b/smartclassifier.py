@@ -1,6 +1,11 @@
+import numpy as np
+import sklearn as sk
+from sklearn import tree
+
 #paths
 trainpath = './trainData.txt' #location of training data
-import numpy as np
+
+#import training data
 
 trainfile = open(trainpath, 'r')
 data = trainfile.readlines()
@@ -17,9 +22,11 @@ def parseExample(line):
 #get a dictionary with all words in the training corpus
 
 freqdict = dict()
+tags = set()
 
 for line in traindata:
     tag, sentence = parseExample(line)
+    tags.add(tag)
     for word in sentence.split():
         if word in freqdict:
             freqdict[word] += 1
@@ -50,4 +57,60 @@ def bagofwords(sentence):
         vector[index] += 1
     return vector
 
-print(bagofwords('i would like a chinese restaurant jkdfkghej'))
+# get tags
+
+taglist = list(tags)
+
+def tagToIndex(tag):
+    for i in range(len(taglist)):
+        if taglist[i] == tag:
+            return i
+
+def indexToTag(i):
+    return taglist[i]
+
+#get list of input and output data
+
+input = list()
+output = list()
+
+for line in traindata:
+    tag, sentence = parseExample(line)
+    inputvector = bagofwords(sentence)
+    tagindex = tagToIndex(tag)
+    input.append(inputvector)
+    output.append(tagindex)
+
+# train a decision tree
+model = sk.tree.DecisionTreeClassifier()
+model.fit(input, output)
+
+# try a sentence
+sent = 'hello'
+sentvector = bagofwords(sent)
+prediction = model.predict([sentvector])
+print(sent)
+print('prediction:', indexToTag(prediction[0]))
+
+# evaluate the model
+
+eval_input = []
+eval_desired_output = []
+for line in devdata:
+    tag, sentence = parseExample(line)
+    inputvector = bagofwords(sentence)
+    tagindex = tagToIndex(tag)
+    eval_input.append(inputvector)
+    eval_desired_output.append(tagindex)
+
+#predict classification
+eval_predicted_output = model.predict(eval_input)
+
+#get accuracy
+wrong = 0
+for i in range(len(eval_desired_output)):
+    if eval_desired_output[i] != eval_predicted_output[i]:
+        wrong += 1
+
+accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
+print('accuracy:', accuracy)
