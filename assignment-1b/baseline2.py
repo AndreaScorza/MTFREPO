@@ -3,7 +3,7 @@
 """
 Created on Tue Sep 10 16:27:48 2019
 
-@author: andrea
+@author: Andrea, Luka, Jos
 """
 
 
