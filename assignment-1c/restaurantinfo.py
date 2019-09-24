@@ -40,9 +40,3 @@ areas.remove('') #some restaurants have blank area field
 priceranges = list(priceranges)
 areas = list(areas)
 foods = list(foods)
-
-
-
-#for restaurant in restaurants:
-#    if restaurants[restaurant]['pricerange'] == 'expensive':
-#        print(restaurant)
