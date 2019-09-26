@@ -10,7 +10,6 @@ import numpy as np
 import sklearn as sk
 from sklearn import tree
 import pickle
-import smartclassifier
 
 #paths
 trainpath = './trainData.txt' #location of training data
@@ -100,7 +99,6 @@ for line in traindata:
 
 # train a decision tree
 
-print('training...')
 model = sk.tree.DecisionTreeClassifier()
 model.fit(train_input, output)
 
@@ -125,30 +123,3 @@ for i in range(len(eval_desired_output)):
         wrong += 1
 
 accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
-
-print('done!')
-
-#export
-pickle.dump(model, open(exportpath, 'wb'))
-
-file = open(tagsfile, 'w')
-for tag in tags:
-    file.write(tag + ' ')
-file.close()
-
-
-print('accuracy ratio:', accuracy)
-print()
-print('Try it yourself!')
-
-# classify user iput
-
-while True:
-    userinput = input()
-    if userinput == 'exit':
-        break
-
-    uservector = bagofwords(userinput)
-    prediction = model.predict([uservector])
-    print('prediction:', indexToTag(prediction[0]))
-    print()

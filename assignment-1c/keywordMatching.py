@@ -7,19 +7,36 @@ This file defines a rule-based tagger for dialogue acts
 """
 
 from restaurantinfo import restaurantInfo
+import Levenshtein
+
+def findMatch(string, input, editdistance):
+    if string in input:
+        return True
+
+    if editdistance > 0:
+        for word in input.split():
+            distance = Levenshtein.distance(word, string)
+            if distance <= editdistance:
+                return True
+
+    return False
 
 
-
-def extractpreferences (input):
+def extractpreferences (input, editdistance=0):
     user_preferences = {'food': None, 'area': None, 'pricerange': None}
     for food in foods:
-        if food in input:
+        match = findMatch(food, input, editdistance)
+        if match:
             user_preferences['food'] = food
+
     for area in areas:
-        if area in input:
+        match = findMatch(area, input, editdistance)
+        if match:
             user_preferences['area'] = area
+
     for price in priceranges:
-        if price in input:
+        match = findMatch(price, input, editdistance)
+        if match:
             user_preferences['pricerange'] = price
 
     return user_preferences
@@ -44,13 +61,6 @@ areas = list(areas)
 foods = list(foods)
 
 # extractpreferences('i want moderately priced moroccan food in the center area of town')
-
-while True:
-    sentence = input()
-    if sentence == 'exit':
-        break
-    print(extractpreferences(sentence))
-
 # testing
 """
 trainfile = open('./trainData.txt', 'r')
