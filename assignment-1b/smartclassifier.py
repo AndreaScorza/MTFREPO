@@ -9,9 +9,12 @@ This file trains a decision tree to classify dialogue acts
 import numpy as np
 import sklearn as sk
 from sklearn import tree
+import pickle
 
 #paths
 trainpath = './trainData.txt' #location of training data
+exportpath = './model.sav'
+tagsfile = './tags.txt'
 
 #import training data
 
@@ -123,6 +126,16 @@ for i in range(len(eval_desired_output)):
 accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
 
 print('done!')
+
+#export
+pickle.dump(model, open(exportpath, 'wb'))
+
+file = open(tagsfile, 'w')
+for tag in tags:
+    file.write(tag + ' ')
+file.close()
+
+
 print('accuracy ratio:', accuracy)
 print()
 print('Try it yourself!')

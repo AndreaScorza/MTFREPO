@@ -1,0 +1,1 @@
+affirm reqmore repeat ack inform deny request null bye negate restart reqalts thankyou confirm hello 
