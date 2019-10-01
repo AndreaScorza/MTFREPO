@@ -2,7 +2,6 @@
 
 print('Loading...')
 
-import pickle
 import smartclassifier
 from keywordMatching import extractpreferences
 from restaurantinfo import restaurantInfo
@@ -15,29 +14,27 @@ tagsfile = 'tags.txt'       #contains the dialogue tags (in order)
 restaurantsfile = 'restaurantinfo.csv'
 
 #parameters
-alwaysAskConfirmation = False
-useLevenshteinDistance = True
+alwaysAskConfirmation = False   #ask confirmation every time someone expresses a preference
+useLevenshteinDistance = True   #use Levenshtein distance to find preferences
+startSuggestingASAP = True      #suggest restaurants as soon as there is only one option left
+forceOneByeOne = True           #force user to express preferences one by one, in the order in which they are asked
 
 #import dialogue act classifier
-#damodel = pickle.load(open(modelfile, 'rb'))
 damodel = smartclassifier.model
-
-#tagfile = open(tagsfile, 'r')
-#text = tagfile.read()
-#tags = text.split()
-#tagfile.close()
 tags = smartclassifier.taglist
 
 #import restaurant data
 rdata = restaurantInfo(restaurantsfile)
 
-
+#global parameters
 preferences = {'food': None, 'area': None, 'pricerange': None}
 to_confirm = {'food': None, 'area': None, 'pricerange': None}
+suggestion = None
+requestedinfo = set()
 currentstate = 'welcome'
 preferencestates = ['get area preference', 'get food preference', 'get pricerange preference']
 
-
+#lookup function
 def findRestaurants(preferences):
     results = []
     for res in rdata.keys():
@@ -53,6 +50,7 @@ def findRestaurants(preferences):
 
     return results
 
+#give details for a restaurant
 def giveDetails(topic):
     return ''
 
@@ -68,8 +66,10 @@ def savePreferences(expressed, storage):
 def generateOutput(state):
     #for states with very simple output we use a dictionary
     global preferences
+    global suggestion
+    global requestedinfo
 
-    stateToOutput = { 'welcome': 'Hello! Please tell me about what kind of restaurant you would like. You can look for a price range, food type or area of town. Let\'s get cracking!',
+    stateToOutput = { 'welcome': 'Hello! I can help you pick a restaurant for the perfect night out. I\'d love to hear all about what kind of food you would like. Let\'s get cracking!',
                       'end': 'Cheerio!',
                       'start over': 'Sure, let\'s try again. What kind of food are you looking for?'}
 
@@ -100,9 +100,9 @@ def generateOutput(state):
         else:
             areastring = ''
 
-        return 'Are you looking for a fucking ' + pricestring + foodstring + 'restaurant ' + areastring + '?'
+        return 'Are you looking for a ' + pricestring + foodstring + 'restaurant ' + areastring + '?'
 
-
+    #Ask for a new topic
     if state in preferencestates:
         for field in preferences.keys():
             if not preferences[field]:
@@ -111,28 +111,59 @@ def generateOutput(state):
                 return confirmation + ' What kind of ' + field + ' are you looking for?'
 
     if state == 'suggest':
-        options = findRestaurants(preferences)
-        if len(options) >= 1:
-            choice = random.choice(options)
-            return choice + ' might be just your thing!'
-        else:
-            return 'Sorry, i can\'t find anything! what about mcdonalds?'
+        if len(requestedinfo) > 0:
+            infostatements = []
+            for topic in requestedinfo:
+                #sentence templates for every topic
+                topicToSentences = {'addr': ('You can find the restaurant at ', '.'),
+                                    'phone': ('The phone number is ', '.'),
+                                    'postcode': ('The postcode is', '.'),
+                                    'pricerange': ('It\'s a fairly ', ' restaurant.'),
+                                    'area': ('The restaurant is in the lovely ', ' part of town.'),
+                                    'food': ('The restaurant serves ', ' food.')}
+                #put the sentence halves together
+                statement = topicToSentences[topic][0] + rdata[suggestion][topic] + topicToSentences[topic][1]
+                infostatements.append(statement)
+            requestedinfo = set()
+            return ' '.join(infostatements)
 
-    return 'im confused!'
+        #if a suggestion is already stored in the system, just repeat it
+        #this will mostly happen if the system can't make sense of the user input
+        if suggestion:
+            return suggestion + ' might be just your thing!'
+
+        #if no suggestion is in the system, make a new one
+        else:
+            options = findRestaurants(preferences)
+            if len(options) >= 1:
+                choice = random.choice(options)
+                suggestion = choice
+                return choice + ' might be just your thing! It is a ' + rdata[choice]['pricerange'] + ' ' + rdata[choice]['food'] + ' restaurant in the ' + rdata[choice]['area'] + ' part of town.'
+            else:
+                return 'Sorry, i can\'t find anything like that.'
+
+    return 'I didn\'t quite get that. Could you rephrase?'
 
 def newState(oldstate, input, preferences):
 
     global to_confirm
+    global suggestion
+    global requestedinfo
+
     uservector = smartclassifier.bagofwords(input)
     actindex = damodel.predict([uservector])
     act = tags[actindex[0]]
 
-    actToState = {'bye': 'end', 'thankyou': 'end', 'repeat': 'start over'}
+    actToState = {'bye': 'end', 'thankyou': 'end'}
 
     if act in actToState:
         return actToState[act], preferences
 
-    if oldstate == 'welcome' or oldstate in preferencestates:
+    if act == 'repeat':
+        clearpreferences = {'food': None, 'area': None, 'pricerange': None}
+        return 'start over', clearpreferences
+
+    if oldstate == 'welcome' or oldstate in preferencestates or oldstate == 'start over':
         if act == 'inform' or act == 'reqalts':
             expressedpref = extractpreferences(input)
 
@@ -177,16 +208,78 @@ def newState(oldstate, input, preferences):
                             to_confirm = savePreferences(newpreferences, to_confirm)
                             return 'ask confirmation', preferences
 
+                #see if there is more than one restaurant left
+                if startSuggestingASAP:
+                    options = findRestaurants(preferences)
+                    if len(options) == 1:
+                        return 'suggest', preferences
+
                 #see if there are open fields
                 for field in ['food', 'area', 'pricerange']:
                     if not newpreferences[field]:
                         return 'get ' + field + ' preference', newpreferences
                 return 'suggest', newpreferences
 
+    #moving on from making a suggestion
+    if oldstate == 'suggest':
+        if act == 'reqalts':
+            #request alternatives can mean changing preferences or asking for other options with the current preferences
+
+            #check if the user voiced new preferences
+            expressedpref = extractpreferences(input)
+            newprefs = False
+            for field in expressedpref:
+                if expressedpref[field]:
+                    newprefs = True
+
+            #if peferences were changed
+            to_confirm = savePreferences(expressedpref, to_confirm)
+            return 'ask confirmation', preferences
+
+            #if there were preferences expressed, we assume the user wants a similar restaurant
+            options = findRestaurants(preferences)
+            oldsuggestion = suggestion
+            options.remove(oldsuggestion)
+            suggestion = random.choice(options)
+            return 'suggest', preferences
+
+        if act == 'request':
+            requestedinfo = set()
+            keywordstopics = {'phone': 'phone',
+                              'address': 'addr',
+                              'where': 'addr',
+                              'post': 'postcode',
+                              'price': 'pricerange',
+                              'how much': 'pricerange',
+                              'cost': 'pricerange',
+                              'type': 'food',
+                              'kind': 'food',
+                              'food': 'food',
+                              'area': 'area'}
+
+            for keyword in keywordstopics:
+                if keyword in input:
+                    requestedinfo.add(keywordstopics[keyword])
+            return 'suggest', preferences
+
+        if act == 'reqmore':
+            options = findRestaurants(preferences)
+            oldsuggestion = suggestion
+            options.remove(oldsuggestion)
+            suggestion = random.choice(options)
+            return 'suggest', preferences
+
+
     if act == 'affirm':
         #store preferences
         preferences = savePreferences(to_confirm, preferences)
         to_confirm = {'food': None, 'area': None, 'pricerange': None}
+
+        #see if there is more than one restaurant left
+        if startSuggestingASAP:
+            options = findRestaurants(preferences)
+            if len(options) == 1:
+                return 'suggest', preferences
 
         #see if there are open fields
         for field in ['food', 'area', 'pricerange']:
@@ -200,7 +293,8 @@ def newState(oldstate, input, preferences):
             if not preferences[field]:
                 return 'get ' + field + ' preference', preferences
 
-    return 'start over', preferences
+    #default new state if we did not recognise the input / old state combination
+    return oldstate, preferences
 
 print('Done!')
 
