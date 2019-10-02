@@ -1,7 +1,7 @@
 """
 Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
-Assignment 1b
+Assignment 1c
 
 This file defines a rule-based tagger for dialogue acts
 """
@@ -9,35 +9,41 @@ This file defines a rule-based tagger for dialogue acts
 from restaurantinfo import restaurantInfo
 import Levenshtein
 
-def findMatch(string, input, editdistance):
-    if string in input:
-        return True
+def findMatch(string, input):
+    distancelist = []
+    for word in input.split():
+        distance = Levenshtein.distance(word, string)
+        distancelist.append(distance)
 
-    if editdistance > 0:
-        for word in input.split():
-            distance = Levenshtein.distance(word, string)
-            if distance <= editdistance:
-                return True
-
-    return False
+    return min(distancelist)
 
 
 def extractpreferences (input, editdistance=0):
     user_preferences = {'food': None, 'area': None, 'pricerange': None}
-    for food in foods:
-        match = findMatch(food, input, editdistance)
-        if match:
-            user_preferences['food'] = food
+    
+    food_distances = dict()
+    for food in ['italian', 'spanish']:
+        distance = findMatch(food, input)
+        food_distances[food] = distance
+    bestFmatch = min(food_distances, key=food_distances.get)
+    if food_distances[bestFmatch] <= editdistance:
+        user_preferences['food'] = bestFmatch
 
-    for area in areas:
-        match = findMatch(area, input, editdistance)
-        if match:
-            user_preferences['area'] = area
-
-    for price in priceranges:
-        match = findMatch(price, input, editdistance)
-        if match:
-            user_preferences['pricerange'] = price
+    area_distances = dict()
+    for area in ['north', 'east', 'south', 'west', 'centre']:
+        distance = findMatch(area, input)
+        area_distances[area] = distance
+    bestAmatch = min(area_distances, key=area_distances.get)
+    if area_distances[bestAmatch] <= editdistance:
+        user_preferences['area'] = bestAmatch
+        
+    price_distances = dict()
+    for price in ['cheap', 'moderately priced', 'expensive']:
+        distance = findMatch(price, input)
+        price_distances[price] = distance
+    bestPmatch = min(price_distances, key=price_distances.get)
+    if price_distances[bestPmatch] <= editdistance:
+        user_preferences['pricerange'] = bestPmatch
 
     return user_preferences
 

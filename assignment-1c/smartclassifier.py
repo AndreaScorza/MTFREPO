@@ -1,7 +1,7 @@
 """
 Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
-Assignment 1b
+Assignment 1c
 
 This file trains a decision tree to classify dialogue acts
 """
@@ -12,7 +12,7 @@ from sklearn import tree
 import pickle
 
 #paths
-trainpath = './trainData.txt' #location of training data
+trainpath = "C:/Users/Joske/Documents/Kunstmatige Intelligentie/M2) Blok 1/MAIR/Group Project/Part 1a/MTFREPO/assignment-1b/trainData.txt" #location of training data
 exportpath = './model.sav'
 tagsfile = './tags.txt'
 
