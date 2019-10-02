@@ -3,7 +3,7 @@ Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
 Assignment 1c
 
-This file defines a rule-based tagger for dialogue acts
+This file matches keywords to input strings.
 """
 
 from restaurantinfo import restaurantInfo
@@ -20,7 +20,8 @@ def findMatch(string, input):
 
 def extractpreferences (input, editdistance=0):
     user_preferences = {'food': None, 'area': None, 'pricerange': None}
-    
+
+    #extract foor preferences
     food_distances = dict()
     for food in ['italian', 'spanish']:
         distance = findMatch(food, input)
@@ -29,6 +30,7 @@ def extractpreferences (input, editdistance=0):
     if food_distances[bestFmatch] <= editdistance:
         user_preferences['food'] = bestFmatch
 
+    #extract area preferences
     area_distances = dict()
     for area in ['north', 'east', 'south', 'west', 'centre']:
         distance = findMatch(area, input)
@@ -36,7 +38,8 @@ def extractpreferences (input, editdistance=0):
     bestAmatch = min(area_distances, key=area_distances.get)
     if area_distances[bestAmatch] <= editdistance:
         user_preferences['area'] = bestAmatch
-        
+
+    #extract price clearpreferences
     price_distances = dict()
     for price in ['cheap', 'moderately priced', 'expensive']:
         distance = findMatch(price, input)

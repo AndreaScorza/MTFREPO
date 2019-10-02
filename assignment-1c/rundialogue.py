@@ -20,7 +20,7 @@ startSuggestingASAP = True      #suggest restaurants as soon as there is only on
 startSuggestingImmediately = False   #suggest restaurants after the first user utterance
 forceOneByeOne = False           #force user to express preferences one by one, in the order in which they are asked
 maxUtterances = False           #force a maximum number of utterances by the user
-textToSpeech = True             #use TTS for system utterances
+textToSpeech = False             #use TTS for system utterances
 
 if textToSpeech:
     import pyttsx3
@@ -102,6 +102,7 @@ def generateOutput(state):
                 return 'Do you want ' + newpref + ' instead of ' + oldpref + '?'
 
         #otherwise just ask for a general confirmation
+        #create substring for each topic
         if to_confirm['pricerange']:
             pricestring = to_confirm['pricerange'] + ' '
         else:
@@ -117,6 +118,7 @@ def generateOutput(state):
         else:
             areastring = ''
 
+        #make one big statement
         return 'Are you looking for a ' + pricestring + foodstring + 'restaurant ' + areastring + '?'
 
     #ask for preference on a new topic
@@ -189,9 +191,20 @@ def newState(oldstate, input, preferences):
         requestedinfo = set()
         return 'start over', clearpreferences
 
+    if oldstate == 'ask to repeat':
+        #if we have a suggestion stored, continue with that
+        if suggestion:
+            return newState('suggest', input, preferences)
+
+        #otherwise just ask for confirmation
+        expressedpref = extractpreferences(input)
+        to_confirm = savePreferences(preferences, to_confirm)
+        to_confirm = savePreferences(expressedpref, to_confirm)
+        return 'ask confirmation', preferences
+
     #interpret user preferences
     if oldstate == 'welcome' or oldstate in preferencestates or oldstate == 'start over' or oldstate == 'ask to repeat':
-        if act == 'inform' or act == 'reqalts':
+        if act == 'inform' or act == 'reqalts' or act == 'hello':
             #extract preferences
             expressedpref = extractpreferences(input)
 
@@ -213,11 +226,8 @@ def newState(oldstate, input, preferences):
 
             # use Levenshtein distance if applicable
             if useLevenshteinDistance:
-                #check (maybe again) if no preferences were found: in that case use edit distance to look for typos
-                anypref = False
-                for field in expressedpref.keys():
-                    if expressedpref[field]:
-                        anypref = True
+                #check if no preferences were found: in that case use edit distance to look for typos
+                anypref = any(expressedpref.values())
 
                 if not anypref:
                     #use edit distance to find typos
@@ -228,13 +238,16 @@ def newState(oldstate, input, preferences):
 
             #if we use the forceOneByeOne setting, the system only cares about statements on the relevant topic
             if forceOneByeOne:
-                if oldstate != 'ask to repeat': #ask to repeat doesnt have memory on what topic we were asking about so we're ignoring it for now
-                    filteredpref =  {'food': None, 'area': None, 'pricerange': None}
-                    filteredpref[topic] = expressedpref[topic]
-                    expressedpref = filteredpref
+                filteredpref =  {'food': None, 'area': None, 'pricerange': None}
+                filteredpref[topic] = expressedpref[topic]
+                expressedpref = filteredpref
 
             if not expressedpref:
                 #if we still couldn´t find anything
+                #if the act was hello, the user probably just said a greeting. Aks for the food type
+                if act == 'hello':
+                    return 'get food preference'
+                #else, something went wrong. ask to repeat
                 return 'ask to repeat', preferences
 
             #process the expressed preferences: ask for confirmation or store the directly
@@ -312,6 +325,12 @@ def newState(oldstate, input, preferences):
                     requestedinfo.add(keywordstopics[keyword])
             return 'suggest', preferences
 
+        if act == 'negate':
+                    expressedpref = extractpreferences(input, 2)
+
+                    to_confirm = savePreferences(expressedpref, to_confirm)
+                    return 'ask confirmation', preferences
+
         #give more restaurants without changing anything
         if act == 'reqmore':
             options = findRestaurants(preferences)
@@ -345,9 +364,18 @@ def newState(oldstate, input, preferences):
         return 'suggest', preferences
 
     # denial of the information in to_confirm
-    if act == 'deny':
+    if act == 'deny' or 'negate':
         #reset to_confirm
         to_confirm = {'food': None, 'area': None, 'pricerange': None}
+
+        #see if new preferences were epxressed
+        expressedpref = extractpreferences(input, 2)
+        anypref = any(expressedpref.values())
+
+        if anypref:
+            to_confirm = savePreferences(expressedpref, to_confirm)
+            return 'ask confirmation', preferences
+
         #ask about new preference
         for field in ['food', 'area', 'pricerange']:
             if not preferences[field]:
@@ -357,7 +385,7 @@ def newState(oldstate, input, preferences):
         return 'ask confirmation', preferences
 
     #default new state if we did not recognise the input / old state combination
-    return oldstate, preferences
+    return 'ask to repeat', preferences
 
 print('Done!\n')
 

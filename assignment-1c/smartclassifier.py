@@ -12,7 +12,7 @@ from sklearn import tree
 import pickle
 
 #paths
-trainpath = "C:/Users/Joske/Documents/Kunstmatige Intelligentie/M2) Blok 1/MAIR/Group Project/Part 1a/MTFREPO/assignment-1b/trainData.txt" #location of training data
+trainpath = "./trainData.txt" #location of training data
 exportpath = './model.sav'
 tagsfile = './tags.txt'
 
