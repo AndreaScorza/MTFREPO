@@ -7,8 +7,6 @@ from keywordMatching import extractpreferences
 from restaurantinfo import restaurantInfo
 import copy
 import random
-import pyttsx3
-import engineio
 
 #pathnames
 modelfile = 'model.sav'     #contains the trained dialogue act classifier
@@ -21,8 +19,12 @@ useLevenshteinDistance = True   #use Levenshtein distance to find preferences
 startSuggestingASAP = True      #suggest restaurants as soon as there is only one option left
 startSuggestingImmediately = False   #suggest restaurants after the first user utterance
 forceOneByeOne = False           #force user to express preferences one by one, in the order in which they are asked
-maxUtterances = False
-textToSpeech = True
+maxUtterances = False           #force a maximum number of utterances by the user
+textToSpeech = True             #use TTS for system utterances
+
+if textToSpeech:
+    import pyttsx3
+    import engineio
 
 #import dialogue act classifier
 damodel = smartclassifier.model
@@ -362,12 +364,12 @@ print('Done!\n')
 while True:
     #give some output to the user
     output = generateOutput(currentstate)
-    
+
     if textToSpeech == True:
         engineio = pyttsx3.init()
         engineio.say(output)
         engineio.runAndWait()
-        
+
     print(output)
 
     if maxUtterances:
