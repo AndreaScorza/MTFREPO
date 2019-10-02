@@ -1,6 +1,6 @@
 Code for assignment 1c of Methods in AI research
 
-Authors:Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+Authors: Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 
 ### Overview of files
 Our program consists of the following files:
