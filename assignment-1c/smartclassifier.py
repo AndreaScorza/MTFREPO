@@ -17,9 +17,9 @@ exportpath = './model.sav'
 tagsfile = './tags.txt'
 
 #import training data
-
 trainfile = open(trainpath, 'r')
 data = trainfile.readlines()
+
 #split into train and dev set with 80/20 ratio
 ratio = 0.8
 traindata, devdata = data[:int(len(data)*ratio)], data[int(len(data)*(1-ratio)):]

@@ -1,4 +1,10 @@
+"""
+Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+Methods in AI Research
+Assignment 1c
 
+This file matches keywords to input strings.
+"""
 
 print('Loading...')
 
@@ -14,13 +20,14 @@ tagsfile = 'tags.txt'       #contains the dialogue tags (in order)
 restaurantsfile = 'restaurantinfo.csv'  #contains restaurant database
 
 #parameters
-alwaysAskConfirmation = False   #ask confirmation every time someone expresses a preference
-useLevenshteinDistance = True   #use Levenshtein distance to find preferences
-startSuggestingASAP = True      #suggest restaurants as soon as there is only one option left
-startSuggestingImmediately = False   #suggest restaurants after the first user utterance
-forceOneByeOne = False           #force user to express preferences one by one, in the order in which they are asked
-maxUtterances = False           #force a maximum number of utterances by the user
-textToSpeech = False             #use TTS for system utterances
+alwaysAskConfirmation = False       #ask confirmation every time someone expresses a preference
+useLevenshteinDistance = True       #use Levenshtein distance to find preferences
+startSuggestingASAP = True          #suggest restaurants as soon as there is only one option left
+startSuggestingImmediately = False  #suggest restaurants after the first user utterance
+forceOneByeOne = False              #force user to express preferences one by one, in the order in which they are asked
+maxUtterances = False               #force a maximum number of utterances by the user
+textToSpeech = False                #use TTS for system utterances
+verbose = True                      #prints extra info for debugging purposes
 
 if textToSpeech:
     import pyttsx3
@@ -42,6 +49,7 @@ currentstate = 'welcome'
 preferencestates = ['get area preference', 'get food preference', 'get pricerange preference']
 utterancecount = 0
 utterancemax = 5
+testtag = None
 
 #lookup function
 def findRestaurants(preferences):
@@ -175,9 +183,13 @@ def newState(oldstate, input, preferences):
     uservector = smartclassifier.bagofwords(input)
     actindex = damodel.predict([uservector])
     act = tags[actindex[0]]
+    
+    #prints info for debugging purposes
+    if verbose:
+        print(act)
 
     #some acts have simple output state, which we put in a dictionary
-    actToState = {'bye': 'end', 'thankyou': 'end'}
+    actToState = {'bye': 'end', 'thankyou': 'end', 'null': 'ask to repeat'}
     if act in actToState:
         return actToState[act], preferences
 
@@ -221,7 +233,7 @@ def newState(oldstate, input, preferences):
                 if string in input:
                     nopref = True
             if nopref:
-                #if a no prefrence statement was made
+                #if a no preference statement was made
                 expressedpref[topic] = 'any'
 
             # use Levenshtein distance if applicable
@@ -231,10 +243,13 @@ def newState(oldstate, input, preferences):
 
                 if not anypref:
                     #use edit distance to find typos
-                    expressedpref = extractpreferences(input, 2)
-
-                    to_confirm = savePreferences(expressedpref, to_confirm)
-                    return 'ask confirmation', preferences
+                    expressedpref = extractpreferences(input, 2)    #with a bigger Levenshtein distance, chaos ensues
+                    
+                    foundsomething = any(expressedpref.values())
+                    
+                    if foundsomething:
+                        to_confirm = savePreferences(expressedpref, to_confirm)
+                        return 'ask confirmation', preferences
 
             #if we use the forceOneByeOne setting, the system only cares about statements on the relevant topic
             if forceOneByeOne:
@@ -242,7 +257,8 @@ def newState(oldstate, input, preferences):
                 filteredpref[topic] = expressedpref[topic]
                 expressedpref = filteredpref
 
-            if not expressedpref:
+            anypref = any(expressedpref.values())
+            if not anypref:
                 #if we still couldn´t find anything
                 #if the act was hello, the user probably just said a greeting. Aks for the food type
                 if act == 'hello':
@@ -261,7 +277,13 @@ def newState(oldstate, input, preferences):
                 newpreferences = savePreferences(expressedpref, preferences)
 
                 #see if a change was made
-                if any([preferences[field] for field in preferences]):
+                changed = False
+                for field in preferences:
+                    if preferences[field] != None:
+                        if preferences[field]  != newpreferences[field]:
+                            changed = True
+                    
+                if changed:
                     to_confirm = savePreferences(newpreferences, to_confirm)
                     return 'ask confirmation', preferences
 
@@ -300,6 +322,11 @@ def newState(oldstate, input, preferences):
             options = findRestaurants(preferences)
             oldsuggestion = suggestion
             options.remove(oldsuggestion)
+            
+            #if there are no alternatives left, we present the same suggestion again
+            if len(options) == 0:
+                return 'suggest', preferences
+            
             suggestion = random.choice(options)
             return 'suggest', preferences
 
@@ -336,6 +363,10 @@ def newState(oldstate, input, preferences):
             options = findRestaurants(preferences)
             oldsuggestion = suggestion
             options.remove(oldsuggestion)
+            
+            if len(options) == 0:
+                return 'suggest', preferences
+            
             suggestion = random.choice(options)
             return 'suggest', preferences
 
@@ -344,6 +375,7 @@ def newState(oldstate, input, preferences):
         #store to_confirm to preferences and reset
         preferences = savePreferences(to_confirm, preferences)
         to_confirm = {'food': None, 'area': None, 'pricerange': None}
+        suggestion = None
 
         #if startSuggestingImmediately
         if startSuggestingImmediately:
@@ -393,13 +425,20 @@ while True:
     #give some output to the user
     output = generateOutput(currentstate)
 
+    #text to speech output is available
     if textToSpeech == True:
         engineio = pyttsx3.init()
         engineio.say(output)
         engineio.runAndWait()
 
+    #prints info for debugging purposes
+    if verbose:
+        print(currentstate)
+        print(preferences)
+        
     print(output)
 
+    #presents user with info about remaining number of utterances
     if maxUtterances:
         if utterancecount != utterancemax:
             print('[', utterancemax - utterancecount, 'sentences left ]')

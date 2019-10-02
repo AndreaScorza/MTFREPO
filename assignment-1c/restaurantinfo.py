@@ -1,3 +1,11 @@
+"""
+Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
+Methods in AI Research
+Assignment 1c
+
+This file matches keywords to input strings.
+"""
+
 import csv
 
 def restaurantInfo(filename):

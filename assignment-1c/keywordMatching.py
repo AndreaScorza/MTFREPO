@@ -21,27 +21,27 @@ def findMatch(string, input):
 def extractpreferences (input, editdistance=0):
     user_preferences = {'food': None, 'area': None, 'pricerange': None}
 
-    #extract foor preferences
+    #extract food preferences based on Levenshtein (when applicable)
     food_distances = dict()
-    for food in ['italian', 'spanish']:
+    for food in foods:
         distance = findMatch(food, input)
         food_distances[food] = distance
     bestFmatch = min(food_distances, key=food_distances.get)
     if food_distances[bestFmatch] <= editdistance:
         user_preferences['food'] = bestFmatch
 
-    #extract area preferences
+    #extract area preferences based on Levenshtein (when applicable)
     area_distances = dict()
-    for area in ['north', 'east', 'south', 'west', 'centre']:
+    for area in areas:
         distance = findMatch(area, input)
         area_distances[area] = distance
     bestAmatch = min(area_distances, key=area_distances.get)
     if area_distances[bestAmatch] <= editdistance:
         user_preferences['area'] = bestAmatch
 
-    #extract price clearpreferences
+    #extract pricerange preferences based on Levenshtein (when applicable)
     price_distances = dict()
-    for price in ['cheap', 'moderately priced', 'expensive']:
+    for price in priceranges:
         distance = findMatch(price, input)
         price_distances[price] = distance
     bestPmatch = min(price_distances, key=price_distances.get)
