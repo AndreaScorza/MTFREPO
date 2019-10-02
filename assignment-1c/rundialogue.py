@@ -35,8 +35,7 @@ if textToSpeech:
     import engineio
     
 if speechToText:
-    import pyttsx3
-    import engineio
+    import speech_recognition as sr
 
 #import dialogue act classifier
 damodel = smartclassifier.model
