@@ -16,9 +16,17 @@ To run the code, the following packages should be part of your python installati
 * Levenshtein
 * scikit-learn
 * numpy
+
+TTS packages:
 * pyttsx3
 * speake3
 * engineio
+
+STT packages:
+* SpeechRecognition
+* portaudio
+* PyAudio
+
 
 Commands to install:
 ```
@@ -28,4 +36,11 @@ pip install python-Levenshtein
 pip install pyttsx3
 pip install speake3
 pip install python-engineio
+pip install SpeechRecognition
+brew install portaudio
+pip install PyAudio
+
 ```
+
+Note: The TTS and STT modules were tested on macOS Sierra
+if using STT remember to speak only after the message "I'm listening..." gets displayed
