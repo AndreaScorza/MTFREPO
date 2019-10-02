@@ -7,17 +7,22 @@ from keywordMatching import extractpreferences
 from restaurantinfo import restaurantInfo
 import copy
 import random
+import pyttsx3
+import engineio
 
 #pathnames
 modelfile = 'model.sav'     #contains the trained dialogue act classifier
 tagsfile = 'tags.txt'       #contains the dialogue tags (in order)
-restaurantsfile = 'restaurantinfo.csv'
+restaurantsfile = 'restaurantinfo.csv'  #contains restaurant database
 
 #parameters
 alwaysAskConfirmation = False   #ask confirmation every time someone expresses a preference
 useLevenshteinDistance = True   #use Levenshtein distance to find preferences
 startSuggestingASAP = True      #suggest restaurants as soon as there is only one option left
-forceOneByeOne = True           #force user to express preferences one by one, in the order in which they are asked
+startSuggestingImmediately = False   #suggest restaurants after the first user utterance
+forceOneByeOne = False           #force user to express preferences one by one, in the order in which they are asked
+maxUtterances = False
+textToSpeech = True
 
 #import dialogue act classifier
 damodel = smartclassifier.model
@@ -33,18 +38,22 @@ suggestion = None
 requestedinfo = set()
 currentstate = 'welcome'
 preferencestates = ['get area preference', 'get food preference', 'get pricerange preference']
+utterancecount = 0
+utterancemax = 5
 
 #lookup function
 def findRestaurants(preferences):
     results = []
+    #loop through restaurants
     for res in rdata.keys():
         #check if it maches preferences
         match = True
         for field in preferences.keys():
-            if preferences[field]:
-                if preferences[field] != 'any' and preferences[field] != rdata[res][field]:
-                    match = False
+            if preferences[field] and preferences[field] != 'any': #if some preference was filled in
+                    if preferences[field] != rdata[res][field]: #and it doesn't match the restaurant
+                        match = False
 
+        #if there was no mismatch
         if match:
             results.append(res)
 
@@ -69,13 +78,19 @@ def generateOutput(state):
     global suggestion
     global requestedinfo
 
+    #for states which always need the same output, we use a dictionary
     stateToOutput = { 'welcome': 'Hello! I can help you pick a restaurant for the perfect night out. I\'d love to hear all about what kind of food you would like. Let\'s get cracking!',
                       'end': 'Cheerio!',
-                      'start over': 'Sure, let\'s try again. What kind of food are you looking for?'}
+                      'start over': 'Sure, let\'s try again. What kind of food are you looking for?',
+                      'ask to repeat': 'I\'m sorry, I don\'t know what you mean. Could you rephrase?',
+                      'ran out of time': 'I don\'t think this is getting anywhere. I have places to be. Cheerio!'}
 
     if state in stateToOutput:
         return stateToOutput[state]
 
+    #handling more complicated states
+
+    #ask for confirmation
     if state == 'ask confirmation':
         #check if the user if overriding an older choice
         for field in preferences.keys():
@@ -102,7 +117,7 @@ def generateOutput(state):
 
         return 'Are you looking for a ' + pricestring + foodstring + 'restaurant ' + areastring + '?'
 
-    #Ask for a new topic
+    #ask for preference on a new topic
     if state in preferencestates:
         for field in preferences.keys():
             if not preferences[field]:
@@ -110,7 +125,9 @@ def generateOutput(state):
                 confirmation = random.choice(confirmations)
                 return confirmation + ' What kind of ' + field + ' are you looking for?'
 
+    #various statements in the suggesting phase
     if state == 'suggest':
+        #if information was requested, provide it
         if len(requestedinfo) > 0:
             infostatements = []
             for topic in requestedinfo:
@@ -150,34 +167,49 @@ def newState(oldstate, input, preferences):
     global suggestion
     global requestedinfo
 
+    #classify user utterance
     uservector = smartclassifier.bagofwords(input)
     actindex = damodel.predict([uservector])
     act = tags[actindex[0]]
 
+    #some acts have simple output state, which we put in a dictionary
     actToState = {'bye': 'end', 'thankyou': 'end'}
-
     if act in actToState:
         return actToState[act], preferences
 
-    if act == 'repeat':
+    #start over
+    if act == 'repeat' or act == 'restart':
+        #note: the user saying "start over" is classified as repeat, so we treat
+        # it as a request to start over from the top, not repeat the last statement
         clearpreferences = {'food': None, 'area': None, 'pricerange': None}
+        to_confirm = {'food': None, 'area': None, 'pricerange': None}
+        suggestion = None
+        requestedinfo = set()
         return 'start over', clearpreferences
 
-    if oldstate == 'welcome' or oldstate in preferencestates or oldstate == 'start over':
+    #interpret user preferences
+    if oldstate == 'welcome' or oldstate in preferencestates or oldstate == 'start over' or oldstate == 'ask to repeat':
         if act == 'inform' or act == 'reqalts':
+            #extract preferences
             expressedpref = extractpreferences(input)
 
+            #get which topic we were asking about. Sometimes relevant.
             if oldstate in preferencestates:
-                #see if the user said something like whatever/ doesnt matter, etc
-                noprefstrings = ['whatever', 'any', 'doesnt matter', 'doesn\'t matter']
-                nopref = False
-                for string in noprefstrings:
-                    if string in input:
-                        nopref = True
-                if nopref:
-                    topic = oldstate.split()[1]
-                    expressedpref[topic] = 'any'
+                topic = oldstate.split()[1]
+            else:
+                topic = 'food'
 
+            # see if the user said something like whatever/ doesnt matter, etc
+            noprefstrings = ['whatever', 'any', 'doesnt matter', 'doesn\'t matter']
+            nopref = False
+            for string in noprefstrings:
+                if string in input:
+                    nopref = True
+            if nopref:
+                #if a no prefrence statement was made
+                expressedpref[topic] = 'any'
+
+            # use Levenshtein distance if applicable
             if useLevenshteinDistance:
                 #check (maybe again) if no preferences were found: in that case use edit distance to look for typos
                 anypref = False
@@ -192,6 +224,19 @@ def newState(oldstate, input, preferences):
                     to_confirm = savePreferences(expressedpref, to_confirm)
                     return 'ask confirmation', preferences
 
+            #if we use the forceOneByeOne setting, the system only cares about statements on the relevant topic
+            if forceOneByeOne:
+                if oldstate != 'ask to repeat': #ask to repeat doesnt have memory on what topic we were asking about so we're ignoring it for now
+                    filteredpref =  {'food': None, 'area': None, 'pricerange': None}
+                    filteredpref[topic] = expressedpref[topic]
+                    expressedpref = filteredpref
+
+            if not expressedpref:
+                #if we still couldn´t find anything
+                return 'ask to repeat', preferences
+
+            #process the expressed preferences: ask for confirmation or store the directly
+
             if alwaysAskConfirmation:
                 #store preferences
                 to_confirm = savePreferences(expressedpref, to_confirm)
@@ -201,12 +246,13 @@ def newState(oldstate, input, preferences):
                 newpreferences = savePreferences(expressedpref, preferences)
 
                 #see if a change was made
-                for field in preferences.keys():
-                    if preferences[field] != None:
-                        if newpreferences[field] != preferences[field]:
+                if any([preferences[field] for field in preferences]):
+                    to_confirm = savePreferences(newpreferences, to_confirm)
+                    return 'ask confirmation', preferences
 
-                            to_confirm = savePreferences(newpreferences, to_confirm)
-                            return 'ask confirmation', preferences
+                #start suggesting now if startSuggestingImmediately is turned on
+                if startSuggestingImmediately:
+                    return 'suggest', preferences
 
                 #see if there is more than one restaurant left
                 if startSuggestingASAP:
@@ -227,14 +273,13 @@ def newState(oldstate, input, preferences):
 
             #check if the user voiced new preferences
             expressedpref = extractpreferences(input)
-            newprefs = False
-            for field in expressedpref:
-                if expressedpref[field]:
-                    newprefs = True
+            newprefs = any([expressedpref[field] for field in expressedpref])
 
-            #if peferences were changed
-            to_confirm = savePreferences(expressedpref, to_confirm)
-            return 'ask confirmation', preferences
+            #if peferences were changed, move to asking for confirmation
+            if newprefs:
+                to_confirm = savePreferences(expressedpref, to_confirm)
+                suggestion = None
+                return 'ask confirmation', preferences
 
             #if there were preferences expressed, we assume the user wants a similar restaurant
             options = findRestaurants(preferences)
@@ -243,8 +288,10 @@ def newState(oldstate, input, preferences):
             suggestion = random.choice(options)
             return 'suggest', preferences
 
+        #if the user was asking for information about the restaurant
         if act == 'request':
             requestedinfo = set()
+            #keywords that match to particular topics
             keywordstopics = {'phone': 'phone',
                               'address': 'addr',
                               'where': 'addr',
@@ -257,11 +304,13 @@ def newState(oldstate, input, preferences):
                               'food': 'food',
                               'area': 'area'}
 
+            #save which topics were mentioned
             for keyword in keywordstopics:
                 if keyword in input:
                     requestedinfo.add(keywordstopics[keyword])
             return 'suggest', preferences
 
+        #give more restaurants without changing anything
         if act == 'reqmore':
             options = findRestaurants(preferences)
             oldsuggestion = suggestion
@@ -269,11 +318,15 @@ def newState(oldstate, input, preferences):
             suggestion = random.choice(options)
             return 'suggest', preferences
 
-
+    # confirmation of  the info in to_confirm
     if act == 'affirm':
-        #store preferences
+        #store to_confirm to preferences and reset
         preferences = savePreferences(to_confirm, preferences)
         to_confirm = {'food': None, 'area': None, 'pricerange': None}
+
+        #if startSuggestingImmediately
+        if startSuggestingImmediately:
+            return 'suggest', preferences
 
         #see if there is more than one restaurant left
         if startSuggestingASAP:
@@ -285,29 +338,58 @@ def newState(oldstate, input, preferences):
         for field in ['food', 'area', 'pricerange']:
             if not preferences[field]:
                 return 'get ' + field + ' preference', preferences
+
+        #if there are no opten fields, make a suggestion
         return 'suggest', preferences
 
+    # denial of the information in to_confirm
     if act == 'deny':
+        #reset to_confirm
         to_confirm = {'food': None, 'area': None, 'pricerange': None}
+        #ask about new preference
         for field in ['food', 'area', 'pricerange']:
             if not preferences[field]:
                 return 'get ' + field + ' preference', preferences
+        #if the preference field is still full
+        to_confirm = preferences
+        return 'ask confirmation', preferences
 
     #default new state if we did not recognise the input / old state combination
     return oldstate, preferences
 
-print('Done!')
+print('Done!\n')
 
 while True:
     #give some output to the user
-    print(generateOutput(currentstate))
+    output = generateOutput(currentstate)
+    
+    if textToSpeech == True:
+        engineio = pyttsx3.init()
+        engineio.say(output)
+        engineio.runAndWait()
+        
+    print(output)
+
+    if maxUtterances:
+        if utterancecount != utterancemax:
+            print('[', utterancemax - utterancecount, 'sentences left ]')
 
     #end program if we're done
-    if currentstate == 'end':
+    if currentstate == 'end' or currentstate == 'ran out of time':
         break
 
+    #get user input
     sentence = input()
     sentence = sentence.lower()
 
+
     #interpret input, get new state
     currentstate, preferences = newState(currentstate, sentence, preferences)
+
+    #increase utterance count
+    utterancecount += 1
+
+    #check if we exceeded maximum utterances
+    if maxUtterances:
+        if utterancecount >= utterancemax:
+            currentstate = 'ran out of time'
