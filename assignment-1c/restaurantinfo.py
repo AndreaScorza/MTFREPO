@@ -30,6 +30,7 @@ def restaurantInfo(filename):
 
     return restaurants
 
+"""
 #import restaurant data
 rdata = restaurantInfo('./restaurantinfo.csv')
 
@@ -48,3 +49,4 @@ areas.remove('') #some restaurants have blank area field
 priceranges = list(priceranges)
 areas = list(areas)
 foods = list(foods)
+"""

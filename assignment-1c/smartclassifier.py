@@ -9,7 +9,6 @@ This file trains a decision tree to classify dialogue acts
 import numpy as np
 import sklearn as sk
 from sklearn import tree
-import pickle
 
 #paths
 trainpath = "./trainData.txt" #location of training data
