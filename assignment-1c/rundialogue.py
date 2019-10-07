@@ -3,7 +3,7 @@ Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
 Assignment 1c
 
-This file matches keywords to input strings.
+This file contains the main loop for the dialogue system.
 """
 
 print('Loading...')
@@ -27,7 +27,7 @@ startSuggestingImmediately = False  #suggest restaurants after the first user ut
 forceOneByeOne = False              #force user to express preferences one by one, in the order in which they are asked
 maxUtterances = False               #force a maximum number of utterances by the user
 textToSpeech = False                #use TTS for system utterances
-verbose = True                      #prints extra info for debugging purposes
+verbose = False                     #prints extra info for debugging purposes
 
 if textToSpeech:
     import pyttsx3
@@ -183,7 +183,7 @@ def newState(oldstate, input, preferences):
     uservector = smartclassifier.bagofwords(input)
     actindex = damodel.predict([uservector])
     act = tags[actindex[0]]
-    
+
     #prints info for debugging purposes
     if verbose:
         print(act)
@@ -244,9 +244,9 @@ def newState(oldstate, input, preferences):
                 if not anypref:
                     #use edit distance to find typos
                     expressedpref = extractpreferences(input, 2)    #with a bigger Levenshtein distance, chaos ensues
-                    
+
                     foundsomething = any(expressedpref.values())
-                    
+
                     if foundsomething:
                         to_confirm = savePreferences(expressedpref, to_confirm)
                         return 'ask confirmation', preferences
@@ -282,7 +282,7 @@ def newState(oldstate, input, preferences):
                     if preferences[field] != None:
                         if preferences[field]  != newpreferences[field]:
                             changed = True
-                    
+
                 if changed:
                     to_confirm = savePreferences(newpreferences, to_confirm)
                     return 'ask confirmation', preferences
@@ -322,11 +322,11 @@ def newState(oldstate, input, preferences):
             options = findRestaurants(preferences)
             oldsuggestion = suggestion
             options.remove(oldsuggestion)
-            
+
             #if there are no alternatives left, we present the same suggestion again
             if len(options) == 0:
                 return 'suggest', preferences
-            
+
             suggestion = random.choice(options)
             return 'suggest', preferences
 
@@ -363,10 +363,10 @@ def newState(oldstate, input, preferences):
             options = findRestaurants(preferences)
             oldsuggestion = suggestion
             options.remove(oldsuggestion)
-            
+
             if len(options) == 0:
                 return 'suggest', preferences
-            
+
             suggestion = random.choice(options)
             return 'suggest', preferences
 
@@ -435,7 +435,7 @@ while True:
     if verbose:
         print(currentstate)
         print(preferences)
-        
+
     print(output)
 
     #presents user with info about remaining number of utterances

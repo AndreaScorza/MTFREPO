@@ -69,9 +69,10 @@ print('error rate:', errors / total)
 """
 
 # classify user input
-
+"""
 while True:
     sentence = input()
     if sentence == 'exit':
         break
     print(rulebaseline(sentence))
+"""

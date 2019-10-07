@@ -98,6 +98,7 @@ for line in traindata:
     train_input.append(inputvector)
     output.append(tagindex)
 
+"""
 # train a decision tree
 
 print('training...')
@@ -152,3 +153,5 @@ while True:
     prediction = model.predict([uservector])
     print('prediction:', indexToTag(prediction[0]))
     print()
+
+"""
