@@ -27,11 +27,18 @@ startSuggestingImmediately = False  #suggest restaurants after the first user ut
 forceOneByeOne = False              #force user to express preferences one by one, in the order in which they are asked
 maxUtterances = False               #force a maximum number of utterances by the user
 textToSpeech = False                #use TTS for system utterances
+<<<<<<< HEAD
+=======
+speechToText = False                #use STT to listen to the user
+>>>>>>> master
 verbose = False                     #prints extra info for debugging purposes
 
 if textToSpeech:
     import pyttsx3
     import engineio
+    
+if speechToText:
+    import speech_recognition as sr
 
 #import dialogue act classifier
 damodel = smartclassifier.model
@@ -448,7 +455,18 @@ while True:
         break
 
     #get user input
-    sentence = input()
+    if speechToText:
+        r = sr.Recognizer()
+        with sr.Microphone() as source:
+            print("I'm listening ...")                # let the user know when to speak
+            audio = sr.Recognizer().listen(source)
+
+            if verbose:
+                print("sentence: " + r.recognize_google(audio))
+            sentence = r.recognize_google(audio)
+    else:
+        sentence = input()
+    
     sentence = sentence.lower()
 
 
