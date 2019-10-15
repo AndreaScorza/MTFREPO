@@ -1,0 +1,51 @@
+ID: TEST
+CONDTION: 1
+SUCCESS COUNT: 2
+
+
+TASK: You are looking for a french restaurant. Be sure to get the phone number
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: im looking for a french restaurant
+SYSTEM: Are you looking for a french restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: any area
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: restaurant two two might be just your thing! It is a expensive french restaurant in the north part of town.
+USER: what's the phone number?
+SYSTEM: The phone number is 01223 351880.
+USER: ok thank you
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an italian restaurant in the north side of town. If there are none, then the centre is also ok.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: give me italian
+SYSTEM: Are you looking for a italian restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of area are you looking for?
+USER: north
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: yes
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: how about in the centre
+SYSTEM: Do you want centre instead of north?
+USER: yes
+SYSTEM: pizza hut city centre might be just your thing! It is a cheap italian restaurant in the centre part of town.
+USER: thank you!!!
+SYSTEM: Cheerio!

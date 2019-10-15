@@ -61,36 +61,8 @@ for x in range(len(vocab)):
 
 vocabsize = len(vocab)
 
-def bagofwords(sentence):
-    #get the input sentence as a string and return set of all the words
-    words = list(sentence.split())
-    vector = np.zeros([vocabsize+1])
-    for word in words:
-        if word in wordToIndex:
-            index = wordToIndex[word]
-        else:
-            index = vocabsize
-        vector[index] += 1
-    return vector
-
-class bagOfWords:
-    def __init__(self, vocabsize, wordToIndex):
-        self.vocabsize = vocabsize
-        self.wordToIndex = wordToIndex
-
-    def bagOfWords(self, sentence):
-        words = list(sentence.split())
-        vector = np.zeros([vocabsize+1])
-        for word in words:
-            if word in wordToIndex:
-                index = wordToIndex[word]
-            else:
-                index = vocabsize
-            vector[index] += 1
-        return vector
-
-
-bow = bagOfWords(vocabsize, wordToIndex)
+from bagofwords import bagOfWords
+bow = bagOfWords(wordToIndex)
 
 # convert tags to integers and vice versa
 
@@ -111,7 +83,7 @@ output = list()
 
 for line in traindata:
     tag, sentence = parseExample(line)
-    inputvector = bagofwords(sentence)
+    inputvector = bow.bagOfWords(sentence)
     tagindex = tagToIndex(tag)
     train_input.append(inputvector)
     output.append(tagindex)
@@ -124,13 +96,5 @@ model.fit(train_input, output)
 #export the model, tags and bagofwords function
 
 file = open(exportpath + 'classifier.sav', 'wb')
-pickle.dump(model, file)
-file.close()
-
-file = open(exportpath + 'tags.sav', 'wb')
-pickle.dump(taglist, file)
-file.close()
-
-file = open(exportpath + 'bagofwords.sav', 'wb')
-pickle.dump(bow, file)
+pickle.dump((model, taglist, bow), file)
 file.close()
