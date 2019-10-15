@@ -8,14 +8,15 @@ This file contains the main loop for the dialogue system.
 
 print('Loading...')
 
-import smartclassifier
+#import smartclassifier
 from keywordMatching import extractpreferences
 from restaurantinfo import restaurantInfo
 import copy
 import random
+import pickle
 
 #pathnames
-modelfile = 'model.sav'     #contains the trained dialogue act classifier
+model_dir = './'     #contains the trained dialogue act classifier
 tagsfile = 'tags.txt'       #contains the dialogue tags (in order)
 restaurantsfile = 'restaurantinfo.csv'  #contains restaurant database
 
@@ -25,24 +26,20 @@ useLevenshteinDistance = True       #use Levenshtein distance to find preference
 startSuggestingASAP = True          #suggest restaurants as soon as there is only one option left
 startSuggestingImmediately = False  #suggest restaurants after the first user utterance
 forceOneByeOne = False              #force user to express preferences one by one, in the order in which they are asked
-maxUtterances = False               #force a maximum number of utterances by the user
-textToSpeech = False                #use TTS for system utterances
-<<<<<<< HEAD
-=======
-speechToText = False                #use STT to listen to the user
->>>>>>> master
 verbose = False                     #prints extra info for debugging purposes
 
-if textToSpeech:
-    import pyttsx3
-    import engineio
-    
-if speechToText:
-    import speech_recognition as sr
-
 #import dialogue act classifier
-damodel = smartclassifier.model
-tags = smartclassifier.taglist
+file = open(model_dir + 'classifier.sav', 'rb')
+damodel = pickle.load(file)
+file.close()
+
+file = open(model_dir + 'tags.sav', 'rb')
+tags = pickle.load(file)
+file.close()
+
+file = open(model_dir + 'bagofwords.sav', 'rb')
+bow = pickle.load(file)
+file.close()
 
 #import restaurant data
 rdata = restaurantInfo(restaurantsfile)
@@ -187,7 +184,7 @@ def newState(oldstate, input, preferences):
     global requestedinfo
 
     #classify user utterance
-    uservector = smartclassifier.bagofwords(input)
+    uservector = bow.bagOfWords(input)
     actindex = damodel.predict([uservector])
     act = tags[actindex[0]]
 
@@ -432,12 +429,6 @@ while True:
     #give some output to the user
     output = generateOutput(currentstate)
 
-    #text to speech output is available
-    if textToSpeech == True:
-        engineio = pyttsx3.init()
-        engineio.say(output)
-        engineio.runAndWait()
-
     #prints info for debugging purposes
     if verbose:
         print(currentstate)
@@ -445,38 +436,14 @@ while True:
 
     print(output)
 
-    #presents user with info about remaining number of utterances
-    if maxUtterances:
-        if utterancecount != utterancemax:
-            print('[', utterancemax - utterancecount, 'sentences left ]')
 
     #end program if we're done
     if currentstate == 'end' or currentstate == 'ran out of time':
         break
 
     #get user input
-    if speechToText:
-        r = sr.Recognizer()
-        with sr.Microphone() as source:
-            print("I'm listening ...")                # let the user know when to speak
-            audio = sr.Recognizer().listen(source)
-
-            if verbose:
-                print("sentence: " + r.recognize_google(audio))
-            sentence = r.recognize_google(audio)
-    else:
-        sentence = input()
-    
+    sentence = input()
     sentence = sentence.lower()
-
 
     #interpret input, get new state
     currentstate, preferences = newState(currentstate, sentence, preferences)
-
-    #increase utterance count
-    utterancecount += 1
-
-    #check if we exceeded maximum utterances
-    if maxUtterances:
-        if utterancecount >= utterancemax:
-            currentstate = 'ran out of time'

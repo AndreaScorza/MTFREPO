@@ -9,10 +9,11 @@ This file trains a decision tree to classify dialogue acts
 import numpy as np
 import sklearn as sk
 from sklearn import tree
+import pickle
 
 #paths
 trainpath = "./trainData.txt" #location of training data
-exportpath = './model.sav'
+exportpath = './'
 tagsfile = './tags.txt'
 
 #import training data
@@ -72,6 +73,25 @@ def bagofwords(sentence):
         vector[index] += 1
     return vector
 
+class bagOfWords:
+    def __init__(self, vocabsize, wordToIndex):
+        self.vocabsize = vocabsize
+        self.wordToIndex = wordToIndex
+
+    def bagOfWords(self, sentence):
+        words = list(sentence.split())
+        vector = np.zeros([vocabsize+1])
+        for word in words:
+            if word in wordToIndex:
+                index = wordToIndex[word]
+            else:
+                index = vocabsize
+            vector[index] += 1
+        return vector
+
+
+bow = bagOfWords(vocabsize, wordToIndex)
+
 # convert tags to integers and vice versa
 
 taglist = list(tags)
@@ -101,24 +121,16 @@ for line in traindata:
 model = sk.tree.DecisionTreeClassifier()
 model.fit(train_input, output)
 
-# evaluate the model
+#export the model, tags and bagofwords function
 
-eval_input = []
-eval_desired_output = []
-for line in devdata:
-    tag, sentence = parseExample(line)
-    inputvector = bagofwords(sentence)
-    tagindex = tagToIndex(tag)
-    eval_input.append(inputvector)
-    eval_desired_output.append(tagindex)
+file = open(exportpath + 'classifier.sav', 'wb')
+pickle.dump(model, file)
+file.close()
 
-#predict classification
-eval_predicted_output = model.predict(eval_input)
+file = open(exportpath + 'tags.sav', 'wb')
+pickle.dump(taglist, file)
+file.close()
 
-#get accuracy
-wrong = 0
-for i in range(len(eval_desired_output)):
-    if eval_desired_output[i] != eval_predicted_output[i]:
-        wrong += 1
-
-accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
+file = open(exportpath + 'bagofwords.sav', 'wb')
+pickle.dump(bow, file)
+file.close()
