@@ -1,1 +1,0 @@
-reqalts confirm negate ack hello bye affirm reqmore repeat request inform restart deny thankyou null 

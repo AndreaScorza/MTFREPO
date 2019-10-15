@@ -1,7 +1,7 @@
 """
 Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
-Assignment 1b
+Assignment 1c
 
 This file trains a decision tree to classify dialogue acts
 """
@@ -9,18 +9,16 @@ This file trains a decision tree to classify dialogue acts
 import numpy as np
 import sklearn as sk
 from sklearn import tree
-import pickle
-import smartclassifier
 
 #paths
-trainpath = './trainData.txt' #location of training data
+trainpath = "./trainData.txt" #location of training data
 exportpath = './model.sav'
 tagsfile = './tags.txt'
 
 #import training data
-
 trainfile = open(trainpath, 'r')
 data = trainfile.readlines()
+
 #split into train and dev set with 80/20 ratio
 ratio = 0.8
 traindata, devdata = data[:int(len(data)*ratio)], data[int(len(data)*(1-ratio)):]
@@ -98,14 +96,10 @@ for line in traindata:
     train_input.append(inputvector)
     output.append(tagindex)
 
-
 # train a decision tree
 
-print('training...')
 model = sk.tree.DecisionTreeClassifier()
 model.fit(train_input, output)
-
-
 
 # evaluate the model
 
@@ -128,36 +122,3 @@ for i in range(len(eval_desired_output)):
         wrong += 1
 
 accuracy = ( len(eval_predicted_output) - wrong) / len(eval_predicted_output)
-
-print('done!')
-
-print(model.get_depth())
-
-"""
-
-#export
-pickle.dump(model, open(exportpath, 'wb'))
-
-file = open(tagsfile, 'w')
-for tag in tags:
-    file.write(tag + ' ')
-file.close()
-
-
-print('accuracy ratio:', accuracy)
-print()
-print('Try it yourself!')
-
-# classify user iput
-
-while True:
-    userinput = input()
-    if userinput == 'exit':
-        break
-
-    uservector = bagofwords(userinput)
-    prediction = model.predict([uservector])
-    print('prediction:', indexToTag(prediction[0]))
-    print()
-
-"""
