@@ -78,6 +78,7 @@ while (count < len(frequencyArray)):
 #sort the array
 frequencyArray = sorted(frequencyArray, key = lambda t: t[1], reverse=True)
 
+
 count = 0
 count2 = 0
 
@@ -86,6 +87,7 @@ count2 = 0
 while (count < len(frequencyArray) - 1):
     frequencyArray[count + 1][1] += frequencyArray[count][1]
     count = count + 1
+
 
 
 count = 0
@@ -111,9 +113,21 @@ def userSentence(sentence):
     return (frequencyArray[count2][0])
 
 #run loop to classify user input
-
+contatore = 0 
+total = 0
+x = 0
 while True:
+    
+    
     sentence = input()
+    while (x < len(sentences)):
+        if (lines[x] == sentences[x]):
+            contatore = contatore + 1
+        total = total + 1
+        x = x + 1
+    print (contatore)
+    print (total)
+    #print (sentences[1])
     if sentence == 'exit':
         ## uncomment this part to see results for all training data
         ## sentences is the combination between the prediction and the sentence as in the format it was given

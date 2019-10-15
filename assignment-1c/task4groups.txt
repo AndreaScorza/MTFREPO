@@ -1,0 +1,79 @@
+id: 1
+Task 08979: You are looking for a restaurant in any area and it should serve spanish food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address.
+Task 09933: You are looking for a cheap restaurant and it should be in the south part of town. You want to know the phone number.
+Task 03060: You want to find an expensive restaurant and it should serve venetian food. If there is no such venue how about mediterranean type of food. You want to know the address and phone number.
+Task 09750: You want to find a cheap restaurant and it should serve hungarian food. If there is no such venue how about indian type of food. Make sure you get the address.
+Task 11628: You are looking for a restaurant in any area and it should serve singaporean food. If there is no such venue how about european type of food. Make sure you get the phone number of the venue.
+end
+
+id:2
+Task 01875: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and phone number of the venue.
+Task 02004: You are looking for and it should serve gastropub food. You don't care about the price range. You want to know the address.
+Task 02691: You want to find a restaurant in any area and it should serve turkish food. Make sure you get the postcode of the venue.
+Task 00861: You want to find an expensive restaurant and it should serve indonesian food. If there is no such venue how about korean type of food. You want to know the address and area of the venue.
+Task 06057: You want to find a cheap restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number of the venue.
+end
+
+id:3
+Task 02046: You are looking for a restaurant in any area and it should serve scandinavian food. If there is no such venue how about thai type of food. You want to know the phone number and price range of the venue.
+Task 09294: You want to find and it should serve eritrean food. You don't care about the price range. If there is no such venue how about french type of food. You want to know the address and phone number.
+Task 09597: You want to find an expensive restaurant and it should serve swiss food. If there is no such venue how about british type of food. Make sure you get the phone number of the venue.
+Task 11193: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address of the venue.
+Task 12420: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the phone number of the venue.
+end
+
+id:4
+Task 01335: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+Task 01635: You want to find a moderately priced restaurant and it should serve afghan food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+Task 01665: You are looking for and it should serve scottish food. You don't care about the price range. If there is no such venue how about korean type of food. You want to know the phone number.
+Task 07755: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number.
+Task 00060: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and phone number.
+end
+
+id:5
+Task 04923: You are looking for a restaurant in the north part of town and it should serve corsica food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range.
+Task 05745: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address and phone number.
+Task 09936: You want to find an expensive restaurant and it should serve irish food. If there is no such venue how about italian type of food. You want to know the address, phone number, and area.
+Task 07197: You are looking for an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and type of food of the venue.
+Task 00909: You want to find a cheap restaurant and it should be in the south part of town. Make sure you get the address, phone number, and type of food of the venue.
+end
+
+id:6
+Task 01644: You are looking for a moderately priced restaurant and it should serve welsh food. If there is no such venue how about chinese type of food. You want to know the phone number.
+Task 03990: You are looking for a restaurant in any area and it should serve english food. If there is no such venue how about spanish type of food. You want to know the address and price range of the venue.
+Task 06954: You want to find a moderately priced restaurant and it should serve french food. If there is no such venue how about expensive price range. Make sure you get the phone number.
+Task 12519: You are looking for a cheap restaurant and it should be in the south part of town. Make sure you get the address and phone number of the venue.
+Task 08649: You are looking for a moderately priced restaurant and it should be in the south part of town. You want to know the phone number and postcode.
+end
+
+id:7
+Task 05385: You want to find an expensive restaurant and it should serve tuscan food. If there is no such venue how about korean type of food. You want to know the address and area.
+Task 01542: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the phone number.
+Task 02277: You are looking for a cheap restaurant and it should be in the west part of town. You want to know the phone number of the venue.
+Task 03429: You want to find a restaurant in any area and it should serve irish food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+Task 12606: You are looking for a restaurant in any area and it should serve russian food. If there is no such venue how about korean type of food. Make sure you get the address and price range of the venue.
+end
+
+id:8
+Task 12276: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the phone number and type of food of the venue.
+Task 09090: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address, phone number, and postcode of the venue.
+Task 06666: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the phone number and postcode of the venue.
+Task 00042: You want to find an expensive restaurant and it should serve english food. If there is no such venue how about turkish type of food. You want to know the address of the venue.
+Task 06981: You are looking for a restaurant in the south part of town and it should serve scandinavian food. If there is no such venue how about italian type of food. Make sure you get the phone number and postcode of the venue.
+end
+
+id:9
+Task 00498: You are looking for an expensive restaurant and it should serve danish food. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+Task 00354: You are looking for a restaurant in the north part of town and it should serve cantonese food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+Task 04194: You want to find a restaurant in any area and it should serve portuguese food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+Task 08358: You want to find and it should serve french food. You don't care about the price range. You want to know the address.
+Task 11502: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the address and phone number of the venue.
+end
+
+id:10
+Task 01191: You are looking for a moderately priced restaurant and it should serve italian food. Make sure you get the address and postcode of the venue.
+Task 04011: You are looking for a cheap restaurant and it should be in the south part of town. You want to know the address of the venue.
+Task 12396: You want to find an expensive restaurant and it should serve thai food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+Task 00312: You want to find a restaurant in any area and it should serve french food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number of the venue.
+Task 01920: You want to find a moderately priced restaurant and it should be in the east part of town. You want to know the address, phone number, and postcode of the venue.
+end
