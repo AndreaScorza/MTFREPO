@@ -1,0 +1,48 @@
+ID: 101
+CONDITION: 1
+SUCCESS COUNT: 2
+
+
+TASK: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a moderately priced restaurant and it should serve afghan food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for and it should serve scottish food. You don't care about the price range. If there is no such venue how about korean type of food. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and phone number.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: bye
+SYSTEM: Cheerio!

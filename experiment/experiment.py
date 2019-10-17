@@ -9,12 +9,10 @@ This file runs the experiment.
 
 #import dialogue system
 from rundialogue import dialogue
+from importTasks import importTasks
 
-#import participant data
-#filler
-id = 'TEST'
-condition = 1
-tasks = ['You are looking for a french restaurant. Be sure to get the phone number', 'You are looking for an italian restaurant in the north side of town. If there are none, then the centre is also ok.']
+#pathnames
+taskpath = 'task4groups.txt'
 
 # intial stuff
 
@@ -30,10 +28,38 @@ def waitForUser():
 def printOutput(output):
     print(output.upper())
 
+# GET PARTICIPANT ID
+
+printOutput('Please enter participant ID:')
+id = input()
+
+while type(id) != int:
+    try:
+        id = int(id)
+    except:
+        printOutput('ID must be an integer')
+        id = input()
+
+print()
+print()
+
+# GET CONDITION AND TASKS
+
+condition = int(id) % 2
+tasks = importTasks(taskpath, id)
+
 # INTRODUCTION
 
-printOutput('Hello! Thank you for participating in our experiment.')
-waitForUser()
+paragraphs = ['Hello! Thank you for participating in our research. During this experiment, you will be testing a program that makes restaurant recommendations.',
+                'To find a restaurant, you will have a chat conversation with the program. Tell the program what you want, and it will make a recommendation.',
+                'You will use the program five times. That way, you can really get to know it. Each time, you will be given a task, which tells you what kind of restaurant to look for. After each task, we will ask you if you managed to find what you were looking for.',
+                'After you have tried the program five times, you will be asked to fill in a short questionnaire.',
+                'TIP: you can end the conversation by saying goodbye to the program! If you get stuck, you can also ask it to start over.',
+                'Let\'s start!']
+
+for paragraph in paragraphs:
+    printOutput(paragraph)
+    waitForUser()
 
 # TRIALS
 
@@ -100,9 +126,9 @@ printOutput('Thank you!')
 
 # SAVE LOG
 
-with open('./logs/' + id + '.txt', 'w') as file:
+with open('./logs/' + str(id) + '.txt', 'w') as file:
 
-    file.write('ID: ' + id + '\n')
+    file.write('ID: ' + str(id) + '\n')
     file.write('CONDITION: ' + str(condition) + '\n')
     file.write('SUCCESS COUNT: ' + str(success_count) + '\n')
 
