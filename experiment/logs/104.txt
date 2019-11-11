@@ -1,0 +1,124 @@
+ID: 104
+CONDITION: 0
+SUCCESS COUNT: 4
+
+
+TASK: You are looking for a restaurant in the north part of town and it should serve corsica food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for Corsica food in the North side of town, are there any restaurants?
+SYSTEM: Sounds good! What kind of pricerange are you looking for?
+USER: any price range is good
+SYSTEM: saigon city might be just your thing! It is a expensive asian oriental restaurant in the north part of town.
+USER: so there is no corsica food?
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: graffiti might be just your thing! It is a moderate indian restaurant in the north part of town.
+USER: sounds good!
+SYSTEM: Are you looking for a any any restaurant in the north part of town?
+USER: A  corsican restaurant would be nice. What is the address, price range and phone number?
+SYSTEM: Do you want thai instead of any?
+USER: indian would be good
+SYSTEM: Do you want indian instead of any?
+USER: yes
+SYSTEM: the nirala might be just your thing! It is a moderate indian restaurant in the north part of town.
+USER: what is the address, phone number and price range?
+SYSTEM: You can find the restaurant at 7 milton road chesterton. The phone number is 01223 360966. It's a fairly moderate restaurant.
+USER: thank you
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for a cheap restaurant, any cuisine, what do you have?
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: the north side of town
+SYSTEM: da vinci pizzeria might be just your thing! It is a cheap traditional restaurant in the north part of town.
+USER: what is the address and phone numbeR?
+SYSTEM: You can find the restaurant at 20 milton road chesterton. The phone number is 01223 351707.
+USER: perfect, thank you
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve irish food. If there is no such venue how about italian type of food. You want to know the address, phone number, and area.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hi, I am looking for an expensive restaurant, preferably with irish food, is there a restaurant like that?
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: irish food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: food from ireland
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: irish
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: italian
+SYSTEM: Are you looking for a expensive italian restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: everywhere
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: any place
+SYSTEM: Are you looking for a expensive italian restaurant ?
+USER: yes
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: center
+SYSTEM: Are you looking for a restaurant in the centre part of town?
+USER: yes
+SYSTEM: caffe uno might be just your thing! It is a expensive italian restaurant in the centre part of town.
+USER: perfect
+SYSTEM: caffe uno might be just your thing! It is a expensive italian restaurant in the centre part of town.
+USER: what is the address and phone number?
+SYSTEM: You can find the restaurant at 32 bridge street city centre. The phone number is 01223 448620.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and type of food of the venue.
+SUCCEEDED: no
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for an expensive restaurant in the south side of town, what options are there?
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: expensive food
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You want to find a cheap restaurant and it should be in the south part of town. Make sure you get the address, phone number, and type of food of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I need a cheap restaurant in the south part of town
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: any food is good, what is there
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: thai
+SYSTEM: Are you looking for a cheap thai restaurant in the south part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: asian food
+SYSTEM: Are you looking for a cheap thai restaurant in the south part of town?
+USER: no
+SYSTEM: Are you looking for a cheap thai restaurant in the south part of town?
+USER: no
+SYSTEM: Are you looking for a cheap thai restaurant in the south part of town?
+USER: italian food
+SYSTEM: Do you want italian instead of thai?
+USER: yes
+SYSTEM: la margherita might be just your thing! It is a cheap italian restaurant in the south part of town.
+USER: perfect, what is the address and phone number?
+SYSTEM: You can find the restaurant at 15 magdalene street city centre. The phone number is 01223 315232.
+USER: thank you
+SYSTEM: Cheerio!

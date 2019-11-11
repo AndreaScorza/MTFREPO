@@ -1,0 +1,116 @@
+ID: 103
+CONDITION: 1
+SUCCESS COUNT: 4
+
+
+TASK: You are looking for a restaurant in the north part of town and it should serve corsica food. If there is no such venue how about indian type of food. You want to know the address, phone number, and price range.
+SUCCEEDED: no
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You want to find a cheap restaurant and it should be in the north part of town. Make sure you get the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for a restaurant in the north part of town.
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: Yes
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: Cheap food
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: Yes
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: Any food
+SYSTEM: Are you looking for a any restaurant ?
+USER: Yes
+SYSTEM: royal spice might be just your thing! It is a cheap indian restaurant in the north part of town.
+USER: What is the address and phone number?
+SYSTEM: You can find the restaurant at victoria avenue chesterton. The phone number is 01733 553355.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You want to find an expensive restaurant and it should serve irish food. If there is no such venue how about italian type of food. You want to know the address, phone number, and area.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for Irish food 
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Irish restaurant
+SYSTEM: Are you looking for a restaurant ?
+USER: Yes
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: Irish food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Maybe Italian food
+SYSTEM: Are you looking for a italian restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: any area
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Fabulous! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: frankie and bennys might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: what is the address and phone number?
+SYSTEM: You can find the restaurant at cambridge leisure park clifton way cherry hinton. The phone number is 01223 412430.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and type of food of the venue.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for a restaurant in the south part of town
+SYSTEM: Are you looking for a restaurant in the south part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: Any food
+SYSTEM: Are you looking for a any restaurant ?
+USER: Yes
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: Expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: the good luck chinese food takeaway might be just your thing! It is a expensive chinese restaurant in the south part of town.
+USER: anything else?
+SYSTEM: backstreet bistro might be just your thing!
+USER: what is the type of food?
+SYSTEM: The restaurant serves gastropub food.
+USER: what is the address?
+SYSTEM: You can find the restaurant at 2 sturton street city centre.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You want to find a cheap restaurant and it should be in the south part of town. Make sure you get the address, phone number, and type of food of the venue.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I am looking for a cheap restaurant
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: Perfect! What kind of food are you looking for?
+USER: any food
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: south part of town
+SYSTEM: Are you looking for a restaurant in the south part of town?
+USER: yes
+SYSTEM: the missing sock might be just your thing! It is a cheap chinese restaurant in the south part of town.
+USER: What is the address and phone number?
+SYSTEM: You can find the restaurant at finders corner newmarket road. The phone number is 01223 812660.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
