@@ -1,0 +1,180 @@
+ID: 205
+CONDITION: 1
+SUCCESS COUNT: 3
+
+
+TASK: You are looking for an expensive restaurant and it should serve danish food. If there is no such venue how about thai type of food. Make sure you get the address and phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hello, is there a danish restaurant that is expensive?
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: Yes
+SYSTEM: Perfect! What kind of food are you looking for?
+USER: Danish food
+SYSTEM: Are you looking for a spanish restaurant ?
+USER: No, danish
+SYSTEM: Are you looking for a spanish restaurant ?
+USER: No
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: Danish
+SYSTEM: Are you looking for a spanish restaurant ?
+USER: No
+SYSTEM: Perfect! What kind of food are you looking for?
+USER: Thai
+SYSTEM: Are you looking for a thai restaurant ?
+USER: Yes
+SYSTEM: Splendid! What kind of area are you looking for?
+USER: Whatever
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: Yes, any part is fine
+SYSTEM: sala thong might be just your thing! It is a expensive thai restaurant in the west part of town.
+USER: What's the address of sala thong?
+SYSTEM: You can find the restaurant at 35 newnham road newnham.
+USER: Phone number?
+SYSTEM: The phone number is 01223 323178.
+USER: Goodbye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a restaurant in the north part of town and it should serve cantonese food. If there is no such venue how about asian oriental type of food. You want to know the address and phone number.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I would like cantonese food.
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Is there a cantonese restaurant?
+SYSTEM: Are you looking for a restaurant ?
+USER: Yes
+SYSTEM: Perfect! What kind of food are you looking for?
+USER: cantonese please
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: cantonese
+SYSTEM: Are you looking for a restaurant ?
+USER: Yes
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: Asian oriental
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: asian food
+SYSTEM: Are you looking for a restaurant ?
+USER: oriental food
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: oriental
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: cantonese
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: cantonese
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: no
+SYSTEM: Are you looking for a restaurant ?
+USER: no
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: asian oriental food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: goodbye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a restaurant in any area and it should serve portuguese food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hello, is there a portugeuse restaurant?
+SYSTEM: Are you looking for a portuguese restaurant ?
+USER: Yes
+SYSTEM: Splendid! What kind of area are you looking for?
+USER: Any area is fine.
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: Yes
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: Cheap please
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: Yes
+SYSTEM: nandos city centre might be just your thing! It is a cheap portuguese restaurant in the centre part of town.
+USER: Is there another restaurant?
+SYSTEM: nandos might be just your thing!
+USER: Anything else
+SYSTEM: nandos city centre might be just your thing!
+USER: I would like something different from nandos
+SYSTEM: nandos city centre might be just your thing!
+USER: No nandos
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: nandos might be just your thing! It is a cheap portuguese restaurant in the south part of town.
+USER: ok, what's the phone number?
+SYSTEM: The phone number is 01223 327908.
+USER: thank you
+SYSTEM: Cheerio!
+
+
+TASK: You want to find and it should serve french food. You don't care about the price range. You want to know the address.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Is there a french restaurant?
+SYSTEM: Are you looking for a french restaurant ?
+USER: Yes
+SYSTEM: As long as I'm invited!  What kind of area are you looking for?
+USER: Any area is okay
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: Yes
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: I dont care
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Dont care
+SYSTEM: Are you looking for a french restaurant in the any part of town?
+USER: Yes
+SYSTEM: I'm on board! What kind of pricerange are you looking for?
+USER: Doesn't matter
+SYSTEM: Are you looking for a any restaurant ?
+USER: French
+SYSTEM: Are you looking for a french restaurant ?
+USER: Yes
+SYSTEM: Perfect! What kind of pricerange are you looking for?
+USER: Doesn't matter
+SYSTEM: Are you looking for a any restaurant ?
+USER: Regarding pricerange, yes
+SYSTEM: cote might be just your thing! It is a expensive french restaurant in the centre part of town.
+USER: thanks, what's the address?
+SYSTEM: You can find the restaurant at bridge street city centre.
+USER: okay bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a moderately priced restaurant and it should be in the west part of town. You want to know the address and phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hi, is there a moderately priced restaurant in the west part of town?
+SYSTEM: Are you looking for a moderate thai restaurant in the west part of town?
+USER: Not thai particularly
+SYSTEM: Are you looking for a thai restaurant in the north part of town?
+USER: Any restaurant in the north part
+SYSTEM: Are you looking for a thai restaurant in the north part of town?
+USER: No
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: Any
+SYSTEM: Are you looking for a any restaurant ?
+USER: Yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: North
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: Yes
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: Moderately priced
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: Yes
+SYSTEM: the nirala might be just your thing! It is a moderate indian restaurant in the north part of town.
+USER: Ow wait, west
+SYSTEM: Do you want west instead of north?
+USER: Yes
+SYSTEM: the gardenia might be just your thing! It is a moderate romanian restaurant in the west part of town.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence

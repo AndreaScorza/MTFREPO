@@ -1,0 +1,146 @@
+ID: 203
+CONDITION: 1
+SUCCESS COUNT: 3
+
+
+TASK: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the phone number and type of food of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: okay let's do this
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Please help me to find a nice restaurant
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: Mexican
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Kind of food: mexican food
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: mexican food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: moderately priced restaurant
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: moderately priced
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: every food is okay
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of area are you looking for?
+USER: north of the town
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: yes please!
+SYSTEM: golden wok might be just your thing! It is a moderate asian oriental restaurant in the north part of town.
+USER: sounds good to me!
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: has it a good price?
+SYSTEM: Do you want thai instead of any?
+USER: no I prefer wok
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: I mean asian
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: yes
+SYSTEM: restaurant one seven might be just your thing! It is a moderate british restaurant in the north part of town.
+USER: I prefer the asian restaurant in the north part of town
+SYSTEM: Do you want thai instead of any?
+USER: Golden Wok
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: yes
+SYSTEM: restaurant alimentum might be just your thing! It is a moderate modern european restaurant in the north part of town.
+USER: okay
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: restaurant Alimentum sounds good
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: do you have telephone number?
+SYSTEM: Are you looking for a moderate any restaurant in the north part of town?
+USER: yes
+SYSTEM: graffiti might be just your thing! It is a moderate indian restaurant in the north part of town.
+USER: what is the phone number?
+SYSTEM: The phone number is 01223 277977.
+USER: Thank you
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address, phone number, and postcode of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i look a good restaurant in south part of town
+SYSTEM: Are you looking for a restaurant in the south part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: any, and it may be expensive
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: good restaurant in south of town
+SYSTEM: Are you looking for a restaurant in the south part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: expensive food
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: everything
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: anything
+SYSTEM: Are you looking for a expensive restaurant in the south part of town?
+USER: yes
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: zizzi cambridge might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: okay, do you have postcode and telephone number?
+SYSTEM: The postcode is. The phone number is 01223 365599.
+USER: I miss the postcode
+SYSTEM: The postcode is.
+USER: do you have complete address
+SYSTEM: You can find the restaurant at 47-53 regent street.
+USER: postcode?
+SYSTEM: The postcode is.
+USER: thank you
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the phone number and postcode of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i look a restaurant in south part of town it may be expensive
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: can you suggest expensive restaurant in south of town?
+SYSTEM: Are you looking for a expensive restaurant in the south part of town?
+USER: YEAHHH
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: does not matter
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: no
+SYSTEM: Perfect! What kind of food are you looking for?
+USER: doesnt matter
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: south
+SYSTEM: Are you looking for a restaurant in the south part of town?
+USER: yes
+SYSTEM: Sounds good! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: backstreet bistro might be just your thing! It is a expensive gastropub restaurant in the south part of town.
+USER: sounds good!
+SYSTEM: Are you looking for a expensive any restaurant in the south part of town?
+USER: yes
+SYSTEM: peking restaurant might be just your thing! It is a expensive chinese restaurant in the south part of town.
+USER: do you have phone and postcode?
+SYSTEM: The postcode isc.b 2. The phone number is 01223 354755.
