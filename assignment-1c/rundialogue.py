@@ -1,4 +1,4 @@
-"""
+cle"""
 Jos Hens (5737222), Luka van der Plas (4119142), Andrea Scorza (6649173)
 Methods in AI Research
 Assignment 1c
@@ -26,10 +26,10 @@ startSuggestingASAP = True          #suggest restaurants as soon as there is onl
 startSuggestingImmediately = False  #suggest restaurants after the first user utterance
 forceOneByeOne = False              #force user to express preferences one by one, in the order in which they are asked
 maxUtterances = False               #force a maximum number of utterances by the user
-textToSpeech = False                #use TTS for system utterances
+textToSpeech = True                #use TTS for system utterances
 <<<<<<< HEAD
 =======
-speechToText = False                #use STT to listen to the user
+speechToText = True                #use STT to listen to the user
 >>>>>>> master
 verbose = False                     #prints extra info for debugging purposes
 

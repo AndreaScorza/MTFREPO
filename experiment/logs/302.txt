@@ -1,0 +1,122 @@
+ID: 302
+CONDITION: 0
+SUCCESS COUNT: 4
+
+
+TASK: You are looking for a restaurant in any area and it should serve spanish food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I would like spanish food in west Utrecht
+SYSTEM: I'm on board! What kind of pricerange are you looking for?
+USER: Average
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Moderate
+SYSTEM: Are you looking for a moderate spanish restaurant in the west part of town?
+USER: Yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: Any area would be fine
+SYSTEM: Are you looking for a moderate spanish restaurant in the west part of town?
+USER: Ok
+SYSTEM: Are you looking for a moderate spanish restaurant in the west part of town?
+USER: Bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a cheap restaurant and it should be in the south part of town. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I want fast food in a cheap restaurant in the south part of town
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: fries
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Spanish
+SYSTEM: Are you looking for a cheap spanish restaurant in the south part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: Italian food
+SYSTEM: Do you want italian instead of spanish?
+USER: yes
+SYSTEM: la margherita might be just your thing! It is a cheap italian restaurant in the south part of town.
+USER: what is the phone number
+SYSTEM: The phone number is 01223 315232.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve venetian food. If there is no such venue how about mediterranean type of food. You want to know the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: venetian food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: mediterranean food
+SYSTEM: Are you looking for a mediterranean restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: In utrecht
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: whatever
+SYSTEM: Are you looking for a mediterranean restaurant ?
+USER: yes
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: any area
+SYSTEM: I'm on it! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: la mimosa might be just your thing! It is a expensive mediterranean restaurant in the centre part of town.
+USER: What is the adress?
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: What is the address?
+SYSTEM: You can find the restaurant at thompsons lane fen ditton.
+USER: What is the phone number
+SYSTEM: The phone number is 01223 362525.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a cheap restaurant and it should serve hungarian food. If there is no such venue how about indian type of food. Make sure you get the address.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hungarian food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Indian food
+SYSTEM: Are you looking for a indian restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: anything
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: the gandhi might be just your thing! It is a cheap indian restaurant in the centre part of town.
+USER: What is the address?
+SYSTEM: You can find the restaurant at 72 regent street city centre.
+USER: What is the phone number?
+SYSTEM: The phone number is 01223 353942.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a restaurant in any area and it should serve singaporean food. If there is no such venue how about european type of food. Make sure you get the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: singaporean food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: european food
+SYSTEM: Are you looking for a european restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: anything
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: don pasquale pizzeria might be just your thing! It is a expensive european restaurant in the south part of town.
+USER: what is the phone number?
+SYSTEM: The phone number is 01223 350106.
+USER: bye
+SYSTEM: Cheerio!

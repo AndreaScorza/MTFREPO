@@ -1,0 +1,176 @@
+ID: 303
+CONDITION: 1
+SUCCESS COUNT: 3
+
+
+TASK: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i want a moderate priced restaurant in the north
+SYSTEM: Are you looking for a moderate restaurant in the north part of town?
+USER: yes
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: maybe italian
+SYSTEM: Are you looking for a italian restaurant ?
+USER: teah
+SYSTEM: Are you looking for a thai restaurant ?
+USER: yeah
+SYSTEM: Sorry, i can't find anything like that.
+USER: no i want italian
+SYSTEM: Do you want italian instead of thai?
+USER: sure
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: no man
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for and it should serve gastropub food. You don't care about the price range. You want to know the address.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i wanto to go to gastropub food
+SYSTEM: Are you looking for a gastropub restaurant ?
+USER: yes
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: don't care
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: everywhere
+SYSTEM: Are you looking for a gastropub restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: anything 
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: on the north
+SYSTEM: Do you want thai instead of gastropub?
+USER: no
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: anything
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yeah
+SYSTEM: Fabulous! What kind of pricerange are you looking for?
+USER: don't care
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: anything
+SYSTEM: Are you looking for a gastropub restaurant in the any part of town?
+USER: yes
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: no
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: moderate
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: yes
+SYSTEM: riverside brasserie might be just your thing! It is a moderate gastropub restaurant in the centre part of town.
+USER: give me the address
+SYSTEM: You can find the restaurant at doubletree by hilton cambridge granta place mill lane.
+USER: ok cool bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a restaurant in any area and it should serve turkish food. Make sure you get the postcode of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: hello i want to eat turkish food
+SYSTEM: Are you looking for a turkish restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: sure
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: meze bar restaurant might be just your thing! It is a expensive turkish restaurant in the centre part of town.
+USER: coll can i have the postal code?
+SYSTEM: The postcode isc.b 1.
+USER: thank you bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve indonesian food. If there is no such venue how about korean type of food. You want to know the address and area of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: hello
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: i want indonesian food
+SYSTEM: Are you looking for a restaurant in the east part of town?
+USER: any area
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: i told you indonesian
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: indonesian
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: INDONESIAN
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: indonesian
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: corean
+SYSTEM: Are you looking for a korean restaurant ?
+USER: korean
+SYSTEM: Are you looking for a korean restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: little seoul might be just your thing! It is a expensive korean restaurant in the centre part of town.
+USER: tell me the address
+SYSTEM: You can find the restaurant at 108 regent street city centre.
+USER: ok thanks
+SYSTEM: Are you looking for a expensive korean restaurant in the any part of town?
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a cheap restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: hello i want to go to eat in the west
+SYSTEM: Are you looking for a restaurant in the west part of town?
+USER: yeah
+SYSTEM: Fabulous! What kind of food are you looking for?
+USER: any kind is ok
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Perfect! What kind of pricerange are you looking for?
+USER: i want a cheap one
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: some cheap restaurant?
+SYSTEM: Are you looking for a cheap any restaurant in the west part of town?
+USER: yes
+SYSTEM: thanh binh might be just your thing! It is a cheap vietnamese restaurant in the west part of town.
+USER: some other restaurant?
+SYSTEM: kohinoor might be just your thing!
+USER: another one?
+SYSTEM: thanh binh might be just your thing!
+USER: cool give me the phone number
+SYSTEM: The phone number is 01223 362456.
+USER: and the address please
+SYSTEM: You can find the restaurant at 17 magdalene street city centre.
+USER: nice thank you bye
+SYSTEM: Cheerio!

@@ -1,0 +1,198 @@
+ID: 102
+CONDITION: 0
+SUCCESS COUNT: 3
+
+
+TASK: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hi!
+SYSTEM: Are you looking for a thai restaurant ?
+USER: Maybe, I am looking for something cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes!
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: somewhere in the east
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: pizza
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: italian
+SYSTEM: Are you looking for a cheap italian restaurant in the east part of town?
+USER: yep
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: italian
+SYSTEM: Sorry, i can't find anything like that.
+USER: pizza
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: what is the phone number?
+SYSTEM: Are you looking for a cheap italian restaurant in the east part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: how about thai?
+SYSTEM: Do you want thai instead of italian?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: how about mexican
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: fries
+SYSTEM: Are you looking for a cheap thai restaurant in the east part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: how about mexican?
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: any restaurant
+SYSTEM: Are you looking for a cheap thai restaurant in the east part of town?
+USER: french
+SYSTEM: Do you want french instead of thai?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: kebab
+SYSTEM: Are you looking for a cheap french restaurant in the east part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: turkish
+SYSTEM: Do you want turkish instead of french?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: goodbye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a moderately priced restaurant and it should serve afghan food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i am looking for a moderately priced restaurant
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: no
+SYSTEM: I'm on it! What kind of area are you looking for?
+USER: anywhere
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: anywhere
+SYSTEM: As long as I'm invited!  What kind of pricerange are you looking for?
+USER: average
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: moderate
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: yes but with afghan food
+SYSTEM: the oak bistro might be just your thing! It is a moderate british restaurant in the centre part of town.
+USER: no, i want afghan food
+SYSTEM: Do you want east instead of any?
+USER: no
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: i want an afghan restaurant
+SYSTEM: Do you want east instead of any?
+USER: no
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: afghan food
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: no
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: no
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: no!
+SYSTEM: Are you looking for a moderate any restaurant in the any part of town?
+USER: chinese?
+SYSTEM: Do you want chinese instead of any?
+USER: yes
+SYSTEM: shanghai family restaurant might be just your thing! It is a moderate chinese restaurant in the east part of town.
+USER: okay!
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: what is the phone number?
+SYSTEM: The phone number is 01223 301761.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You are looking for and it should serve scottish food. You don't care about the price range. If there is no such venue how about korean type of food. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i want scottish food!
+SYSTEM: Are you looking for a restaurant in the east part of town?
+USER: no
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: anywhere
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: any
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: riverside brasserie might be just your thing! It is a moderate gastropub restaurant in the centre part of town.
+USER: i want scottish food
+SYSTEM: Do you want east instead of any?
+USER: no
+SYSTEM: Are you looking for a any any restaurant in the any part of town?
+USER: scottish food
+SYSTEM: Are you looking for a any any restaurant in the any part of town?
+USER: start over
+SYSTEM: Sure, let's try again. What kind of food are you looking for?
+USER: scottish
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: scotland
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: scotish
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: scottish
+SYSTEM: Are you looking for a restaurant ?
+USER: scottish
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: any
+SYSTEM: I'm on it! What kind of area are you looking for?
+USER: any
+SYSTEM: As long as I'm invited!  What kind of pricerange are you looking for?
+USER: any
+SYSTEM: da vinci pizzeria might be just your thing! It is a cheap traditional restaurant in the north part of town.
+USER: start over
+SYSTEM: Sure, let's try again. What kind of food are you looking for?
+USER: british
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: any
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: the copper kettle might be just your thing! It is a moderate british restaurant in the east part of town.
+USER: phone number?
+SYSTEM: The phone number is 01223 365068.
+USER: thank you!
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i want something expensive!
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: i am looking for a restaurant
+SYSTEM: Are you looking for a restaurant ?
+USER: yepperz
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: east
+SYSTEM: Fabulous! What kind of food are you looking for?
+USER: anything
+SYSTEM: Perfect! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: cocum might be just your thing! It is a expensive gastropub restaurant in the east part of town.
+USER: perfect!
+SYSTEM: the slug and lettuce might be just your thing! It is a expensive gastropub restaurant in the east part of town.
+USER: phone numer please?
+SYSTEM: The phone number is dontcare.
+USER: cheerio
+SYSTEM: Are you looking for a expensive any restaurant in the east part of town?
+USER: THANK YOU
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and phone number.
+SUCCEEDED: no
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence

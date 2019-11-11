@@ -1,0 +1,188 @@
+ID: 306
+CONDITION: 0
+SUCCESS COUNT: 3
+
+
+TASK: You are looking for a restaurant in any area and it should serve scandinavian food. If there is no such venue how about thai type of food. You want to know the phone number and price range of the venue.
+SUCCEEDED: no
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You want to find and it should serve eritrean food. You don't care about the price range. If there is no such venue how about french type of food. You want to know the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: hello, I'd like to find a restaurant with eritrean food, is there any recommendations?
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: I don't mind the price range so anywhere in the city that has the best food will do!
+SYSTEM: Fabulous! What kind of pricerange are you looking for?
+USER: Any price range will do
+SYSTEM: kohinoor might be just your thing! It is a cheap indian restaurant in the west part of town.
+USER: I thought you were looking for an eritrean restaurant for me?
+SYSTEM: Do you want west instead of any?
+USER: Any part of town is fine but I prefer eritrean.
+SYSTEM: Do you want east instead of any?
+USER: As I just mentionned, I do not mind the location of the restaurant
+SYSTEM: Do you want thai instead of any?
+USER: Nope!
+SYSTEM: Are you looking for a any any restaurant in the any part of town?
+USER: I'm looking for an ERITREAN restaurant in any part of town!
+SYSTEM: Do you want east instead of any?
+USER: Otherwise do you have french food?
+SYSTEM: Do you want french instead of any?
+USER: Yes!
+SYSTEM: restaurant two two might be just your thing! It is a expensive french restaurant in the north part of town.
+USER: Could I have the adress and phone number?
+SYSTEM: The phone number is 01223 351880.
+USER: and the adress?
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: and the address?
+SYSTEM: You can find the restaurant at 22 chesterton road chesterton.
+USER: Thank you! good bye 
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve swiss food. If there is no such venue how about british type of food. Make sure you get the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hello! I'm looking for an expensive swiss restaurant 
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: I'm not looking for a specific area 
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: sure!
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: As its french its fine 
+SYSTEM: Do you want french instead of swiss?
+USER: Oh no oops, I meant swiss food
+SYSTEM: Are you looking for a swiss restaurant in the east part of town?
+USER: yes!
+SYSTEM: Sorry, i can't find anything like that.
+USER: Shame.
+SYSTEM: Are you looking for a expensive swiss restaurant in the east part of town?
+USER: yes!
+SYSTEM: Sorry, i can't find anything like that.
+USER: excuse me?
+SYSTEM: Are you looking for a expensive swiss restaurant in the east part of town?
+USER: haha let's not go there again! Do you have british type of food?
+SYSTEM: Do you want british instead of swiss?
+USER: sure 
+SYSTEM: Are you looking for a expensive swiss restaurant in the east part of town?
+USER: no no now I want british
+SYSTEM: Do you want british instead of swiss?
+USER: yes
+SYSTEM: travellers rest might be just your thing! It is a expensive british restaurant in the west part of town.
+USER: is there a cheap one 
+SYSTEM: Do you want cheap instead of expensive?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: shame
+SYSTEM: Are you looking for a cheap british restaurant in the west part of town?
+USER: what was the british restaurant called again?
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: is there a british restaurant
+SYSTEM: Are you looking for a cheap british restaurant in the west part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: is there an expensive british restaurant 
+SYSTEM: Do you want expensive instead of cheap?
+USER: yes
+SYSTEM: travellers rest might be just your thing! It is a expensive british restaurant in the west part of town.
+USER: yes 
+SYSTEM: travellers rest might be just your thing! It is a expensive british restaurant in the west part of town.
+USER: haha you just said that. Can I have the phone number of travellers rest?
+SYSTEM: The phone number is 01223 276182.
+USER: thank you! good bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address of the venue.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hi! I'm looking for an expensive restaurant in the south part of town
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: It doesn't matter and I'm sorry but you won't be invited haha
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Don't take it so badely haha 
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: I'm looking for an expensive restaurant
+SYSTEM: Are you looking for a expensive restaurant in the south part of town?
+USER: yes!
+SYSTEM: Fabulous! What kind of food are you looking for?
+USER: I don't care 
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: let's go for some italian food
+SYSTEM: Are you looking for a expensive italian restaurant in the south part of town?
+USER: yes
+SYSTEM: zizzi cambridge might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: yes!
+SYSTEM: zizzi cambridge might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: yes
+SYSTEM: frankie and bennys might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: yes
+SYSTEM: frankie and bennys might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: yes
+SYSTEM: frankie and bennys might be just your thing! It is a expensive italian restaurant in the south part of town.
+USER: okay, could I have the address of the venue?
+SYSTEM: You can find the restaurant at cambridge leisure park clifton way cherry hinton.
+USER: yes but the correct address
+<class 'KeyError'>: None
+
+
+TASK: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Hi, I'd like to look for a restaurant in the north part of town 
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: korean food
+SYSTEM: Sounds good! What kind of pricerange are you looking for?
+USER: a moderately priced restaurant
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: moderately priced restaurant
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: is there a japanese restaurant
+SYSTEM: Do you want japanese instead of korean?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: is there a korean restaurant
+SYSTEM: Do you want korean instead of japanese?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: is there a thai food
+SYSTEM: Do you want thai instead of korean?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: is there hungarian
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: is there hungarian restaurant
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: I am looking for a andrea restaurant in the north part of town
+SYSTEM: Are you looking for a thai restaurant in the north part of town?
+USER: no lets do italian
+SYSTEM: Do you want italian instead of thai?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: Is there french 
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: i want french 
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: is ther a french restaurant
+SYSTEM: Do you want french instead of italian?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: fine I give up good bye!
+SYSTEM: Cheerio!
