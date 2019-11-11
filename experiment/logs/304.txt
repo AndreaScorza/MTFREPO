@@ -1,0 +1,118 @@
+ID: 304
+CONDITION: 0
+SUCCESS COUNT: 2
+
+
+TASK: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: chinese food in the central
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: north
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: moderately
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: fuck you
+SYSTEM: Are you looking for a moderate chinese restaurant in the north part of town?
+USER: i said fuck you
+SYSTEM: Are you looking for a moderate chinese restaurant in the north part of town?
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for and it should serve gastropub food. You don't care about the price range. You want to know the address.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: hey bitch i want gastropub food
+SYSTEM: As long as I'm invited!  What kind of area are you looking for?
+USER: central
+SYSTEM: Are you looking for a restaurant in the centre part of town?
+USER: yes
+SYSTEM: riverside brasserie might be just your thing! It is a moderate gastropub restaurant in the centre part of town.
+USER: what is the address
+SYSTEM: You can find the restaurant at doubletree by hilton cambridge granta place mill lane.
+USER: ok bye bitch
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a restaurant in any area and it should serve turkish food. Make sure you get the postcode of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i want turkish food
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: i do not care
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: sure
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: north
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: normal
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: expensive
+SYSTEM: Are you looking for a expensive turkish restaurant in the north part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: ok bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve indonesian food. If there is no such venue how about korean type of food. You want to know the address and area of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: i want some indonesian food
+SYSTEM: Are you looking for a restaurant in the west part of town?
+USER: yes
+SYSTEM: Sounds good! What kind of food are you looking for?
+USER: indonesian food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Indonesian food
+SYSTEM: Are you looking for a restaurant in the west part of town?
+USER: yes
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: korean
+SYSTEM: I'm on board! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Sorry, i can't find anything like that.
+USER: any
+SYSTEM: Are you looking for a cheap korean restaurant in the west part of town?
+USER: yeah
+SYSTEM: Sorry, i can't find anything like that.
+USER: expensive
+SYSTEM: Do you want expensive instead of cheap?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: moderate
+SYSTEM: Do you want moderate instead of expensive?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: bye bitcgù
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a cheap restaurant and it should be in the west part of town. Don't go for the first venue the system offers you, ask if there is anything else. Make sure you get the address and phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: cheap restaurant
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: any
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: west
+SYSTEM: kohinoor might be just your thing! It is a cheap indian restaurant in the west part of town.
+USER: what is the address
+SYSTEM: You can find the restaurant at 74 mill road city centre.
+USER: ok thanks bitch
+SYSTEM: Are you looking for a cheap any restaurant in the west part of town?
+USER: bye
+SYSTEM: Cheerio!

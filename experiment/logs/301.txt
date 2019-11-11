@@ -1,0 +1,134 @@
+ID: 301
+CONDITION: 1
+SUCCESS COUNT: 1
+
+
+TASK: You are looking for a restaurant in any area and it should serve spanish food. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: spanish
+SYSTEM: Are you looking for a spanish restaurant ?
+USER: yes
+SYSTEM: I'm on it! What kind of area are you looking for?
+USER: utrecht
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: north
+SYSTEM: Are you looking for a spanish restaurant in the north part of town?
+USER: yes
+SYSTEM: Fabulous! What kind of pricerange are you looking for?
+USER: normal
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: normal priced
+SYSTEM: Are you looking for a spanish restaurant in the north part of town?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a cheap restaurant and it should be in the south part of town. You want to know the phone number.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: cheap south
+SYSTEM: Are you looking for a cheap restaurant in the south part of town?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: spanish
+SYSTEM: Are you looking for a spanish restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve venetian food. If there is no such venue how about mediterranean type of food. You want to know the address and phone number.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: venetian
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Mediterranean
+SYSTEM: Are you looking for a expensive mediterranean restaurant ?
+USER: yes
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: shiraz restaurant might be just your thing! It is a expensive mediterranean restaurant in the centre part of town.
+USER: Can you give me the adress and phone number
+SYSTEM: The phone number is 01223 307581.
+USER: can you give me the address
+SYSTEM: You can find the restaurant at 84 regent street city centre.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a cheap restaurant and it should serve hungarian food. If there is no such venue how about indian type of food. Make sure you get the address.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: can you give me a cheap hungarian restaurant
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: Fabulous! What kind of food are you looking for?
+USER: hungarian
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: indian
+SYSTEM: Are you looking for a cheap indian restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: any area will do
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: mahal of cambridge might be just your thing! It is a cheap indian restaurant in the centre part of town.
+USER: can you give me the address
+SYSTEM: You can find the restaurant at 3 - 5 millers yard mill lane.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a restaurant in any area and it should serve singaporean food. If there is no such venue how about european type of food. Make sure you get the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: can you give me the phone number of an singaporean in any area
+SYSTEM: Are you looking for a cuban restaurant ?
+USER: no
+SYSTEM: As long as I'm invited!  What kind of food are you looking for?
+USER: singaporean
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: european
+SYSTEM: Are you looking for a european restaurant ?
+USER: yes in any area
+SYSTEM: Perfect! What kind of area are you looking for?
+USER: area
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: expansive
+SYSTEM: Do you want expensive instead of cheap?
+USER: yes
+SYSTEM: chiquito restaurant bar might be just your thing! It is a expensive european restaurant in the south part of town.
+USER: bye
+SYSTEM: Cheerio!

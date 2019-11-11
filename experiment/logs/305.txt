@@ -1,0 +1,134 @@
+ID: 305
+CONDITION: 1
+SUCCESS COUNT: 3
+
+
+TASK: You are looking for a restaurant in any area and it should serve scandinavian food. If there is no such venue how about thai type of food. You want to know the phone number and price range of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: I would like to have scandinavian food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: Do you have scandinavian food_
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: I'm on it! What kind of food are you looking for?
+USER: scandivian
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: thai food
+SYSTEM: Are you looking for a thai restaurant ?
+USER: yes
+SYSTEM: Fabulous! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Fabulous! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: bangkok city might be just your thing! It is a expensive thai restaurant in the centre part of town.
+USER: what is the phone number
+SYSTEM: The phone number is 01223 354382.
+USER: okay thanks
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find and it should serve eritrean food. You don't care about the price range. If there is no such venue how about french type of food. You want to know the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: do you have a restaurant with eritrean food_
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: eritrean food
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of food are you looking for?
+USER: french
+SYSTEM: Are you looking for a french restaurant ?
+USER: yes
+SYSTEM: Splendid! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of pricerange are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: cote might be just your thing! It is a expensive french restaurant in the centre part of town.
+USER: what is the address and phone number
+SYSTEM: The phone number is 01223 311053. You can find the restaurant at bridge street city centre.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find an expensive restaurant and it should serve swiss food. If there is no such venue how about british type of food. Make sure you get the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: swiss restaurant
+SYSTEM: Are you looking for a swiss restaurant ?
+USER: yes
+SYSTEM: efes restaurant might be just your thing! It is a moderate swiss restaurant in the centre part of town.
+USER: expensive swiss restaurant
+SYSTEM: Are you looking for a expensive swiss restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: expensive british food
+SYSTEM: Do you want british instead of swiss?
+USER: yes
+SYSTEM: grafton hotel restaurant might be just your thing! It is a expensive british restaurant in the east part of town.
+USER: what is the phone number
+SYSTEM: The phone number is 01223 241387.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: what is the address of an expensive restaurant in the south part of town
+SYSTEM: Are you looking for a expensive thai restaurant in the south part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: expensive restaurant
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a moderately priced restaurant and it should be in the north part of town. You want to know the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: do you have the phone number of a moderatly priced restaurant in the north part of town
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: what about french?
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: what about french
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: moderately priced restaurant
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: no
+SYSTEM: Are you looking for a moderate thai restaurant in the north part of town?
+USER: no italian
+SYSTEM: Do you want italian instead of thai?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: bye
+SYSTEM: Cheerio!

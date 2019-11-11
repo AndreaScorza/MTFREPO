@@ -1,0 +1,142 @@
+ID: 401
+CONDITION: 1
+SUCCESS COUNT: 4
+
+
+TASK: You want to find a cheap restaurant and it should be in the east part of town. You want to know the phone number of the venue.
+SUCCEEDED: no
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Cheap restaurant in the east of town. Phone number.
+SYSTEM: Are you looking for a cheap thai restaurant in the east part of town?
+USER: Any
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: Any
+SYSTEM: Are you looking for a any restaurant ?
+USER: No, I mean any type of restaurant
+SYSTEM: I'm on board! What kind of food are you looking for?
+USER: Any types of food
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: east
+SYSTEM: Are you looking for a restaurant in the east part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: Sorry, i can't find anything like that.
+USER: why
+SYSTEM: Are you looking for a cheap any restaurant in the east part of town?
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You want to find a moderately priced restaurant and it should serve afghan food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Afghan food
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: chinese
+SYSTEM: Are you looking for a chinese restaurant ?
+USER: yes
+SYSTEM: As long as I'm invited!  What kind of area are you looking for?
+USER: any areas
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: I'm on it! What kind of pricerange are you looking for?
+USER: moderate
+SYSTEM: Are you looking for a moderate restaurant ?
+USER: yes
+SYSTEM: shanghai family restaurant might be just your thing! It is a moderate chinese restaurant in the east part of town.
+USER: cool
+SYSTEM: Are you looking for a moderate chinese restaurant in the any part of town?
+USER: yes
+SYSTEM: shanghai family restaurant might be just your thing! It is a moderate chinese restaurant in the east part of town.
+USER: phone number
+SYSTEM: The phone number is 01223 301761.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for and it should serve scottish food. You don't care about the price range. If there is no such venue how about korean type of food. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: True
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: Scottish
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: scottish food
+SYSTEM: Are you looking for a restaurant ?
+USER: yes
+SYSTEM: Lovely! What kind of food are you looking for?
+USER: scottish
+SYSTEM: I'm sorry, I don't know what you mean. Could you rephrase?
+USER: korean
+SYSTEM: Are you looking for a korean restaurant ?
+USER: yes
+SYSTEM: I'm on board! What kind of area are you looking for?
+USER: any
+SYSTEM: Are you looking for a restaurant in the any part of town?
+USER: yes
+SYSTEM: Splendid! What kind of pricerange are you looking for?
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: little seoul might be just your thing! It is a expensive korean restaurant in the centre part of town.
+USER: phone number
+SYSTEM: The phone number is 01223 308681.
+USER: 
+<class 'ValueError'>: min() arg is an empty sequence
+
+
+TASK: You are looking for an expensive restaurant and it should be in the east part of town. You want to know the phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: I'm on it! What kind of area are you looking for?
+USER: east
+SYSTEM: Are you looking for a restaurant in the east part of town?
+USER: yes
+SYSTEM: Perfect! What kind of pricerange are you looking for?
+USER: expensive
+SYSTEM: Are you looking for a expensive restaurant ?
+USER: yes
+SYSTEM: royal standard might be just your thing! It is a expensive spanish restaurant in the east part of town.
+USER: phone number
+SYSTEM: The phone number is 01223 247877.
+USER: bye
+SYSTEM: Cheerio!
+
+
+TASK: You are looking for a cheap restaurant and it should be in the north part of town. Don't go for the first venue the system offers you, ask if there is anything else. You want to know the address and phone number.
+SUCCEEDED: yes
+ERROR RAISED: False
+LOG
+SYSTEM: Hello! I can help you pick a restaurant for the perfect night out. I'd love to hear all about what kind of food you would like. Let's get cracking!
+USER: any
+SYSTEM: Are you looking for a any restaurant ?
+USER: yes
+SYSTEM: Sounds good! What kind of area are you looking for?
+USER: north
+SYSTEM: Are you looking for a restaurant in the north part of town?
+USER: yes
+SYSTEM: Lovely! What kind of pricerange are you looking for?
+USER: cheap
+SYSTEM: Are you looking for a cheap restaurant ?
+USER: yes
+SYSTEM: royal spice might be just your thing! It is a cheap indian restaurant in the north part of town.
+USER: is there anything else
+SYSTEM: da vinci pizzeria might be just your thing!
+USER: phone number
+SYSTEM: The phone number is 01223 351707.
+USER: bye
+SYSTEM: Cheerio!
